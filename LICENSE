@@ -1,0 +1,8 @@
+The reports (reports/, summary.csv and README.md) are published by Firmpath under the Creative Commons Attribution 4.0
+International licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+Attribute them to "Firmpath (https://www.firmpath.dev/)".
+
+The vulnerabilities they describe were published by their vendors and maintainers; each report links to the original
+document. Those documents remain their publishers'.
+
+scripts/ and .github/ are released under the MIT licence: https://opensource.org/license/mit

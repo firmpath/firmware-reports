@@ -1,0 +1,230 @@
+{
+  "project": "PX4 Autopilot",
+  "repo_url": "https://github.com/PX4/PX4-Autopilot",
+  "description": "Flight control software for drones and other unmanned vehicles.",
+  "release": {
+    "filename": "oss-PX4__PX4-Autopilot.cdx.json"
+  },
+  "summary": {
+    "fix": 1,
+    "look": 1,
+    "clear": 0,
+    "unwatched": 22,
+    "missed_by_nvd_scanners": 1
+  },
+  "components": 24,
+  "fix": [
+    {
+      "name": "cyclonedds",
+      "version": "314887ca403c2fb0a0316add22672102936ed36c",
+      "action": "Listed for this exact version. Open the CVEs to find the fix.",
+      "vulns": [
+        {
+          "id": "CVE-2024-10838",
+          "title": "Integer Underflow in DDS_Security_Deserialize_ methods may lead to OOB read",
+          "severity": "high",
+          "vendor": "cyclonedds",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/eclipse-cyclonedds/cyclonedds/security/advisories/GHSA-6jj6-w25p-jc42",
+            "https://www.cve.org/CVERecord?id=CVE-2024-10838"
+          ]
+        },
+        {
+          "id": "CVE-2021-38441",
+          "title": "Eclipse CycloneDDS versions prior to 0.8.0 are vulnerable to a write-what-where condition, which may allow an attacker t",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-38441",
+            "https://www.cve.org/CVERecord?id=CVE-2021-38441"
+          ]
+        },
+        {
+          "id": "CVE-2021-38443",
+          "title": "Eclipse CycloneDDS versions prior to 0.8.0 improperly handle invalid structures, which may allow an attacker to write ar",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-38443",
+            "https://www.cve.org/CVERecord?id=CVE-2021-38443"
+          ]
+        },
+        {
+          "id": "OSV-2023-273",
+          "title": "Heap-buffer-overflow in add_complete_typeobj",
+          "severity": null,
+          "vendor": "OSV",
+          "exploited": false,
+          "nvd_scanner": null,
+          "links": [
+            "https://osv.dev/vulnerability/OSV-2023-273"
+          ]
+        },
+        {
+          "id": "OSV-2023-556",
+          "title": "Heap-buffer-overflow in xt_valid_enum_values",
+          "severity": null,
+          "vendor": "OSV",
+          "exploited": false,
+          "nvd_scanner": null,
+          "links": [
+            "https://osv.dev/vulnerability/OSV-2023-556"
+          ]
+        }
+      ]
+    }
+  ],
+  "look": [
+    {
+      "name": "libtomcrypt",
+      "version": "673f5ce29015a9bba3c96792920a10601b5b0718",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2019-17362",
+          "title": "In LibTomCrypt through 1.18.2, the der_decode_utf8_string function (in der_decode_utf8_string.c) does not properly detec",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-17362",
+            "https://www.cve.org/CVERecord?id=CVE-2019-17362"
+          ]
+        },
+        {
+          "id": "CVE-2016-6129",
+          "title": "The rsa_verify_hash_ex function in rsa_verify_hash.c in LibTomCrypt, as used in OP-TEE before 2.2.0, does not validate t",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2016-6129",
+            "https://www.cve.org/CVERecord?id=CVE-2016-6129"
+          ]
+        },
+        {
+          "id": "CVE-2005-1600",
+          "title": "A \"mathematical flaw\" in the implementation of the El Gamal signature algorithm for LibTomCrypt 1.0 to 1.0.2 allows atta",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2005-1600",
+            "https://www.cve.org/CVERecord?id=CVE-2005-1600"
+          ]
+        },
+        {
+          "id": "CVE-2018-12437",
+          "title": "LibTomCrypt through 1.18.1 allows a memory-cache side-channel attack on ECDSA signatures, aka the Return Of the Hidden N",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2018-12437",
+            "https://www.cve.org/CVERecord?id=CVE-2018-12437"
+          ]
+        }
+      ]
+    }
+  ],
+  "unwatched": [
+    {
+      "name": "dsdl",
+      "version": "993be80a62ec957c01fb41115b83663959a49f46"
+    },
+    {
+      "name": "fuzztest",
+      "version": "1e47f9d7437de5c3ee4cb0ac860d5ec875478059"
+    },
+    {
+      "name": "heatshrink",
+      "version": "052e6de72f67f1777198bce98f3de62f7f3c16a0"
+    },
+    {
+      "name": "iq-module-communication-cpp",
+      "version": "c488af4e8807de80739aa48efd2ea51614dd8195"
+    },
+    {
+      "name": "jmavsim",
+      "version": "66b764ada522893c05224950aa6268c809f8e48a"
+    },
+    {
+      "name": "libevents",
+      "version": "9ef591c447fe0386d698bf6fb9a6d27e43988ee4"
+    },
+    {
+      "name": "libtommath",
+      "version": "fd73d7630b9d3ed5a79d613ff680a549e9780de7"
+    },
+    {
+      "name": "lord-microstrain-mip-sdk",
+      "version": "35596994b60ba89fe02f71ce5127baa5e7ff2bbf"
+    },
+    {
+      "name": "mavlink",
+      "version": "1.0.12.."
+    },
+    {
+      "name": "micro-xrce-dds-client",
+      "version": "711aef423edd1820347b866d1e4164832df35d04"
+    },
+    {
+      "name": "monocypher",
+      "version": "baca5d31259c598540e4d1284bc8d8f793abf83a"
+    },
+    {
+      "name": "public-regulated-data-types",
+      "version": "d0bd6516dac8ff61287fe49a9f2c75e7d4dc1b8e"
+    },
+    {
+      "name": "px4-flightgear-bridge",
+      "version": "f47ce7b5fbbb3aa43d33d2be1f6cd3746b13d5bf"
+    },
+    {
+      "name": "px4-gazebo-models",
+      "version": "b6127f4ec20de867e215fb5f78ae88b80f371909"
+    },
+    {
+      "name": "px4-gpsdrivers",
+      "version": "0b9695881bd1e8f830ab4538ab3acc0050019eba"
+    },
+    {
+      "name": "px4-jsbsim-bridge",
+      "version": "f37ec259bd7a43565fe0ff4722465b7a303200f6"
+    },
+    {
+      "name": "px4-sitl-gazebo-classic",
+      "version": "6697ab169ceab512dc706acea63df4c882662c60"
+    },
+    {
+      "name": "pydronecan",
+      "version": "1.0.16..1.0.17"
+    },
+    {
+      "name": "rosidl",
+      "version": "bf5682e4747843d1d5133b9a2b54ce6f12f166c7"
+    },
+    {
+      "name": "sbgecom",
+      "version": "80b121c7714083cc4868c0fdb8c41623c7ef9c93"
+    },
+    {
+      "name": "tflite-micro",
+      "version": "3c0b1e3091e4ea423e1bf9da89d41d09517eb0c9"
+    },
+    {
+      "name": "zenoh-pico",
+      "version": "6ec4dc1995f185330e4f6faa8c719eb86f180deb"
+    }
+  ]
+}

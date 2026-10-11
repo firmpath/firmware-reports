@@ -1,0 +1,285 @@
+{
+  "project": "PebbleOS",
+  "repo_url": "https://github.com/coredevices/PebbleOS",
+  "description": "The Pebble smartwatch operating system.",
+  "release": {
+    "filename": "oss-coredevices__PebbleOS.cdx.json"
+  },
+  "summary": {
+    "fix": 1,
+    "look": 2,
+    "clear": 0,
+    "unwatched": 10,
+    "missed_by_nvd_scanners": 2
+  },
+  "components": 13,
+  "fix": [
+    {
+      "name": "nanopb",
+      "version": "0.4.9.1",
+      "action": "Upgrade to 0.4.9.2 or later",
+      "vulns": [
+        {
+          "id": "54a7c338fe2b",
+          "title": "Unbounded recursion when cyclic messages are used",
+          "severity": "high",
+          "vendor": "nanopb",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/nanopb/nanopb/security/advisories/GHSA-9w99-4pfq-6396"
+          ]
+        },
+        {
+          "id": "d80739cff83c",
+          "title": "Callback field inside oneof can cause call into attacker-controlled function pointer",
+          "severity": "high",
+          "vendor": "nanopb",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/nanopb/nanopb/security/advisories/GHSA-p24j-vqcp-x988"
+          ]
+        }
+      ]
+    }
+  ],
+  "look": [
+    {
+      "name": "nimble",
+      "version": "2ea18b9af381cb6741620fb710395b5d506d323d",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2026-45813",
+          "title": "Incorrect data validation in BASS add/modify source operation",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
+          ]
+        },
+        {
+          "id": "CVE-2026-45815",
+          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
+          ]
+        },
+        {
+          "id": "CVE-2026-45811",
+          "title": "Buffer overflow in socket HCI transport",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
+          ]
+        },
+        {
+          "id": "CVE-2025-52435",
+          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
+          ]
+        },
+        {
+          "id": "CVE-2025-62235",
+          "title": "Incorrect handling of SMP Security Request could lead to undesirable pairing",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-62235",
+            "https://www.cve.org/CVERecord?id=CVE-2025-62235"
+          ]
+        },
+        {
+          "id": "CVE-2025-53477",
+          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
+          ]
+        },
+        {
+          "id": "CVE-2026-45816",
+          "title": "NULL pointer dereference vulnerability in SMP LTK request",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
+          ]
+        },
+        {
+          "id": "CVE-2026-45812",
+          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
+          ]
+        },
+        {
+          "id": "CVE-2026-46452",
+          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
+            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
+          ]
+        },
+        {
+          "id": "CVE-2025-53470",
+          "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
+          "severity": "low",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53470",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53470"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "freertos-kernel",
+      "version": "8583941bff119369cad8dc65489a7d05140f5f67",
+      "action": "Version numbers can't settle this. Have a look.",
+      "vulns": [
+        {
+          "id": "CVE-2026-77235",
+          "title": "Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-55pf-q87x-c58c",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77235"
+          ]
+        },
+        {
+          "id": "CVE-2026-77236",
+          "title": "Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-vq2f-9qj3-jj2m",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77236"
+          ]
+        },
+        {
+          "id": "CVE-2026-77234",
+          "title": "Improper input validation in FreeRTOS-Kernel timer command handling",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-w3vr-pr75-5hc6",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77234"
+          ]
+        },
+        {
+          "id": "CVE-2024-28115",
+          "title": "Potential Privilege Escalation in FreeRTOS Kernel ARMv7-M MPU ports and ARMv8-M ports with MPU support enabled",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-xcv7-v92w-gq6r",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28115"
+          ]
+        },
+        {
+          "id": "CVE-2026-77237",
+          "title": "Missing type validation in xQueueAddToSet in FreeRTOS-Kernel",
+          "severity": "medium",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-9wvc-hqvx-5wf5",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77237"
+          ]
+        }
+      ]
+    }
+  ],
+  "unwatched": [
+    {
+      "name": "cmsis-5",
+      "version": "5.0.0.."
+    },
+    {
+      "name": "iconography",
+      "version": "99e2660ccd8c0c98e596612bb1c21700e28156b3"
+    },
+    {
+      "name": "memfault-firmware-sdk",
+      "version": "1.24.0"
+    },
+    {
+      "name": "moddable",
+      "version": "25f1a3bb1e47d1dff750d4571ae314239735bee9"
+    },
+    {
+      "name": "nrfx",
+      "version": "3.11.0"
+    },
+    {
+      "name": "pebbleos-nonfree",
+      "version": "fd47756358e16b4f791bf8a4de08acdcbee84db5"
+    },
+    {
+      "name": "picolibc",
+      "version": "2cb62b35aaf461e730860cb7ecc31c51b9848d78"
+    },
+    {
+      "name": "qr-code-generator",
+      "version": "1.8.0.."
+    },
+    {
+      "name": "speex",
+      "version": "1.2.1.."
+    },
+    {
+      "name": "tinymt",
+      "version": "1.1.2.."
+    }
+  ]
+}

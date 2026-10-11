@@ -1,0 +1,36 @@
+name: update
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # daily; Firmpath recomputes reports through the night (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch the published reports
+        run: python3 scripts/update.py
+      - name: Commit what changed
+        run: |
+          git add -A reports summary.csv README.md
+          if git diff --cached --quiet; then
+            echo "No change in any report."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Reports as of $(date -u +%Y-%m-%d)"
+          git push

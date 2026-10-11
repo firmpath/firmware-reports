@@ -1,0 +1,897 @@
+{
+  "project": "ESPHome",
+  "repo_url": "https://github.com/esphome/esphome",
+  "description": "Firmware framework for ESP32 and other microcontrollers in home automation.",
+  "release": {
+    "filename": "oss-esphome__esphome.cdx.json"
+  },
+  "summary": {
+    "fix": 4,
+    "look": 5,
+    "clear": 4,
+    "unwatched": 86,
+    "missed_by_nvd_scanners": 17
+  },
+  "components": 99,
+  "fix": [
+    {
+      "name": "mbedtls",
+      "version": "3.6.6",
+      "action": "Upgrade to 3.6.7 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-50580",
+          "title": "Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecdhe-psk-client-buffer-overflow/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50580"
+          ]
+        },
+        {
+          "id": "CVE-2026-50579",
+          "title": "Use-after-free in mbedtls_pkcs7_free() when reusing a PKCS7 context",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-use-after-free-pkcs7-free-reused-context/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50579"
+          ]
+        },
+        {
+          "id": "CVE-2026-50713",
+          "title": "Heap corruption with early renegotiation after corrupted record in DTLS",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-heap-corruption-early-renegotiation-corrupted-dtls-record/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50713"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
+          ]
+        },
+        {
+          "id": "CVE-2026-50587",
+          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
+          ]
+        },
+        {
+          "id": "CVE-2026-50640",
+          "title": "Ignored TLS 1.3 resumption secret derivation error",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ignored-tls13-resumption-secret-derivation-error/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50640"
+          ]
+        },
+        {
+          "id": "CVE-2026-50583",
+          "title": "Out-of-bounds read when parsing a zero-length ECC public key",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-zero-length-ecc-public-key-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50583"
+          ]
+        },
+        {
+          "id": "CVE-2026-50586",
+          "title": "Information disclosure in TLS 1.2 NewSessionTicket",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-newsessionticket-information-disclosure/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50586"
+          ]
+        },
+        {
+          "id": "CVE-2026-73096",
+          "title": "TLS 1.3 early data integrity failure due to buffered plaintext across key change",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls13-early-data-integrity-failure-key-change/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-73096"
+          ]
+        },
+        {
+          "id": "CVE-2026-50585",
+          "title": "Incomplete context reset in mbedtls_ssl_session_reset()",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ssl-session-reset-incomplete-context-reset/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50585"
+          ]
+        },
+        {
+          "id": "CVE-2026-54441",
+          "title": "Signature algorithm restrictions not enforced on certificate chain",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-signature-algorithm-restrictions-certificate-chain/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54441"
+          ]
+        },
+        {
+          "id": "CVE-2026-73064",
+          "title": "A random generator fault can compromise TLS data integrity",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-random-generator-fault-tls-integrity/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-73064"
+          ]
+        },
+        {
+          "id": "CVE-2025-66442",
+          "title": "Compiler-induced constant-time violations",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
+          ]
+        },
+        {
+          "id": "CVE-2026-50588",
+          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nimble",
+      "version": "1.6.0",
+      "action": "Upgrade to 1.10.0 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-45815",
+          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
+          ]
+        },
+        {
+          "id": "CVE-2025-52435",
+          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
+          ]
+        },
+        {
+          "id": "CVE-2024-51569",
+          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
+            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
+          ]
+        },
+        {
+          "id": "CVE-2026-45813",
+          "title": "Incorrect data validation in BASS add/modify source operation",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
+          ]
+        },
+        {
+          "id": "CVE-2024-24746",
+          "title": "Denial of service in NimBLE Bluetooth stack",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
+            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
+          ]
+        },
+        {
+          "id": "CVE-2026-45811",
+          "title": "Buffer overflow in socket HCI transport",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
+          ]
+        },
+        {
+          "id": "CVE-2025-53477",
+          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
+          ]
+        },
+        {
+          "id": "CVE-2026-45816",
+          "title": "NULL pointer dereference vulnerability in SMP LTK request",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
+          ]
+        },
+        {
+          "id": "CVE-2026-45812",
+          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
+          ]
+        },
+        {
+          "id": "CVE-2024-47249",
+          "title": "Lack of input sanitization leading to out-of-bound reads in multiple advertisement handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47249",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47249"
+          ]
+        },
+        {
+          "id": "CVE-2026-46452",
+          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
+            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
+          ]
+        },
+        {
+          "id": "CVE-2025-53470",
+          "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
+          "severity": "low",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53470",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53470"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "esp-idf",
+      "version": "5.5.5",
+      "action": "Upgrade to 6.1.1 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-81508",
+          "title": "Heap Out-of-Bounds Read in Bluedroid A2DP Sink Media Packet Processing",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/espressif/esp-idf/security/advisories/GHSA-xcpr-5mqp-9qvv",
+            "https://www.cve.org/CVERecord?id=CVE-2026-81508"
+          ]
+        },
+        {
+          "id": "CVE-2020-26142",
+          "title": "Vulnerable Espressif WLAN device processes every single fragmented AMPDU frame as an independent and a full frame",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20EN.pdf",
+            "https://www.cve.org/CVERecord?id=CVE-2020-26142"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "espasyncwebserver",
+      "version": "3.9.6",
+      "action": "Upgrade to 3.11.2 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-54571",
+          "title": "Integer overflow in multipart boundary parser causes denial of service",
+          "severity": "high",
+          "vendor": "espasyncwebserver",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-4phx-fcj6-46r4",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54571"
+          ]
+        },
+        {
+          "id": "CVE-2026-62966",
+          "title": "Null-pointer write in ESPAsyncWebServer multipart parser ",
+          "severity": "high",
+          "vendor": "espasyncwebserver",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-8m8p-vhxc-jmjw",
+            "https://www.cve.org/CVERecord?id=CVE-2026-62966"
+          ]
+        }
+      ]
+    }
+  ],
+  "look": [
+    {
+      "name": "lwip",
+      "version": "2.2.0",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2020-22283",
+          "title": "Buffer overflow vulnerability via a crafted ICMPv6 message may lead to accessing sensitive information",
+          "severity": "high",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-22283",
+            "https://www.cve.org/CVERecord?id=CVE-2020-22283"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "openthread",
+      "version": "2026.07.0..",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2023-2626",
+          "title": "Missing Key ID Mode validation when processing 6LoWPAN frames",
+          "severity": "high",
+          "vendor": "openthread",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/openthread/openthread/security/advisories/GHSA-vr3r-363g-72j9",
+            "https://www.cve.org/CVERecord?id=CVE-2023-2626"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "freertos-kernel",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2026-77235",
+          "title": "Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-55pf-q87x-c58c",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77235"
+          ]
+        },
+        {
+          "id": "CVE-2026-77236",
+          "title": "Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-vq2f-9qj3-jj2m",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77236"
+          ]
+        },
+        {
+          "id": "CVE-2026-77234",
+          "title": "Improper input validation in FreeRTOS-Kernel timer command handling",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-w3vr-pr75-5hc6",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77234"
+          ]
+        },
+        {
+          "id": "CVE-2024-28115",
+          "title": "Potential Privilege Escalation in FreeRTOS Kernel ARMv7-M MPU ports and ARMv8-M ports with MPU support enabled",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-xcv7-v92w-gq6r",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28115"
+          ]
+        },
+        {
+          "id": "CVE-2026-77237",
+          "title": "Missing type validation in xQueueAddToSet in FreeRTOS-Kernel",
+          "severity": "medium",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-9wvc-hqvx-5wf5",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77237"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "arduinocore-api",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2026-91018",
+          "title": "lwIP (Lightweight IP)",
+          "severity": "high",
+          "vendor": "lwIP",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/cisagov/CSAF/develop/csaf_files/OT/white/2026/icsa-26-265-02.json",
+            "https://www.cve.org/CVERecord?id=CVE-2026-91018"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coex-lib",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2021-26706",
+          "title": "Update to “BadAlloc” Security Vulnerability in Micrium OS Dynamic Memory Pool Allocations",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/200-299/A-00000279.md",
+            "https://www.cve.org/CVERecord?id=CVE-2021-26706"
+          ]
+        }
+      ]
+    }
+  ],
+  "unwatched": [
+    {
+      "name": "adafruit-tinyusb-arduino",
+      "version": "3.7.7"
+    },
+    {
+      "name": "arduino-gas-index-algorithm",
+      "version": "3.2.1"
+    },
+    {
+      "name": "arduino-mlx90393",
+      "version": "1.0.2"
+    },
+    {
+      "name": "arduino-pico",
+      "version": "6.0.0"
+    },
+    {
+      "name": "arduinojson",
+      "version": "7.4.3"
+    },
+    {
+      "name": "asyncmqttclient-esphome",
+      "version": "2.0.0"
+    },
+    {
+      "name": "asynctcp",
+      "version": "3.4.91"
+    },
+    {
+      "name": "asyncudp",
+      "version": null
+    },
+    {
+      "name": "bearssl-esp8266",
+      "version": null
+    },
+    {
+      "name": "cmock",
+      "version": "v2.5.2-2-geeecc49ce8af"
+    },
+    {
+      "name": "dlms-parser",
+      "version": "1.1.0"
+    },
+    {
+      "name": "dm9051",
+      "version": "1.1.0"
+    },
+    {
+      "name": "dsmr-parser",
+      "version": "1.9.0"
+    },
+    {
+      "name": "eppp-link",
+      "version": "1.1.5"
+    },
+    {
+      "name": "esp-audio-libs",
+      "version": "3.2.1"
+    },
+    {
+      "name": "esp-ble-mesh-lib",
+      "version": null
+    },
+    {
+      "name": "esp-dsp",
+      "version": "1.8.2"
+    },
+    {
+      "name": "esp-hosted",
+      "version": "2.12.12"
+    },
+    {
+      "name": "esp-hub75",
+      "version": "0.3.5"
+    },
+    {
+      "name": "esp-micro-speech-features",
+      "version": "1.2.3"
+    },
+    {
+      "name": "esp-phy-lib",
+      "version": null
+    },
+    {
+      "name": "esp-thread-lib",
+      "version": null
+    },
+    {
+      "name": "esp-wifi-remote",
+      "version": "1.6.3"
+    },
+    {
+      "name": "esp-wireguard",
+      "version": "0.4.5"
+    },
+    {
+      "name": "esp-zigbee-lib",
+      "version": "2.0.4"
+    },
+    {
+      "name": "esp32-audioi2s",
+      "version": "2.3.0"
+    },
+    {
+      "name": "esp32-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32-camera",
+      "version": "2.1.7"
+    },
+    {
+      "name": "esp32-wifi-lib",
+      "version": null
+    },
+    {
+      "name": "esp32c2-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32c3-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32c5-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32c6-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32h2-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp8266-arduino-core",
+      "version": "3.1.2"
+    },
+    {
+      "name": "esp8266-nonos-sdk",
+      "version": "2.2.0"
+    },
+    {
+      "name": "esp8266sdfat",
+      "version": null
+    },
+    {
+      "name": "esp82xx-nonos-linklayer",
+      "version": null
+    },
+    {
+      "name": "espasynctcp",
+      "version": "2.0.0"
+    },
+    {
+      "name": "esphost",
+      "version": null
+    },
+    {
+      "name": "espsoftwareserial",
+      "version": "8.0.1"
+    },
+    {
+      "name": "ethernet",
+      "version": null
+    },
+    {
+      "name": "fastled",
+      "version": "3.10.3..3.10.4"
+    },
+    {
+      "name": "haierprotocol",
+      "version": "0.9.31"
+    },
+    {
+      "name": "heatpumpir",
+      "version": "1.0.42"
+    },
+    {
+      "name": "http-parser",
+      "version": null
+    },
+    {
+      "name": "improv",
+      "version": "1.2.7"
+    },
+    {
+      "name": "ip101",
+      "version": "1.0.0"
+    },
+    {
+      "name": "joystick",
+      "version": null
+    },
+    {
+      "name": "keyboard",
+      "version": null
+    },
+    {
+      "name": "ksz80xx",
+      "version": "1.0.0"
+    },
+    {
+      "name": "lan867x",
+      "version": "2.0.0"
+    },
+    {
+      "name": "lan87xx",
+      "version": "1.0.0"
+    },
+    {
+      "name": "littlefs",
+      "version": "2.11.1"
+    },
+    {
+      "name": "lvgl",
+      "version": "9.5.0"
+    },
+    {
+      "name": "mcux-sdk-middleware-usb",
+      "version": "1.4.1"
+    },
+    {
+      "name": "mdns",
+      "version": "1.12.0"
+    },
+    {
+      "name": "micro-flac",
+      "version": "0.2.0"
+    },
+    {
+      "name": "micro-opus",
+      "version": "0.4.1"
+    },
+    {
+      "name": "micro-wav",
+      "version": "0.2.0"
+    },
+    {
+      "name": "mideauart",
+      "version": "1.1.9.."
+    },
+    {
+      "name": "midiusb",
+      "version": null
+    },
+    {
+      "name": "mouse",
+      "version": null
+    },
+    {
+      "name": "mqtt",
+      "version": "1.0.0"
+    },
+    {
+      "name": "neopixelbus",
+      "version": "2.8.0"
+    },
+    {
+      "name": "noise-c",
+      "version": "0.1.30"
+    },
+    {
+      "name": "pico-sdk",
+      "version": "2.3.0"
+    },
+    {
+      "name": "pngle",
+      "version": "1.1.0"
+    },
+    {
+      "name": "pyserial",
+      "version": "3.5"
+    },
+    {
+      "name": "qr-code-generator-library",
+      "version": "1.7.0"
+    },
+    {
+      "name": "rpasynctcp",
+      "version": "1.3.2"
+    },
+    {
+      "name": "rtl8201",
+      "version": "1.0.1"
+    },
+    {
+      "name": "sdfat",
+      "version": "2.3.1"
+    },
+    {
+      "name": "spiffs",
+      "version": "0.2-265-gad902ca"
+    },
+    {
+      "name": "spiftl",
+      "version": null
+    },
+    {
+      "name": "stm32-dp83848",
+      "version": "1.0.0"
+    },
+    {
+      "name": "tflite-micro",
+      "version": "1.3.3~1"
+    },
+    {
+      "name": "tinygpsplus",
+      "version": "v1.1.0"
+    },
+    {
+      "name": "tinyusb",
+      "version": "2.2.1"
+    },
+    {
+      "name": "tlsf",
+      "version": null
+    },
+    {
+      "name": "tm1651",
+      "version": "1.0.1"
+    },
+    {
+      "name": "unity",
+      "version": "v2.6.0-RC1"
+    },
+    {
+      "name": "updater",
+      "version": null
+    },
+    {
+      "name": "uzlib",
+      "version": null
+    },
+    {
+      "name": "w5500",
+      "version": "1.0.1"
+    },
+    {
+      "name": "wifi-remote-over-eppp",
+      "version": "0.3.3"
+    }
+  ]
+}

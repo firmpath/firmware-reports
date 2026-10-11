@@ -1,0 +1,672 @@
+{
+  "project": "Flipper Zero",
+  "repo_url": "https://github.com/flipperdevices/flipperzero-firmware",
+  "description": "Firmware for the Flipper Zero multi-tool.",
+  "release": {
+    "filename": "oss-flipperdevices__flipperzero-firmware.cdx.json"
+  },
+  "summary": {
+    "fix": 3,
+    "look": 0,
+    "clear": 0,
+    "unwatched": 8,
+    "missed_by_nvd_scanners": 19
+  },
+  "components": 11,
+  "fix": [
+    {
+      "name": "mbedtls",
+      "version": "3.6.2",
+      "action": "Upgrade to 3.6.7 or later",
+      "vulns": [
+        {
+          "id": "CVE-2024-45158",
+          "title": "Stack buffer overflow in ECDSA signature conversion functions",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45158"
+          ]
+        },
+        {
+          "id": "CVE-2025-47917",
+          "title": "Misleading memory management in mbedtls_x509_string_to_names()",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-47917",
+            "https://www.cve.org/CVERecord?id=CVE-2025-47917"
+          ]
+        },
+        {
+          "id": "CVE-2025-54764",
+          "title": "Side channel in RSA key generation and operations",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
+            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
+          ]
+        },
+        {
+          "id": "CVE-2024-30166",
+          "title": "Stack buffer over read in TLS 1.3 server",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
+            "https://www.cve.org/CVERecord?id=CVE-2024-30166"
+          ]
+        },
+        {
+          "id": "CVE-2025-59438",
+          "title": "Padding oracle through timing of cipher error reporting",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59438",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59438"
+          ]
+        },
+        {
+          "id": "CVE-2026-34873",
+          "title": "Client impersonation while resuming a TLS 1.3 session",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34873",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34873"
+          ]
+        },
+        {
+          "id": "CVE-2026-50580",
+          "title": "Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecdhe-psk-client-buffer-overflow/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50580"
+          ]
+        },
+        {
+          "id": "CVE-2026-49300",
+          "title": "X.509 CA bit forgery via invalid basicConstraints extension",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-x509-ca-bit-forgery-invalid-basicconstraints/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-49300"
+          ]
+        },
+        {
+          "id": "CVE-2026-50579",
+          "title": "Use-after-free in mbedtls_pkcs7_free() when reusing a PKCS7 context",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-use-after-free-pkcs7-free-reused-context/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50579"
+          ]
+        },
+        {
+          "id": "CVE-2026-25835",
+          "title": "PSA random generator cloning",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25835",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25835"
+          ]
+        },
+        {
+          "id": "CVE-2026-34875",
+          "title": "Buffer overflow in FFDH public key export",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34875",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34875"
+          ]
+        },
+        {
+          "id": "CVE-2024-28960",
+          "title": "Vulnerability affecting all VSE devices and TrustZone aware projects using PSA Crypto APIs with array arguments",
+          "severity": "high",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2024-03/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28960"
+          ]
+        },
+        {
+          "id": "CVE-2026-34876",
+          "title": "CCM multipart finish tag-length validation bypass",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34876",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34876"
+          ]
+        },
+        {
+          "id": "CVE-2026-34874",
+          "title": "Null pointer dereference when setting a distinguished name",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34874",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34874"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
+          ]
+        },
+        {
+          "id": "CVE-2025-27810",
+          "title": "Uninitialized stack memory used to compose ‘TLS finished’ message which may lead to authentication bypasses",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-27810",
+            "https://www.cve.org/CVERecord?id=CVE-2025-27810"
+          ]
+        },
+        {
+          "id": "CVE-2026-50587",
+          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
+          ]
+        },
+        {
+          "id": "CVE-2025-49600",
+          "title": "Unchecked return value in LMS verification allows signature bypass",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-49600",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49600"
+          ]
+        },
+        {
+          "id": "CVE-2025-52496",
+          "title": "Race condition in AESNI support detection",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52496",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52496"
+          ]
+        },
+        {
+          "id": "CVE-2025-49087",
+          "title": "Timing side-channel in block cipher decryption with PKCS#7 padding",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-49087",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49087"
+          ]
+        },
+        {
+          "id": "CVE-2026-35336",
+          "title": "Possible buffer overflow in mbedtls_ecdh_calc_secret()",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-possible-buffer-overflow-ecdh-calc-secret/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-35336"
+          ]
+        },
+        {
+          "id": "CVE-2026-34872",
+          "title": "FFDH: lack of contributory behaviour due to improper input validation",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34872",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34872"
+          ]
+        },
+        {
+          "id": "CVE-2026-73096",
+          "title": "TLS 1.3 early data integrity failure due to buffered plaintext across key change",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls13-early-data-integrity-failure-key-change/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-73096"
+          ]
+        },
+        {
+          "id": "CVE-2020-10932",
+          "title": "Side channel attack on ECDSA",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2020-04/",
+            "https://www.cve.org/CVERecord?id=CVE-2020-10932"
+          ]
+        },
+        {
+          "id": "CVE-2025-52497",
+          "title": "Heap buffer under-read when parsing PEM-encrypted material",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52497",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52497"
+          ]
+        },
+        {
+          "id": "CVE-2026-54435",
+          "title": "Side channel leak in ECC optimized modp",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ecc-optimized-modp-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54435"
+          ]
+        },
+        {
+          "id": "CVE-2025-27809",
+          "title": "Server hostname is not verified in a TLS handshake",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-27809",
+            "https://www.cve.org/CVERecord?id=CVE-2025-27809"
+          ]
+        },
+        {
+          "id": "CVE-2025-49601",
+          "title": "Out-of-bounds read in mbedtls_lms_import_public_key()",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-49601",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49601"
+          ]
+        },
+        {
+          "id": "CVE-2026-50585",
+          "title": "Incomplete context reset in mbedtls_ssl_session_reset()",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ssl-session-reset-incomplete-context-reset/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50585"
+          ]
+        },
+        {
+          "id": "CVE-2025-48965",
+          "title": "NULL pointer dereference after using mbedtls_asn1_store_named_data()",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-48965",
+            "https://www.cve.org/CVERecord?id=CVE-2025-48965"
+          ]
+        },
+        {
+          "id": "CVE-2026-54441",
+          "title": "Signature algorithm restrictions not enforced on certificate chain",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-signature-algorithm-restrictions-certificate-chain/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54441"
+          ]
+        },
+        {
+          "id": "CVE-2026-73064",
+          "title": "A random generator fault can compromise TLS data integrity",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-random-generator-fault-tls-integrity/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-73064"
+          ]
+        },
+        {
+          "id": "CVE-2025-66442",
+          "title": "Compiler-induced constant-time violations",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
+          ]
+        },
+        {
+          "id": "CVE-2026-50640",
+          "title": "Ignored TLS 1.3 resumption secret derivation error",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ignored-tls13-resumption-secret-derivation-error/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50640"
+          ]
+        },
+        {
+          "id": "CVE-2026-25833",
+          "title": "Buffer underflow in x509_inet_pton_ipv6()",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25833",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25833"
+          ]
+        },
+        {
+          "id": "CVE-2026-34871",
+          "title": "Entropy on Linux can fall back to /dev/urandom",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34871",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34871"
+          ]
+        },
+        {
+          "id": "CVE-2026-50583",
+          "title": "Out-of-bounds read when parsing a zero-length ECC public key",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-zero-length-ecc-public-key-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50583"
+          ]
+        },
+        {
+          "id": "CVE-2026-25834",
+          "title": "Signature Algorithm Injection",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25834",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25834"
+          ]
+        },
+        {
+          "id": "CVE-2026-34877",
+          "title": "Risk of insufficient protection of serialized session or context data leading to potential memory safety issues",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34877",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34877"
+          ]
+        },
+        {
+          "id": "CVE-2026-50588",
+          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
+          ]
+        },
+        {
+          "id": "CVE-2026-50581",
+          "title": "Extended master secret calculation failure ignored",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-extended-master-secret-calculation-failure-ignored/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50581"
+          ]
+        },
+        {
+          "id": "CVE-2026-50586",
+          "title": "Information disclosure in TLS 1.2 NewSessionTicket",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-newsessionticket-information-disclosure/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50586"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "freertos-kernel",
+      "version": "10.5.1",
+      "action": "Upgrade to 10.6.2 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-77235",
+          "title": "Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-55pf-q87x-c58c",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77235"
+          ]
+        },
+        {
+          "id": "CVE-2026-77236",
+          "title": "Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-vq2f-9qj3-jj2m",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77236"
+          ]
+        },
+        {
+          "id": "CVE-2026-77234",
+          "title": "Improper input validation in FreeRTOS-Kernel timer command handling",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-w3vr-pr75-5hc6",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77234"
+          ]
+        },
+        {
+          "id": "CVE-2024-28115",
+          "title": "Potential Privilege Escalation in FreeRTOS Kernel ARMv7-M MPU ports and ARMv8-M ports with MPU support enabled",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-xcv7-v92w-gq6r",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28115"
+          ]
+        },
+        {
+          "id": "CVE-2026-77237",
+          "title": "Missing type validation in xQueueAddToSet in FreeRTOS-Kernel",
+          "severity": "medium",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-9wvc-hqvx-5wf5",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77237"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nanopb",
+      "version": "0.4.8",
+      "action": "Upgrade to 0.4.9.2 or later",
+      "vulns": [
+        {
+          "id": "54a7c338fe2b",
+          "title": "Unbounded recursion when cyclic messages are used",
+          "severity": "high",
+          "vendor": "nanopb",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/nanopb/nanopb/security/advisories/GHSA-9w99-4pfq-6396"
+          ]
+        },
+        {
+          "id": "d80739cff83c",
+          "title": "Callback field inside oneof can cause call into attacker-controlled function pointer",
+          "severity": "high",
+          "vendor": "nanopb",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/nanopb/nanopb/security/advisories/GHSA-p24j-vqcp-x988"
+          ]
+        },
+        {
+          "id": "CVE-2024-53984",
+          "title": "Memory is not automatically released on error return when using PB_DECODE_DELIMITED",
+          "severity": "medium",
+          "vendor": "nanopb",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/nanopb/nanopb/security/advisories/GHSA-xwqq-qxmw-hj5r",
+            "https://www.cve.org/CVERecord?id=CVE-2024-53984"
+          ]
+        }
+      ]
+    }
+  ],
+  "look": [],
+  "unwatched": [
+    {
+      "name": "cmsis-device-wb",
+      "version": "1.12.0"
+    },
+    {
+      "name": "flipperzero-protobuf",
+      "version": "0.25"
+    },
+    {
+      "name": "heatshrink",
+      "version": "7398ccc91652a33483245200cfa1a83b073bc206"
+    },
+    {
+      "name": "libusb-stm32",
+      "version": "6ca2857519f996244f7b324dd227fdf0a075fffb"
+    },
+    {
+      "name": "microtar",
+      "version": "1e921369b2c92bb219fcef84a37d4d2347794c0f"
+    },
+    {
+      "name": "mlib",
+      "version": "0.6.0"
+    },
+    {
+      "name": "stm32wb-copro",
+      "version": "1.20.0"
+    },
+    {
+      "name": "stm32wbxx-hal-driver",
+      "version": "1.13.0"
+    }
+  ]
+}

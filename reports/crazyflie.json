@@ -1,0 +1,96 @@
+{
+  "project": "Crazyflie",
+  "repo_url": "https://github.com/bitcraze/crazyflie-firmware",
+  "description": "Firmware for the Crazyflie nano quadcopter.",
+  "release": {
+    "filename": "oss-bitcraze__crazyflie-firmware.cdx.json"
+  },
+  "summary": {
+    "fix": 1,
+    "look": 0,
+    "clear": 0,
+    "unwatched": 2,
+    "missed_by_nvd_scanners": 0
+  },
+  "components": 3,
+  "fix": [
+    {
+      "name": "freertos-kernel",
+      "version": "10.4.0..10.4.1",
+      "action": "Upgrade to 10.6.2 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-77235",
+          "title": "Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-55pf-q87x-c58c",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77235"
+          ]
+        },
+        {
+          "id": "CVE-2026-77236",
+          "title": "Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-vq2f-9qj3-jj2m",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77236"
+          ]
+        },
+        {
+          "id": "CVE-2026-77234",
+          "title": "Improper input validation in FreeRTOS-Kernel timer command handling",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-w3vr-pr75-5hc6",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77234"
+          ]
+        },
+        {
+          "id": "CVE-2024-28115",
+          "title": "Potential Privilege Escalation in FreeRTOS Kernel ARMv7-M MPU ports and ARMv8-M ports with MPU support enabled",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-xcv7-v92w-gq6r",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28115"
+          ]
+        },
+        {
+          "id": "CVE-2026-77237",
+          "title": "Missing type validation in xQueueAddToSet in FreeRTOS-Kernel",
+          "severity": "medium",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-9wvc-hqvx-5wf5",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77237"
+          ]
+        }
+      ]
+    }
+  ],
+  "look": [],
+  "unwatched": [
+    {
+      "name": "cmsis-5",
+      "version": "5.7.0"
+    },
+    {
+      "name": "libdw1000",
+      "version": "c472ae93f839520ccdf76cc193c76214e73e42fd"
+    }
+  ]
+}

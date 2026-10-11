@@ -1,0 +1,1667 @@
+{
+  "project": "OpenEVSE",
+  "repo_url": "https://github.com/OpenEVSE/openevse_esp32_firmware",
+  "description": "ESP32 firmware for the OpenEVSE electric-vehicle charging station.",
+  "release": {
+    "filename": "oss-OpenEVSE__openevse_esp32_firmware.cdx.json"
+  },
+  "summary": {
+    "fix": 4,
+    "look": 7,
+    "clear": 3,
+    "unwatched": 38,
+    "missed_by_nvd_scanners": 15
+  },
+  "components": 52,
+  "fix": [
+    {
+      "name": "mbedtls",
+      "version": "3.6.6",
+      "action": "Upgrade to 3.6.7 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-50580",
+          "title": "Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecdhe-psk-client-buffer-overflow/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50580"
+          ]
+        },
+        {
+          "id": "CVE-2026-50579",
+          "title": "Use-after-free in mbedtls_pkcs7_free() when reusing a PKCS7 context",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-use-after-free-pkcs7-free-reused-context/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50579"
+          ]
+        },
+        {
+          "id": "CVE-2026-50713",
+          "title": "Heap corruption with early renegotiation after corrupted record in DTLS",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-heap-corruption-early-renegotiation-corrupted-dtls-record/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50713"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
+          ]
+        },
+        {
+          "id": "CVE-2026-50587",
+          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
+          ]
+        },
+        {
+          "id": "CVE-2026-50640",
+          "title": "Ignored TLS 1.3 resumption secret derivation error",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ignored-tls13-resumption-secret-derivation-error/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50640"
+          ]
+        },
+        {
+          "id": "CVE-2026-50583",
+          "title": "Out-of-bounds read when parsing a zero-length ECC public key",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-zero-length-ecc-public-key-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50583"
+          ]
+        },
+        {
+          "id": "CVE-2026-50586",
+          "title": "Information disclosure in TLS 1.2 NewSessionTicket",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-newsessionticket-information-disclosure/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50586"
+          ]
+        },
+        {
+          "id": "CVE-2026-73096",
+          "title": "TLS 1.3 early data integrity failure due to buffered plaintext across key change",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls13-early-data-integrity-failure-key-change/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-73096"
+          ]
+        },
+        {
+          "id": "CVE-2026-50585",
+          "title": "Incomplete context reset in mbedtls_ssl_session_reset()",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ssl-session-reset-incomplete-context-reset/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50585"
+          ]
+        },
+        {
+          "id": "CVE-2026-54441",
+          "title": "Signature algorithm restrictions not enforced on certificate chain",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-signature-algorithm-restrictions-certificate-chain/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54441"
+          ]
+        },
+        {
+          "id": "CVE-2026-73064",
+          "title": "A random generator fault can compromise TLS data integrity",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-random-generator-fault-tls-integrity/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-73064"
+          ]
+        },
+        {
+          "id": "CVE-2025-66442",
+          "title": "Compiler-induced constant-time violations",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
+          ]
+        },
+        {
+          "id": "CVE-2026-50588",
+          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nimble",
+      "version": "1.6.0",
+      "action": "Upgrade to 1.10.0 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-45815",
+          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
+          ]
+        },
+        {
+          "id": "CVE-2025-52435",
+          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
+          ]
+        },
+        {
+          "id": "CVE-2024-51569",
+          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
+            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
+          ]
+        },
+        {
+          "id": "CVE-2026-45813",
+          "title": "Incorrect data validation in BASS add/modify source operation",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
+          ]
+        },
+        {
+          "id": "CVE-2024-24746",
+          "title": "Denial of service in NimBLE Bluetooth stack",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
+            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
+          ]
+        },
+        {
+          "id": "CVE-2026-45811",
+          "title": "Buffer overflow in socket HCI transport",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
+          ]
+        },
+        {
+          "id": "CVE-2025-53477",
+          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
+          ]
+        },
+        {
+          "id": "CVE-2026-45816",
+          "title": "NULL pointer dereference vulnerability in SMP LTK request",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
+          ]
+        },
+        {
+          "id": "CVE-2026-45812",
+          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
+          ]
+        },
+        {
+          "id": "CVE-2024-47249",
+          "title": "Lack of input sanitization leading to out-of-bound reads in multiple advertisement handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47249",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47249"
+          ]
+        },
+        {
+          "id": "CVE-2026-46452",
+          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
+            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
+          ]
+        },
+        {
+          "id": "CVE-2025-53470",
+          "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
+          "severity": "low",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53470",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53470"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nghttp2",
+      "version": "1.58.0",
+      "action": "Upgrade to 1.68.1 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-27135",
+          "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+          "severity": "high",
+          "vendor": "Siemens",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-27135",
+            "https://www.cve.org/CVERecord?id=CVE-2026-27135"
+          ]
+        },
+        {
+          "id": "CVE-2024-28182",
+          "title": "nghttp2 is an implementation of the Hypertext Transfer Protocol version 2 in C. The nghttp2 library prior to version 1.6",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28182",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28182"
+          ]
+        },
+        {
+          "id": "CVE-2026-58055",
+          "title": "nghttp2's nghttpx proxy through 1.69.0 forwards an HTTP/1.1 Upgrade request that also carries a Content-Length header an",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-58055",
+            "https://www.cve.org/CVERecord?id=CVE-2026-58055"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "esp-idf",
+      "version": "5.5.5",
+      "action": "Upgrade to 6.1.1 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-81508",
+          "title": "Heap Out-of-Bounds Read in Bluedroid A2DP Sink Media Packet Processing",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/espressif/esp-idf/security/advisories/GHSA-xcpr-5mqp-9qvv",
+            "https://www.cve.org/CVERecord?id=CVE-2026-81508"
+          ]
+        },
+        {
+          "id": "CVE-2020-26142",
+          "title": "Vulnerable Espressif WLAN device processes every single fragmented AMPDU frame as an independent and a full frame",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20EN.pdf",
+            "https://www.cve.org/CVERecord?id=CVE-2020-26142"
+          ]
+        }
+      ]
+    }
+  ],
+  "look": [
+    {
+      "name": "lwip",
+      "version": "2.2.0",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2020-22283",
+          "title": "Buffer overflow vulnerability via a crafted ICMPv6 message may lead to accessing sensitive information",
+          "severity": "high",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-22283",
+            "https://www.cve.org/CVERecord?id=CVE-2020-22283"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "openthread",
+      "version": "2026.07.0..",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2023-2626",
+          "title": "Missing Key ID Mode validation when processing 6LoWPAN frames",
+          "severity": "high",
+          "vendor": "openthread",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/openthread/openthread/security/advisories/GHSA-vr3r-363g-72j9",
+            "https://www.cve.org/CVERecord?id=CVE-2023-2626"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libexpat",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2016-0718",
+          "title": "Expat allows context-dependent attackers to cause a denial of service (crash) or possibly execute arbitrary code via a m",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2016-0718",
+            "https://www.cve.org/CVERecord?id=CVE-2016-0718"
+          ]
+        },
+        {
+          "id": "CVE-2022-22822",
+          "title": "addBinding in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22822",
+            "https://www.cve.org/CVERecord?id=CVE-2022-22822"
+          ]
+        },
+        {
+          "id": "CVE-2022-22823",
+          "title": "build_model in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22823",
+            "https://www.cve.org/CVERecord?id=CVE-2022-22823"
+          ]
+        },
+        {
+          "id": "CVE-2022-22824",
+          "title": "defineAttribute in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22824",
+            "https://www.cve.org/CVERecord?id=CVE-2022-22824"
+          ]
+        },
+        {
+          "id": "CVE-2022-23852",
+          "title": "Expat (aka libexpat) before 2.4.4 has a signed integer overflow in XML_GetBuffer, for configurations with a nonzero XML_",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-23852",
+            "https://www.cve.org/CVERecord?id=CVE-2022-23852"
+          ]
+        },
+        {
+          "id": "CVE-2022-25235",
+          "title": "xmltok_impl.c in Expat (aka libexpat) before 2.4.5 lacks certain validation of encoding, such as checks for whether a UT",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25235",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25235"
+          ]
+        },
+        {
+          "id": "CVE-2022-25236",
+          "title": "xmlparse.c in Expat (aka libexpat) before 2.4.5 allows attackers to insert namespace-separator characters into namespace",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25236",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25236"
+          ]
+        },
+        {
+          "id": "CVE-2022-25315",
+          "title": "In Expat (aka libexpat) before 2.4.5, there is an integer overflow in storeRawNames.",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25315",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25315"
+          ]
+        },
+        {
+          "id": "CVE-2024-45491",
+          "title": "An issue was discovered in libexpat before 2.6.3. dtdCopy in xmlparse.c can have an integer overflow for nDefaultAtts on",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-45491",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45491"
+          ]
+        },
+        {
+          "id": "CVE-2024-45492",
+          "title": "An issue was discovered in libexpat before 2.6.3. nextScaffoldPart in xmlparse.c can have an integer overflow for m_grou",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-45492",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45492"
+          ]
+        },
+        {
+          "id": "CVE-2016-5300",
+          "title": "The XML parser in Expat does not use sufficient entropy for hash initialization, which allows context-dependent attacker",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2016-5300",
+            "https://www.cve.org/CVERecord?id=CVE-2016-5300"
+          ]
+        },
+        {
+          "id": "CVE-2016-4472",
+          "title": "The overflow protection in Expat is removed by compilers with certain optimization settings, which allows remote attacke",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2016-4472",
+            "https://www.cve.org/CVERecord?id=CVE-2016-4472"
+          ]
+        },
+        {
+          "id": "CVE-2017-9233",
+          "title": "XML External Entity vulnerability in libexpat 2.2.0 and earlier (Expat XML Parser Library) allows attackers to put the p",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2017-9233",
+            "https://www.cve.org/CVERecord?id=CVE-2017-9233"
+          ]
+        },
+        {
+          "id": "CVE-2017-11742",
+          "title": "The writeRandomBytes_RtlGenRandom function in xmlparse.c in libexpat in Expat 2.2.1 and 2.2.2 on Windows allows local us",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2017-11742",
+            "https://www.cve.org/CVERecord?id=CVE-2017-11742"
+          ]
+        },
+        {
+          "id": "CVE-2018-20843",
+          "title": "In libexpat in Expat before 2.2.7, XML input including XML names that contain a large number of colons could make the XM",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2018-20843",
+            "https://www.cve.org/CVERecord?id=CVE-2018-20843"
+          ]
+        },
+        {
+          "id": "CVE-2019-15903",
+          "title": "In libexpat before 2.2.8, crafted XML input could fool the parser into changing from DTD parsing to document parsing too",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-15903",
+            "https://www.cve.org/CVERecord?id=CVE-2019-15903"
+          ]
+        },
+        {
+          "id": "CVE-2021-45960",
+          "title": "In Expat (aka libexpat) before 2.4.3, a left shift by 29 (or more) places in the storeAtts function in xmlparse.c can le",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-45960",
+            "https://www.cve.org/CVERecord?id=CVE-2021-45960"
+          ]
+        },
+        {
+          "id": "CVE-2021-46143",
+          "title": "In doProlog in xmlparse.c in Expat (aka libexpat) before 2.4.3, an integer overflow exists for m_groupSize.",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-46143",
+            "https://www.cve.org/CVERecord?id=CVE-2021-46143"
+          ]
+        },
+        {
+          "id": "CVE-2022-22825",
+          "title": "lookup in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22825",
+            "https://www.cve.org/CVERecord?id=CVE-2022-22825"
+          ]
+        },
+        {
+          "id": "CVE-2022-22826",
+          "title": "nextScaffoldPart in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22826",
+            "https://www.cve.org/CVERecord?id=CVE-2022-22826"
+          ]
+        },
+        {
+          "id": "CVE-2022-22827",
+          "title": "storeAtts in xmlparse.c in Expat (aka libexpat) before 2.4.3 has an integer overflow.",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22827",
+            "https://www.cve.org/CVERecord?id=CVE-2022-22827"
+          ]
+        },
+        {
+          "id": "CVE-2022-23990",
+          "title": "Expat (aka libexpat) before 2.4.4 has an integer overflow in the doProlog function.",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-23990",
+            "https://www.cve.org/CVERecord?id=CVE-2022-23990"
+          ]
+        },
+        {
+          "id": "CVE-2022-25314",
+          "title": "In Expat (aka libexpat) before 2.4.5, there is an integer overflow in copyString.",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25314",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25314"
+          ]
+        },
+        {
+          "id": "CVE-2022-40674",
+          "title": "libexpat before 2.4.9 has a use-after-free in the doContent function in xmlparse.c.",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-40674",
+            "https://www.cve.org/CVERecord?id=CVE-2022-40674"
+          ]
+        },
+        {
+          "id": "CVE-2022-43680",
+          "title": "In libexpat through 2.4.9, there is a use-after free caused by overeager destruction of a shared DTD in XML_ExternalEnti",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-43680",
+            "https://www.cve.org/CVERecord?id=CVE-2022-43680"
+          ]
+        },
+        {
+          "id": "CVE-2023-52425",
+          "title": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in th",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-52425",
+            "https://www.cve.org/CVERecord?id=CVE-2023-52425"
+          ]
+        },
+        {
+          "id": "CVE-2024-28757",
+          "title": "libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28757",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28757"
+          ]
+        },
+        {
+          "id": "CVE-2024-45490",
+          "title": "An issue was discovered in libexpat before 2.6.3. xmlparse.c does not reject a negative length for XML_ParseBuffer.",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-45490",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45490"
+          ]
+        },
+        {
+          "id": "CVE-2026-66046",
+          "title": "Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAt",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
+            "https://www.cve.org/CVERecord?id=CVE-2026-66046"
+          ]
+        },
+        {
+          "id": "CVE-2026-25210",
+          "title": "Hitachi Energy RTU500",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25210",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25210"
+          ]
+        },
+        {
+          "id": "CVE-2026-32776",
+          "title": "Hitachi Energy RTU500",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32776",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32776"
+          ]
+        },
+        {
+          "id": "CVE-2026-32777",
+          "title": "Hitachi Energy RTU500",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32777",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32777"
+          ]
+        },
+        {
+          "id": "CVE-2009-3720",
+          "title": "The updatePosition function in lib/xmltok_impl.c in libexpat in Expat 2.0.1, as used in Python, PyXML, w3c-libwww, and o",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2009-3720",
+            "https://www.cve.org/CVERecord?id=CVE-2009-3720"
+          ]
+        },
+        {
+          "id": "CVE-2009-3560",
+          "title": "The big2_toUtf8 function in lib/xmltok.c in libexpat in Expat 2.0.1, as used in the XML-Twig module for Perl, allows con",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2009-3560",
+            "https://www.cve.org/CVERecord?id=CVE-2009-3560"
+          ]
+        },
+        {
+          "id": "CVE-2012-0876",
+          "title": "The XML parser (xmlparse.c) in expat before 2.1.0 computes hash values without restricting the ability to trigger hash c",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2012-0876",
+            "https://www.cve.org/CVERecord?id=CVE-2012-0876"
+          ]
+        },
+        {
+          "id": "CVE-2012-1147",
+          "title": "readfilemap.c in expat before 2.1.0 allows context-dependent attackers to cause a denial of service (file descriptor con",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2012-1147",
+            "https://www.cve.org/CVERecord?id=CVE-2012-1147"
+          ]
+        },
+        {
+          "id": "CVE-2012-1148",
+          "title": "Memory leak in the poolGrow function in expat/lib/xmlparse.c in expat before 2.1.0 allows context-dependent attackers to",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2012-1148",
+            "https://www.cve.org/CVERecord?id=CVE-2012-1148"
+          ]
+        },
+        {
+          "id": "CVE-2013-0340",
+          "title": "expat before version 2.4.0 does not properly handle entities expansion unless an application developer uses the XML_SetE",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2013-0340",
+            "https://www.cve.org/CVERecord?id=CVE-2013-0340"
+          ]
+        },
+        {
+          "id": "CVE-2015-1283",
+          "title": "Multiple integer overflows in the XML_GetBuffer function in Expat through 2.1.0, as used in Google Chrome before 44.0.24",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2015-1283",
+            "https://www.cve.org/CVERecord?id=CVE-2015-1283"
+          ]
+        },
+        {
+          "id": "CVE-2012-6702",
+          "title": "Expat, when used in a parser that has not called XML_SetHashSalt or passed it a seed of 0, makes it easier for context-d",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2012-6702",
+            "https://www.cve.org/CVERecord?id=CVE-2012-6702"
+          ]
+        },
+        {
+          "id": "CVE-2022-25313",
+          "title": "In Expat (aka libexpat) before 2.4.5, an attacker can trigger stack exhaustion in build_model via a large nesting depth ",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-25313",
+            "https://www.cve.org/CVERecord?id=CVE-2022-25313"
+          ]
+        },
+        {
+          "id": "CVE-2023-52426",
+          "title": "libexpat through 2.5.0 allows recursive XML Entity Expansion if XML_DTD is undefined at compile time.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-52426",
+            "https://www.cve.org/CVERecord?id=CVE-2023-52426"
+          ]
+        },
+        {
+          "id": "CVE-2024-50602",
+          "title": "An issue was discovered in libexpat before 2.6.4. There is a crash within the XML_ResumeParser function because XML_Stop",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-50602",
+            "https://www.cve.org/CVERecord?id=CVE-2024-50602"
+          ]
+        },
+        {
+          "id": "CVE-2026-50219",
+          "title": "libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_GetBuffer, XML_Parse, XML_ParseBuffer, XML_Pars",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-50219",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50219"
+          ]
+        },
+        {
+          "id": "CVE-2026-56131",
+          "title": "libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_ResumeParser from within handlers in cases of a",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56131",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56131"
+          ]
+        },
+        {
+          "id": "CVE-2026-56132",
+          "title": "In libexpat before 2.8.2, there is a heap-based buffer overflow in doProlog in xmlparse.c because scaffold backing array",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56132",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56132"
+          ]
+        },
+        {
+          "id": "CVE-2026-56403",
+          "title": "libexpat before 2.8.2 has an integer overflow in storeAtts.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56403",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56403"
+          ]
+        },
+        {
+          "id": "CVE-2026-56404",
+          "title": "libexpat before 2.8.2 has an integer overflow in addBinding.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56404",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56404"
+          ]
+        },
+        {
+          "id": "CVE-2026-56405",
+          "title": "libexpat before 2.8.2 has an integer overflow in getAttributeId.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56405",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56405"
+          ]
+        },
+        {
+          "id": "CVE-2026-56406",
+          "title": "libexpat before 2.8.2 has an integer overflow in XML_ParseBuffer because it lacked a check that was present in XML_Parse",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56406",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56406"
+          ]
+        },
+        {
+          "id": "CVE-2026-56407",
+          "title": "libexpat before 2.8.2 has an integer overflow in doProlog that is related to storeEntityValue and entity textLen.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56407",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56407"
+          ]
+        },
+        {
+          "id": "CVE-2026-56408",
+          "title": "libexpat before 2.8.2 has an integer overflow in copyString.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56408",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56408"
+          ]
+        },
+        {
+          "id": "CVE-2026-56409",
+          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow for the output filename when -d outputDir is used.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56409",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56409"
+          ]
+        },
+        {
+          "id": "CVE-2026-56410",
+          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow in resolveSystemId.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56410",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56410"
+          ]
+        },
+        {
+          "id": "CVE-2026-56411",
+          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow in endDoctypeDecl via NOTATION declarations.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56411",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56411"
+          ]
+        },
+        {
+          "id": "CVE-2026-56412",
+          "title": "libexpat before 2.8.2 does not consider XML_TOK_DATA_CHARS in doCdataSection and thus lacks handler call depth tracking ",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56412",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56412"
+          ]
+        },
+        {
+          "id": "CVE-2026-76956",
+          "title": "In libexpat 2.8.2 and 2.8.3 before 2.8.4, misinterpretation of getentropy's return code leads to insufficient entropy, w",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-76956",
+            "https://www.cve.org/CVERecord?id=CVE-2026-76956"
+          ]
+        },
+        {
+          "id": "CVE-2026-76957",
+          "title": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-76957",
+            "https://www.cve.org/CVERecord?id=CVE-2026-76957"
+          ]
+        },
+        {
+          "id": "CVE-2025-66382",
+          "title": "Siemens SINEC OS",
+          "severity": "low",
+          "vendor": "Siemens",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66382",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66382"
+          ]
+        },
+        {
+          "id": "CVE-2026-24515",
+          "title": "Hitachi Energy RTU500",
+          "severity": "low",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-24515",
+            "https://www.cve.org/CVERecord?id=CVE-2026-24515"
+          ]
+        },
+        {
+          "id": "CVE-2026-32778",
+          "title": "Hitachi Energy RTU500",
+          "severity": "low",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32778",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32778"
+          ]
+        },
+        {
+          "id": "CVE-2026-41080",
+          "title": "libexpat before 2.8.0 uses insufficient entropy, and thus hash flooding can occur via a crafted XML document.",
+          "severity": "low",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-41080",
+            "https://www.cve.org/CVERecord?id=CVE-2026-41080"
+          ]
+        },
+        {
+          "id": "CVE-2026-45186",
+          "title": "In libexpat before 2.8.1, the computational complexity of attribute name collision checks allows a denial of service via",
+          "severity": "low",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45186",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45186"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "libcoap",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2023-30362",
+          "title": "Buffer Overflow vulnerability in coap_send function in libcoap library 4.3.1-103-g52cfd56 fixed in 4.3.1-120-ge242200 al",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-30362",
+            "https://www.cve.org/CVERecord?id=CVE-2023-30362"
+          ]
+        },
+        {
+          "id": "CVE-2024-31031",
+          "title": "An issue in `coap_pdu.c` in libcoap 4.3.4 allows attackers to cause undefined behavior via a sequence of messages leadin",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-31031",
+            "https://www.cve.org/CVERecord?id=CVE-2024-31031"
+          ]
+        },
+        {
+          "id": "CVE-2025-65493",
+          "title": "NULL pointer dereference in src/coap_openssl.c in OISM libcoap 4.3.5 allows remote attackers to cause a denial of servic",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65493",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65493"
+          ]
+        },
+        {
+          "id": "CVE-2025-65494",
+          "title": "NULL pointer dereference in get_san_or_cn_from_cert() in src/coap_openssl.c in OISM libcoap 4.3.5 allows remote attacker",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65494",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65494"
+          ]
+        },
+        {
+          "id": "CVE-2025-65495",
+          "title": "Integer signedness error in tls_verify_call_back() in src/coap_openssl.c in OISM libcoap 4.3.5 allows remote attackers t",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65495",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65495"
+          ]
+        },
+        {
+          "id": "CVE-2025-34468",
+          "title": "libcoap versions up to and including 4.3.5, prior to commit 30db3ea, contain a stack-based buffer overflow in address re",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-34468",
+            "https://www.cve.org/CVERecord?id=CVE-2025-34468"
+          ]
+        },
+        {
+          "id": "CVE-2026-29013",
+          "title": "libcoap contains out-of-bounds read vulnerabilities in OSCORE Appendix B.2 CBOR unwrap handling where get_byte_inc() in ",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-29013",
+            "https://www.cve.org/CVERecord?id=CVE-2026-29013"
+          ]
+        },
+        {
+          "id": "CVE-2023-35862",
+          "title": "libcoap 4.3.1 contains a buffer over-read via the function coap_parse_oscore_conf_mem at coap_oscore.c.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-35862",
+            "https://www.cve.org/CVERecord?id=CVE-2023-35862"
+          ]
+        },
+        {
+          "id": "CVE-2024-0962",
+          "title": "A vulnerability was found in obgm libcoap 4.3.4. It has been rated as critical. Affected by this issue is the function g",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-0962",
+            "https://www.cve.org/CVERecord?id=CVE-2024-0962"
+          ]
+        },
+        {
+          "id": "CVE-2025-65496",
+          "title": "NULL pointer dereference in coap_dtls_generate_cookie() in src/coap_openssl.c in OISM libcoap 4.3.5 allows remote attack",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65496",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65496"
+          ]
+        },
+        {
+          "id": "CVE-2025-65497",
+          "title": "NULL pointer dereference in coap_dtls_generate_cookie() in src/coap_openssl.c in OISM libcoap 4.3.5 allows remote attack",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65497",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65497"
+          ]
+        },
+        {
+          "id": "CVE-2025-65498",
+          "title": "NULL pointer dereference in coap_dtls_generate_cookie() in src/coap_openssl.c in OISM libcoap 4.3.5 allows remote attack",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65498",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65498"
+          ]
+        },
+        {
+          "id": "CVE-2025-65499",
+          "title": "Array index error in tls_verify_call_back() in src/coap_openssl.c in OISM libcoap 4.3.5 allows remote attackers to cause",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65499",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65499"
+          ]
+        },
+        {
+          "id": "CVE-2025-65500",
+          "title": "NULL pointer dereference in coap_dtls_generate_cookie() in src/coap_openssl.c in OISM libcoap 4.3.5 allows remote attack",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65500",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65500"
+          ]
+        },
+        {
+          "id": "CVE-2025-65501",
+          "title": "Null pointer dereference in coap_dtls_info_callback() in OISM libcoap 4.3.5 allows remote attackers to cause a denial of",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-65501",
+            "https://www.cve.org/CVERecord?id=CVE-2025-65501"
+          ]
+        },
+        {
+          "id": "CVE-2025-59391",
+          "title": "A memory disclosure vulnerability exists in libcoap's OSCORE configuration parser in libcoap before release-4.3.5-patche",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59391",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59391"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "tinyxml2",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2018-11210",
+          "title": "TinyXML2 6.2.0 has a heap-based buffer over-read in the XMLDocument::Parse function in libtinyxml2.so. NOTE: The tinyxml",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2018-11210",
+            "https://www.cve.org/CVERecord?id=CVE-2018-11210"
+          ]
+        },
+        {
+          "id": "CVE-2024-50614",
+          "title": "TinyXML2 through 10.0.0 has a reachable assertion for UINT_MAX/16, that may lead to application exit, in tinyxml2.cpp XM",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-50614",
+            "https://www.cve.org/CVERecord?id=CVE-2024-50614"
+          ]
+        },
+        {
+          "id": "CVE-2024-50615",
+          "title": "TinyXML2 through 10.0.0 has a reachable assertion for UINT_MAX/digit, that may lead to application exit, in tinyxml2.cpp",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-50615",
+            "https://www.cve.org/CVERecord?id=CVE-2024-50615"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "cryptoauthlib",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2019-16129",
+          "title": "Microchip CryptoAuthentication Library CryptoAuthLib prior to 20191122 has a Buffer Overflow (issue 2 of 2).",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-16129",
+            "https://www.cve.org/CVERecord?id=CVE-2019-16129"
+          ]
+        },
+        {
+          "id": "CVE-2019-16128",
+          "title": "Microchip CryptoAuthentication Library CryptoAuthLib prior to 20191122 has a Buffer Overflow (issue 1 of 2).",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-16128",
+            "https://www.cve.org/CVERecord?id=CVE-2019-16128"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "coex-lib",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2021-26706",
+          "title": "Update to “BadAlloc” Security Vulnerability in Micrium OS Dynamic Memory Pool Allocations",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/200-299/A-00000279.md",
+            "https://www.cve.org/CVERecord?id=CVE-2021-26706"
+          ]
+        }
+      ]
+    }
+  ],
+  "unwatched": [
+    {
+      "name": "adafruit-mcp9808-library",
+      "version": "2.0.2"
+    },
+    {
+      "name": "adafruit-neopixel",
+      "version": "1.15.5"
+    },
+    {
+      "name": "arduinojson",
+      "version": "6.20.1"
+    },
+    {
+      "name": "arduinomongoose",
+      "version": "0.04..1.0.0"
+    },
+    {
+      "name": "asio",
+      "version": null
+    },
+    {
+      "name": "cmock",
+      "version": "v2.5.2-2-geeecc49ce8af"
+    },
+    {
+      "name": "configjson",
+      "version": "0.0.8"
+    },
+    {
+      "name": "epoxyduino",
+      "version": null
+    },
+    {
+      "name": "esp-ble-mesh-lib",
+      "version": null
+    },
+    {
+      "name": "esp-ieee802154-lib",
+      "version": null
+    },
+    {
+      "name": "esp-phy-lib",
+      "version": null
+    },
+    {
+      "name": "esp-thread-lib",
+      "version": null
+    },
+    {
+      "name": "esp-tsdb",
+      "version": "2.4.3"
+    },
+    {
+      "name": "esp32-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32-wifi-lib",
+      "version": null
+    },
+    {
+      "name": "esp32c2-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32c3-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32c5-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32c6-bt-lib",
+      "version": null
+    },
+    {
+      "name": "esp32h2-bt-lib",
+      "version": null
+    },
+    {
+      "name": "espal",
+      "version": "0.0.7"
+    },
+    {
+      "name": "esptool",
+      "version": null
+    },
+    {
+      "name": "libsodium",
+      "version": null
+    },
+    {
+      "name": "lvgl",
+      "version": "8.4.0"
+    },
+    {
+      "name": "micro-debug",
+      "version": "0.0.5"
+    },
+    {
+      "name": "microocpp",
+      "version": "1.2.0"
+    },
+    {
+      "name": "microocppmongoose",
+      "version": "1.2.0"
+    },
+    {
+      "name": "microtasks",
+      "version": "0.0.4"
+    },
+    {
+      "name": "mqtt",
+      "version": null
+    },
+    {
+      "name": "openevse",
+      "version": "0.0.24"
+    },
+    {
+      "name": "spiffs",
+      "version": "0.2-265-gad902ca"
+    },
+    {
+      "name": "streamspy",
+      "version": "0.0.2"
+    },
+    {
+      "name": "tft-espi",
+      "version": null
+    },
+    {
+      "name": "tinycbor",
+      "version": null
+    },
+    {
+      "name": "tinyusb",
+      "version": null
+    },
+    {
+      "name": "tlsf",
+      "version": null
+    },
+    {
+      "name": "unity",
+      "version": "v2.6.0-RC1"
+    },
+    {
+      "name": "ws2812fx",
+      "version": "1.4.7"
+    }
+  ]
+}
