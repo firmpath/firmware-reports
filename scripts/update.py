@@ -40,6 +40,16 @@ def comparison(report: dict) -> dict:
     }
 
 
+def md(text: str) -> str:
+    """Report text in a Markdown table cell: no table breaks, links, images or raw HTML."""
+    return re.sub(r"([\\`*_\[\]()<>|!#])", r"\\\1", str(text)).replace("\n", " ")
+
+
+def cell(value):
+    """A CSV cell a spreadsheet will not run as a formula."""
+    return "'" + value if isinstance(value, str) and value[:1] in ("=", "+", "-", "@", "\t", "\r") else value
+
+
 def main() -> int:
     sitemap = get(f"{BASE}/sitemap.xml").decode()
     slugs = sorted(set(re.findall(r"<loc>https://app\.firmpath\.dev/reports/([a-z0-9-]+)</loc>", sitemap)))
@@ -74,11 +84,11 @@ def main() -> int:
     buf = io.StringIO()
     w = csv.DictWriter(buf, fieldnames=list(rows[0].keys()), lineterminator="\n")
     w.writeheader()
-    w.writerows(rows)
+    w.writerows({k: cell(v) for k, v in r.items()} for r in rows)
     (ROOT / "summary.csv").write_text(buf.getvalue())
 
     table = "\n".join(
-        f"| [{r['project']}]({BASE}/reports/{r['slug']}) | {r['nvd_scanner']} | **{r['firmpath']}** | "
+        f"| [{md(r['project'])}]({BASE}/reports/{r['slug']}) | {r['nvd_scanner']} | **{r['firmpath']}** | "
         f"{r['missed_by_nvd_scanners']} | [data](reports/{r['slug']}.json) |"
         for r in rows
     )
