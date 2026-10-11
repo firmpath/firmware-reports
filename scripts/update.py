@@ -19,7 +19,7 @@ import urllib.request
 from pathlib import Path
 
 BASE = "https://app.firmpath.dev"
-UA = "firmware-reports-update/1 (+https://github.com/FirmPath/firmware-reports)"
+UA = "firmware-reports-update/1 (+https://github.com/firmpath/firmware-reports)"
 ROOT = Path(__file__).resolve().parent.parent
 
 
