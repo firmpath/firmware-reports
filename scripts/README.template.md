@@ -28,8 +28,8 @@ settle it (often a vendor's fork that may already carry the fix) are listed in e
 ## What this is not
 
 Each report describes the project's default build as its repository describes it, not any particular binary, and a
-project may configure out the affected code. It is not an audit. Maintainers who see something wrong can write to
-hello@firmpath.dev, and we will correct it or say why not.
+project may configure out the affected code. It is not an audit. Maintainers who see something wrong can tell us at
+https://www.firmpath.dev/contact, and we will correct it or say why not.
 
 ## The data
 
