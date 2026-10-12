@@ -16,13 +16,16 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    # No third-party actions: the first scheduled run (2026-10-12) failed to start, which is what an organisation's
+    # allowed-actions policy does to `uses:` it does not list. git and Python 3 are on the runner already, and a job that
+    # can push is better off running no one else's code anyway.
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0 — pinned by commit: this job can push
-        with:
-          persist-credentials: true
-      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
-        with:
-          python-version: "3.12"
+      - name: Check out
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          git clone --depth 1 "https://x-access-token:${TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
+          python3 --version
       - name: Fetch the published reports
         run: python3 scripts/update.py
       - name: Commit what changed
