@@ -10,7 +10,10 @@
     "look": 1,
     "clear": 0,
     "unwatched": 22,
-    "missed_by_nvd_scanners": 1
+    "vulnerabilities": 5,
+    "nvd_would_report": 2,
+    "missed_by_nvd_scanners": 1,
+    "not_checked_against_nvd": 2
   },
   "components": 24,
   "fix": [
@@ -140,91 +143,201 @@
   "unwatched": [
     {
       "name": "dsdl",
-      "version": "993be80a62ec957c01fb41115b83663959a49f46"
+      "version": "993be80a62ec957c01fb41115b83663959a49f46",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "fuzztest",
-      "version": "1e47f9d7437de5c3ee4cb0ac860d5ec875478059"
+      "version": "1e47f9d7437de5c3ee4cb0ac860d5ec875478059",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "heatshrink",
-      "version": "052e6de72f67f1777198bce98f3de62f7f3c16a0"
+      "version": "052e6de72f67f1777198bce98f3de62f7f3c16a0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "iq-module-communication-cpp",
-      "version": "c488af4e8807de80739aa48efd2ea51614dd8195"
+      "version": "c488af4e8807de80739aa48efd2ea51614dd8195",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "jmavsim",
-      "version": "66b764ada522893c05224950aa6268c809f8e48a"
+      "version": "66b764ada522893c05224950aa6268c809f8e48a",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "libevents",
-      "version": "9ef591c447fe0386d698bf6fb9a6d27e43988ee4"
+      "version": "9ef591c447fe0386d698bf6fb9a6d27e43988ee4",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "libtommath",
-      "version": "fd73d7630b9d3ed5a79d613ff680a549e9780de7"
+      "version": "fd73d7630b9d3ed5a79d613ff680a549e9780de7",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 3
+      }
     },
     {
       "name": "lord-microstrain-mip-sdk",
-      "version": "35596994b60ba89fe02f71ce5127baa5e7ff2bbf"
+      "version": "35596994b60ba89fe02f71ce5127baa5e7ff2bbf",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mavlink",
-      "version": "1.0.12.."
+      "version": "1.0.12..",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 16
+      }
     },
     {
       "name": "micro-xrce-dds-client",
-      "version": "711aef423edd1820347b866d1e4164832df35d04"
+      "version": "711aef423edd1820347b866d1e4164832df35d04",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "monocypher",
-      "version": "baca5d31259c598540e4d1284bc8d8f793abf83a"
+      "version": "baca5d31259c598540e4d1284bc8d8f793abf83a",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 1
+      }
     },
     {
       "name": "public-regulated-data-types",
-      "version": "d0bd6516dac8ff61287fe49a9f2c75e7d4dc1b8e"
+      "version": "d0bd6516dac8ff61287fe49a9f2c75e7d4dc1b8e",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "px4-flightgear-bridge",
-      "version": "f47ce7b5fbbb3aa43d33d2be1f6cd3746b13d5bf"
+      "version": "f47ce7b5fbbb3aa43d33d2be1f6cd3746b13d5bf",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "px4-gazebo-models",
-      "version": "b6127f4ec20de867e215fb5f78ae88b80f371909"
+      "version": "b6127f4ec20de867e215fb5f78ae88b80f371909",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "px4-gpsdrivers",
-      "version": "0b9695881bd1e8f830ab4538ab3acc0050019eba"
+      "version": "0b9695881bd1e8f830ab4538ab3acc0050019eba",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "px4-jsbsim-bridge",
-      "version": "f37ec259bd7a43565fe0ff4722465b7a303200f6"
+      "version": "f37ec259bd7a43565fe0ff4722465b7a303200f6",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "px4-sitl-gazebo-classic",
-      "version": "6697ab169ceab512dc706acea63df4c882662c60"
+      "version": "6697ab169ceab512dc706acea63df4c882662c60",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "pydronecan",
-      "version": "1.0.16..1.0.17"
+      "version": "1.0.16..1.0.17",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "rosidl",
-      "version": "bf5682e4747843d1d5133b9a2b54ce6f12f166c7"
+      "version": "bf5682e4747843d1d5133b9a2b54ce6f12f166c7",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "sbgecom",
-      "version": "80b121c7714083cc4868c0fdb8c41623c7ef9c93"
+      "version": "80b121c7714083cc4868c0fdb8c41623c7ef9c93",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "tflite-micro",
-      "version": "3c0b1e3091e4ea423e1bf9da89d41d09517eb0c9"
+      "version": "3c0b1e3091e4ea423e1bf9da89d41d09517eb0c9",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "zenoh-pico",
-      "version": "6ec4dc1995f185330e4f6faa8c719eb86f180deb"
+      "version": "6ec4dc1995f185330e4f6faa8c719eb86f180deb",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     }
   ]
 }

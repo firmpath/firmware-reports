@@ -10,7 +10,10 @@
     "look": 0,
     "clear": 0,
     "unwatched": 2,
-    "missed_by_nvd_scanners": 0
+    "vulnerabilities": 5,
+    "nvd_would_report": 5,
+    "missed_by_nvd_scanners": 0,
+    "not_checked_against_nvd": 0
   },
   "components": 3,
   "fix": [
@@ -86,11 +89,21 @@
   "unwatched": [
     {
       "name": "cmsis-5",
-      "version": "5.7.0"
+      "version": "5.7.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "libdw1000",
-      "version": "c472ae93f839520ccdf76cc193c76214e73e42fd"
+      "version": "c472ae93f839520ccdf76cc193c76214e73e42fd",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     }
   ]
 }

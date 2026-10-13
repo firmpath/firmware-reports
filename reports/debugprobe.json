@@ -10,7 +10,10 @@
     "look": 0,
     "clear": 0,
     "unwatched": 0,
-    "missed_by_nvd_scanners": 0
+    "vulnerabilities": 5,
+    "nvd_would_report": 5,
+    "missed_by_nvd_scanners": 0,
+    "not_checked_against_nvd": 0
   },
   "components": 1,
   "fix": [

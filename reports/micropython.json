@@ -10,7 +10,10 @@
     "look": 2,
     "clear": 1,
     "unwatched": 33,
-    "missed_by_nvd_scanners": 13
+    "vulnerabilities": 20,
+    "nvd_would_report": 5,
+    "missed_by_nvd_scanners": 13,
+    "not_checked_against_nvd": 2
   },
   "components": 39,
   "fix": [
@@ -56,18 +59,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
           "id": "CVE-2026-50587",
           "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
           "severity": "medium",
@@ -101,6 +92,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ssl-session-reset-incomplete-context-reset/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50585"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
           ]
         },
         {
@@ -509,135 +512,300 @@
   "unwatched": [
     {
       "name": "alif-ensemble-cmsis-dfp",
-      "version": "2.0.0"
+      "version": "2.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "alif-security-toolkit",
-      "version": "1.104.0.."
+      "version": "1.104.0..",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "arduino-lib-mpy",
-      "version": "8312406d6cd1a19683500f153b33fba7a8414127"
+      "version": "8312406d6cd1a19683500f153b33fba7a8414127",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "asf4",
-      "version": "84f56af13292d8f32c40acbd949bde698ddd4507"
+      "version": "84f56af13292d8f32c40acbd949bde698ddd4507",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "async-transfer",
-      "version": "1.1.0"
+      "version": "1.1.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "berkeley-db-1-xx",
-      "version": "0f3bb6947c2f57233916dccd7bb425d7bf86e5a6"
+      "version": "0f3bb6947c2f57233916dccd7bb425d7bf86e5a6",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cmsis-5",
-      "version": "5.9.0"
+      "version": "5.9.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cmsis-6",
-      "version": "6.3.0"
+      "version": "6.3.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "core-lib",
-      "version": "1.7.0"
+      "version": "1.7.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cyw43-driver",
-      "version": "1.1.1"
+      "version": "1.1.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-hosted",
-      "version": "2.7.0"
+      "version": "2.7.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 1
+      }
     },
     {
       "name": "esp-wifi-remote",
-      "version": "0.15.2"
+      "version": "0.15.2",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "fsp",
-      "version": "4.4.0"
+      "version": "4.4.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "lan867x",
-      "version": "~1.0.0"
+      "version": "~1.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "libffi",
-      "version": "3.4.6"
+      "version": "3.4.6",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 2
+      }
     },
     {
       "name": "libhydrogen",
-      "version": "173f728ee2c627f80fd0322473e16467f259558d"
+      "version": "173f728ee2c627f80fd0322473e16467f259558d",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "libmetal",
-      "version": "2023.10.0"
+      "version": "2023.10.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mdns",
-      "version": "~1.3.0"
+      "version": "~1.3.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "micropython",
-      "version": "1.29.0"
+      "version": "1.29.0",
+      "nvd": {
+        "by": "cpe",
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "micropython-lib",
-      "version": "1.29.0"
+      "version": "1.29.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mtb-dsl-pse8xxgp",
-      "version": "1.3.0"
+      "version": "1.3.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mtb-ipc",
-      "version": "1.2.0"
+      "version": "760f4772bd4b37abe08062d7229de91e9a23a54f",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mtb-srf",
-      "version": "1.1.1"
+      "version": "3c43b49a7e001836d63b60daa19d2616396e014a",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "nrfx",
-      "version": "3.14.0"
+      "version": "3.14.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "nxp-driver",
-      "version": "a298e8a3cad2df737de020bbeac4ee2147d189ca"
+      "version": "a298e8a3cad2df737de020bbeac4ee2147d189ca",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "open-amp",
-      "version": "2023.10.0"
+      "version": "2023.10.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "pico-sdk",
-      "version": "2.3.0"
+      "version": "2.3.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "se-rt-services-utils",
-      "version": "1.2.0"
+      "version": "5da80102ec10b8a3e1676aed02073f7f9dcae3f5",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "serial-memory",
-      "version": "3.1.0"
+      "version": "ae90b884dd16959230c33e5368d18a09bee0df72",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "stm32lib",
-      "version": "1.8.1.."
+      "version": "07619754261b571fb2f7c9f36ab94c203880d9fb",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "target-kit-pse84-ai",
-      "version": "1.3.0"
+      "version": "1.3.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tinyusb",
-      "version": "cherrypick/dwc2_zlp_fix"
+      "version": "cherrypick/dwc2_zlp_fix",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "wiznet-iolibrary-driver",
-      "version": "3.1.3.."
+      "version": "0803fc519ad7227e841287fb3638d6c8b2f111a1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     }
   ]
 }

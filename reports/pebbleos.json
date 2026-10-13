@@ -10,7 +10,10 @@
     "look": 2,
     "clear": 0,
     "unwatched": 10,
-    "missed_by_nvd_scanners": 2
+    "vulnerabilities": 2,
+    "nvd_would_report": 0,
+    "missed_by_nvd_scanners": 2,
+    "not_checked_against_nvd": 0
   },
   "components": 13,
   "fix": [
@@ -243,43 +246,93 @@
   "unwatched": [
     {
       "name": "cmsis-5",
-      "version": "5.0.0.."
+      "version": "5.0.0..",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "iconography",
-      "version": "99e2660ccd8c0c98e596612bb1c21700e28156b3"
+      "version": "99e2660ccd8c0c98e596612bb1c21700e28156b3",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "memfault-firmware-sdk",
-      "version": "1.24.0"
+      "version": "1.24.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "moddable",
-      "version": "25f1a3bb1e47d1dff750d4571ae314239735bee9"
+      "version": "25f1a3bb1e47d1dff750d4571ae314239735bee9",
+      "nvd": {
+        "by": "cpe",
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "nrfx",
-      "version": "3.11.0"
+      "version": "3.11.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "pebbleos-nonfree",
-      "version": "fd47756358e16b4f791bf8a4de08acdcbee84db5"
+      "version": "fd47756358e16b4f791bf8a4de08acdcbee84db5",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "picolibc",
-      "version": "2cb62b35aaf461e730860cb7ecc31c51b9848d78"
+      "version": "2cb62b35aaf461e730860cb7ecc31c51b9848d78",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "qr-code-generator",
-      "version": "1.8.0.."
+      "version": "1.8.0..",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "speex",
-      "version": "1.2.1.."
+      "version": "1.2.1..",
+      "nvd": {
+        "by": "cpe",
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tinymt",
-      "version": "1.1.2.."
+      "version": "1.1.2..",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     }
   ]
 }

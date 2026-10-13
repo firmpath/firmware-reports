@@ -7,10 +7,13 @@
   },
   "summary": {
     "fix": 3,
-    "look": 4,
+    "look": 5,
     "clear": 3,
-    "unwatched": 25,
-    "missed_by_nvd_scanners": 20
+    "unwatched": 24,
+    "vulnerabilities": 49,
+    "nvd_would_report": 29,
+    "missed_by_nvd_scanners": 20,
+    "not_checked_against_nvd": 0
   },
   "components": 35,
   "fix": [
@@ -80,18 +83,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
           "id": "CVE-2026-50587",
           "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
           "severity": "medium",
@@ -113,6 +104,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-possible-buffer-overflow-ecdh-calc-secret/",
             "https://www.cve.org/CVERecord?id=CVE-2026-35336"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
           ]
         },
         {
@@ -538,18 +541,6 @@
           ]
         },
         {
-          "id": "CVE-2026-45542",
-          "title": "Heap buffer overflow in protocomm Security2 over Bluetooth",
-          "severity": "high",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45542",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45542"
-          ]
-        },
-        {
           "id": "CVE-2026-45329",
           "title": "Out-of-Bounds Read in ESP-TEE Secure Service Wrappers",
           "severity": "high",
@@ -586,6 +577,18 @@
           ]
         },
         {
+          "id": "CVE-2026-45542",
+          "title": "Heap buffer overflow in protocomm Security2 over Bluetooth",
+          "severity": "high",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45542",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45542"
+          ]
+        },
+        {
           "id": "CVE-2026-81507",
           "title": "Bluetooth Classic L2CAP Heap Memory Disclosure Allowing Unauthorized Access to Sensitive Data",
           "severity": "medium",
@@ -611,9 +614,9 @@
         },
         {
           "id": "CVE-2020-26142",
-          "title": "Vulnerable Espressif WLAN device processes every single fragmented AMPDU frame as an independent and a full frame",
+          "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
           "severity": "medium",
-          "vendor": "espressif",
+          "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
@@ -643,6 +646,12 @@
           ]
         }
       ]
+    },
+    {
+      "name": "asynctcp",
+      "version": null,
+      "action": "Move to a supported release: all is out of support",
+      "vulns": []
     },
     {
       "name": "openthread",
@@ -697,18 +706,6 @@
           ]
         },
         {
-          "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
-          ]
-        },
-        {
           "id": "CVE-2023-41097",
           "title": "Due to a padding oracle, attackers with access to precise time measurement may be able to learn confidential information protected by AES-CBC or RSA OAEP without requiring key information",
           "severity": "medium",
@@ -741,6 +738,18 @@
           "nvd_scanner": false,
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
+          ]
+        },
+        {
+          "id": "CVE-2023-45199",
+          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
           ]
         }
       ]
@@ -811,103 +820,219 @@
   "unwatched": [
     {
       "name": "arduino-emulator",
-      "version": "0.2.0..0.2.1"
+      "version": "0.2.0..0.2.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "arduinobearssl",
-      "version": "1.7.6"
-    },
-    {
-      "name": "asynctcp",
-      "version": null
+      "version": "1.7.6",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cmock",
-      "version": "v2.5.2-2-geeecc49ce8af"
+      "version": "v2.5.2-2-geeecc49ce8af",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-ble-mesh-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-phy-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-thread-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-wifi-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c2-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c3-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c5-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c6-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32h2-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp8266-and-esp32-oled-driver-for-ssd1306-displays",
-      "version": "4.4.1"
+      "version": "4.4.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "googletest",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "json-streaming-parser",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mqtt",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "posixasynctcp",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "spiffs",
-      "version": "0.2-255-g0dbb3f71c5f6"
+      "version": "0.2-255-g0dbb3f71c5f6",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "tlsf",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tmcstepper",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "unity",
-      "version": "v2.6.0-RC1"
+      "version": "v2.6.0-RC1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "usb-host-cdc-acm",
-      "version": "7c6e0ce3ad6bf8f51735367ad605bd210f95ce35"
+      "version": "7c6e0ce3ad6bf8f51735367ad605bd210f95ce35",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "usb-host-vcp",
-      "version": "1.0.0..1.0.0"
+      "version": "1.0.0..1.0.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     }
   ]
 }

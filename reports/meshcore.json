@@ -10,7 +10,10 @@
     "look": 7,
     "clear": 3,
     "unwatched": 67,
-    "missed_by_nvd_scanners": 19
+    "vulnerabilities": 59,
+    "nvd_would_report": 40,
+    "missed_by_nvd_scanners": 19,
+    "not_checked_against_nvd": 0
   },
   "components": 82,
   "fix": [
@@ -80,18 +83,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
           "id": "CVE-2026-50587",
           "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
           "severity": "medium",
@@ -149,6 +140,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-49601",
             "https://www.cve.org/CVERecord?id=CVE-2025-49601"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
           ]
         },
         {
@@ -671,9 +674,9 @@
         },
         {
           "id": "CVE-2020-26142",
-          "title": "Vulnerable Espressif WLAN device processes every single fragmented AMPDU frame as an independent and a full frame",
+          "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
           "severity": "medium",
-          "vendor": "espressif",
+          "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
@@ -1096,18 +1099,6 @@
           ]
         },
         {
-          "id": "CVE-2024-28757",
-          "title": "libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-28757",
-            "https://www.cve.org/CVERecord?id=CVE-2024-28757"
-          ]
-        },
-        {
           "id": "CVE-2024-45490",
           "title": "An issue was discovered in libexpat before 2.6.3. xmlparse.c does not reject a negative length for XML_ParseBuffer.",
           "severity": "high",
@@ -1129,6 +1120,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
             "https://www.cve.org/CVERecord?id=CVE-2026-66046"
+          ]
+        },
+        {
+          "id": "CVE-2024-28757",
+          "title": "libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28757",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28757"
           ]
         },
         {
@@ -1408,18 +1411,6 @@
           ]
         },
         {
-          "id": "CVE-2026-56409",
-          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow for the output filename when -d outputDir is used.",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56409",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56409"
-          ]
-        },
-        {
           "id": "CVE-2026-56410",
           "title": "xmlwf in libexpat before 2.8.2 has an integer overflow in resolveSystemId.",
           "severity": "medium",
@@ -1477,6 +1468,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-76957",
             "https://www.cve.org/CVERecord?id=CVE-2026-76957"
+          ]
+        },
+        {
+          "id": "CVE-2026-56409",
+          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow for the output filename when -d outputDir is used.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56409",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56409"
           ]
         },
         {
@@ -1793,18 +1796,6 @@
           ]
         },
         {
-          "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
-          ]
-        },
-        {
           "id": "CVE-2023-41097",
           "title": "Due to a padding oracle, attackers with access to precise time measurement may be able to learn confidential information protected by AES-CBC or RSA OAEP without requiring key information",
           "severity": "medium",
@@ -1837,6 +1828,18 @@
           "nvd_scanner": false,
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
+          ]
+        },
+        {
+          "id": "CVE-2023-45199",
+          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
           ]
         }
       ]
@@ -1938,271 +1941,606 @@
   "unwatched": [
     {
       "name": "adafruit-ahtx0",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-bme280-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-bme680-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-bmp085-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-bmp280-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-busio",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-drv2605-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-epd",
-      "version": "4.6.1"
+      "version": "4.6.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-gfx-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-ina219",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-ina260-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-ina3221-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-lis3dh",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-mlx90614-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-neopixel",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-sh110x",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-sht4x-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-shtc3-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-spa06-003",
-      "version": "1.0.2"
+      "version": "1.0.2",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-ssd1306",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-st7735-and-st7789-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "adafruit-vl53l0x",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "arduino-lps22hb",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "asio",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "bme280",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 1
+      }
     },
     {
       "name": "bsec-software-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cayennelpp",
-      "version": "1.6.1"
+      "version": "1.6.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cmock",
-      "version": "v2.5.2-2-geeecc49ce8af"
+      "version": "v2.5.2-2-geeecc49ce8af",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "crypto",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "customlfs",
-      "version": "0.2.3"
+      "version": "0.2.3",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-ble-mesh-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-ieee802154-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-phy-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-thread-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-ch390",
-      "version": "47b401f1de546118b03c18b5689dedec45871f2d"
+      "version": "47b401f1de546118b03c18b5689dedec45871f2d",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-wifi-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c2-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c3-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c5-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c6-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32h2-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esptool",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 1
+      }
     },
     {
       "name": "googletest",
-      "version": "1.17.0"
+      "version": "1.17.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "gxepd2",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "heltec-eink-modules",
-      "version": "4.6.0..4.6.0"
+      "version": "4.6.0..4.6.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "ina226",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "libsodium",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 9
+      }
     },
     {
       "name": "lovyangfx",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "melopero-rv3028",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "meshsolar",
-      "version": "1.1.."
+      "version": "1.1..",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "micronmea",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mqtt",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "nonblockingrtttl",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "pca9557-arduino",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "radiolib",
-      "version": "7.7.1..7.8.0"
+      "version": "7.7.1..7.8.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "rak13800-w5100s",
-      "version": "1.0.2"
+      "version": "1.0.2",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "sensirion-i2c-sht4x",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "sparkfun-u-blox-gnss-arduino-library",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "spiffs",
-      "version": "0.2-255-g0dbb3f71c5f6"
+      "version": "0.2-255-g0dbb3f71c5f6",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "tft-espi",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tinycbor",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tinyusb",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tlsf",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "u8g2-arduino",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "unity",
-      "version": "v2.6.0-RC1"
+      "version": "v2.6.0-RC1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "xpowerslib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     }
   ]
 }

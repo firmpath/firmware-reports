@@ -7,10 +7,13 @@
   },
   "summary": {
     "fix": 4,
-    "look": 5,
+    "look": 6,
     "clear": 4,
-    "unwatched": 86,
-    "missed_by_nvd_scanners": 17
+    "unwatched": 85,
+    "vulnerabilities": 30,
+    "nvd_would_report": 13,
+    "missed_by_nvd_scanners": 17,
+    "not_checked_against_nvd": 0
   },
   "components": 99,
   "fix": [
@@ -56,18 +59,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
           "id": "CVE-2026-50587",
           "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
           "severity": "medium",
@@ -77,6 +68,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50587"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
           ]
         },
         {
@@ -359,9 +362,9 @@
         },
         {
           "id": "CVE-2020-26142",
-          "title": "Vulnerable Espressif WLAN device processes every single fragmented AMPDU frame as an independent and a full frame",
+          "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
           "severity": "medium",
-          "vendor": "espressif",
+          "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
@@ -441,6 +444,12 @@
           ]
         }
       ]
+    },
+    {
+      "name": "asynctcp",
+      "version": "3.4.91",
+      "action": "Move to a supported release: 3.4 is out of support",
+      "vulns": []
     },
     {
       "name": "freertos-kernel",
@@ -551,347 +560,768 @@
   "unwatched": [
     {
       "name": "adafruit-tinyusb-arduino",
-      "version": "3.7.7"
+      "version": "3.7.7",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "arduino-gas-index-algorithm",
-      "version": "3.2.1"
+      "version": "3.2.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "arduino-mlx90393",
-      "version": "1.0.2"
+      "version": "1.0.2",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "arduino-pico",
-      "version": "6.0.0"
+      "version": "6.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "arduinojson",
-      "version": "7.4.3"
+      "version": "7.4.3",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "asyncmqttclient-esphome",
-      "version": "2.0.0"
-    },
-    {
-      "name": "asynctcp",
-      "version": "3.4.91"
+      "version": "2.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "asyncudp",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "bearssl-esp8266",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cmock",
-      "version": "v2.5.2-2-geeecc49ce8af"
+      "version": "v2.5.2-2-geeecc49ce8af",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "dlms-parser",
-      "version": "1.1.0"
+      "version": "1.1.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "dm9051",
-      "version": "1.1.0"
+      "version": "1.1.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "dsmr-parser",
-      "version": "1.9.0"
+      "version": "1.9.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "eppp-link",
-      "version": "1.1.5"
+      "version": "1.1.5",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-audio-libs",
-      "version": "3.2.1"
+      "version": "3.2.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-ble-mesh-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-dsp",
-      "version": "1.8.2"
+      "version": "1.8.2",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-hosted",
-      "version": "2.12.12"
+      "version": "2.12.12",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 1
+      }
     },
     {
       "name": "esp-hub75",
-      "version": "0.3.5"
+      "version": "0.3.5",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-micro-speech-features",
-      "version": "1.2.3"
+      "version": "1.2.3",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-phy-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-thread-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-wifi-remote",
-      "version": "1.6.3"
+      "version": "1.6.3",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-wireguard",
-      "version": "0.4.5"
+      "version": "0.4.5",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-zigbee-lib",
-      "version": "2.0.4"
+      "version": "2.0.4",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-audioi2s",
-      "version": "2.3.0"
+      "version": "2.3.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 1
+      }
     },
     {
       "name": "esp32-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-camera",
-      "version": "2.1.7"
+      "version": "2.1.7",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-wifi-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c2-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c3-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c5-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c6-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32h2-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp8266-arduino-core",
-      "version": "3.1.2"
+      "version": "3.1.2",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp8266-nonos-sdk",
-      "version": "2.2.0"
+      "version": "2.2.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp8266sdfat",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp82xx-nonos-linklayer",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "espasynctcp",
-      "version": "2.0.0"
+      "version": "2.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esphost",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "espsoftwareserial",
-      "version": "8.0.1"
+      "version": "8.0.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "ethernet",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 711
+      }
     },
     {
       "name": "fastled",
-      "version": "3.10.3..3.10.4"
+      "version": "3.10.3..3.10.4",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "haierprotocol",
-      "version": "0.9.31"
+      "version": "0.9.31",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "heatpumpir",
-      "version": "1.0.42"
+      "version": "1.0.42",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "http-parser",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "improv",
-      "version": "1.2.7"
+      "version": "1.2.7",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 4098
+      }
     },
     {
       "name": "ip101",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "joystick",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 2
+      }
     },
     {
       "name": "keyboard",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 253
+      }
     },
     {
       "name": "ksz80xx",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "lan867x",
-      "version": "2.0.0"
+      "version": "2.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "lan87xx",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "littlefs",
-      "version": "2.11.1"
+      "version": "2.11.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 4
+      }
     },
     {
       "name": "lvgl",
-      "version": "9.5.0"
+      "version": "9.5.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "mcux-sdk-middleware-usb",
-      "version": "1.4.1"
+      "version": "1.4.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mdns",
-      "version": "1.12.0"
+      "version": "1.12.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "micro-flac",
-      "version": "0.2.0"
+      "version": "0.2.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "micro-opus",
-      "version": "0.4.1"
+      "version": "0.4.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "micro-wav",
-      "version": "0.2.0"
+      "version": "0.2.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mideauart",
-      "version": "1.1.9.."
+      "version": "1.1.9..",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "midiusb",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mouse",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 141
+      }
     },
     {
       "name": "mqtt",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "neopixelbus",
-      "version": "2.8.0"
+      "version": "2.8.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "noise-c",
-      "version": "0.1.30"
+      "version": "0.1.30",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "pico-sdk",
-      "version": "2.3.0"
+      "version": "2.3.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "pngle",
-      "version": "1.1.0"
+      "version": "1.1.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "pyserial",
-      "version": "3.5"
+      "version": "3.5",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "qr-code-generator-library",
-      "version": "1.7.0"
+      "version": "1.7.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "rpasynctcp",
-      "version": "1.3.2"
+      "version": "1.3.2",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "rtl8201",
-      "version": "1.0.1"
+      "version": "1.0.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "sdfat",
-      "version": "2.3.1"
+      "version": "2.3.1",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "spiffs",
-      "version": "0.2-265-gad902ca"
+      "version": "0.2-265-gad902ca",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "spiftl",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "stm32-dp83848",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-13T01:18:20.212Z",
+        "records": 0
+      }
     },
     {
       "name": "tflite-micro",
-      "version": "1.3.3~1"
+      "version": "1.3.3~1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tinygpsplus",
-      "version": "v1.1.0"
+      "version": "v1.1.0",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tinyusb",
-      "version": "2.2.1"
+      "version": "2.2.1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tlsf",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tm1651",
-      "version": "1.0.1"
+      "version": "1.0.1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "unity",
-      "version": "v2.6.0-RC1"
+      "version": "v2.6.0-RC1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "updater",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "uzlib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "w5500",
-      "version": "1.0.1"
+      "version": "1.0.1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "wifi-remote-over-eppp",
-      "version": "0.3.3"
+      "version": "0.3.3",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     }
   ]
 }

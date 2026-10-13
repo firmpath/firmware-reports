@@ -10,14 +10,17 @@
     "look": 8,
     "clear": 3,
     "unwatched": 16,
-    "missed_by_nvd_scanners": 14
+    "vulnerabilities": 50,
+    "nvd_would_report": 37,
+    "missed_by_nvd_scanners": 13,
+    "not_checked_against_nvd": 0
   },
   "components": 31,
   "fix": [
     {
       "name": "mbedtls",
       "version": "2.28.7",
-      "action": "Upgrade to 3.6.7 or later",
+      "action": "Move to a maintained branch: 3.6 (until 2027-03), 4.1 (until 2029-03), or the newest release: 2.28 is out of support",
       "vulns": [
         {
           "id": "CVE-2026-35336",
@@ -272,30 +275,6 @@
           ]
         },
         {
-          "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
-          ]
-        },
-        {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
           "id": "CVE-2025-27810",
           "title": "Uninitialized stack memory used to compose ‘TLS finished’ message which may lead to authentication bypasses",
           "severity": "medium",
@@ -475,6 +454,30 @@
           ]
         },
         {
+          "id": "CVE-2023-45199",
+          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
+          ]
+        },
+        {
           "id": "CVE-2026-54441",
           "title": "Signature algorithm restrictions not enforced on certificate chain",
           "severity": "low",
@@ -532,49 +535,6 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-extended-master-secret-calculation-failure-ignored/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50581"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "esp-idf",
-      "version": "4.4.7",
-      "action": "Move to 5.2.2: 4.4 is out of support since 2024-07",
-      "vulns": [
-        {
-          "id": "CVE-2025-66409",
-          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
-          ]
-        },
-        {
-          "id": "CVE-2025-55297",
-          "title": "BluFi Example Memory Overflow Vulnerability",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-55297",
-            "https://www.cve.org/CVERecord?id=CVE-2025-55297"
-          ]
-        },
-        {
-          "id": "CVE-2020-26142",
-          "title": "Vulnerable Espressif WLAN device processes every single fragmented AMPDU frame as an independent and a full frame",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20EN.pdf",
-            "https://www.cve.org/CVERecord?id=CVE-2020-26142"
           ]
         }
       ]
@@ -649,6 +609,37 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2023-53154",
             "https://www.cve.org/CVERecord?id=CVE-2023-53154"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "esp-idf",
+      "version": "4.4.7",
+      "action": "Move to 5.2.2: 4.4 is out of support since 2024-07",
+      "vulns": [
+        {
+          "id": "CVE-2025-55297",
+          "title": "BluFi Example Memory Overflow Vulnerability",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-55297",
+            "https://www.cve.org/CVERecord?id=CVE-2025-55297"
+          ]
+        },
+        {
+          "id": "CVE-2025-66409",
+          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
           ]
         }
       ]
@@ -1222,18 +1213,6 @@
           ]
         },
         {
-          "id": "CVE-2024-28757",
-          "title": "libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-28757",
-            "https://www.cve.org/CVERecord?id=CVE-2024-28757"
-          ]
-        },
-        {
           "id": "CVE-2024-45490",
           "title": "An issue was discovered in libexpat before 2.6.3. xmlparse.c does not reject a negative length for XML_ParseBuffer.",
           "severity": "high",
@@ -1255,6 +1234,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
             "https://www.cve.org/CVERecord?id=CVE-2026-66046"
+          ]
+        },
+        {
+          "id": "CVE-2024-28757",
+          "title": "libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28757",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28757"
           ]
         },
         {
@@ -1534,18 +1525,6 @@
           ]
         },
         {
-          "id": "CVE-2026-56409",
-          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow for the output filename when -d outputDir is used.",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56409",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56409"
-          ]
-        },
-        {
           "id": "CVE-2026-56410",
           "title": "xmlwf in libexpat before 2.8.2 has an integer overflow in resolveSystemId.",
           "severity": "medium",
@@ -1603,6 +1582,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-76957",
             "https://www.cve.org/CVERecord?id=CVE-2026-76957"
+          ]
+        },
+        {
+          "id": "CVE-2026-56409",
+          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow for the output filename when -d outputDir is used.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56409",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56409"
           ]
         },
         {
@@ -1919,18 +1910,6 @@
           ]
         },
         {
-          "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
-          ]
-        },
-        {
           "id": "CVE-2023-41097",
           "title": "Due to a padding oracle, attackers with access to precise time measurement may be able to learn confidential information protected by AES-CBC or RSA OAEP without requiring key information",
           "severity": "medium",
@@ -1963,6 +1942,18 @@
           "nvd_scanner": false,
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
+          ]
+        },
+        {
+          "id": "CVE-2023-45199",
+          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
           ]
         }
       ]
@@ -2045,67 +2036,147 @@
   "unwatched": [
     {
       "name": "asio",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "badwebsockets",
-      "version": "2.4.0.."
+      "version": "2.4.0..",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cmock",
-      "version": "v2.5.2-2-geeecc49ce8af"
+      "version": "v2.5.2-2-geeecc49ce8af",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-ieee802154-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-phy-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-thread-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-wifi-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c3-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esptool",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 1
+      }
     },
     {
       "name": "libsodium",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 9
+      }
     },
     {
       "name": "mqtt",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "spiffs",
-      "version": "0.2-255-g0dbb3f71c5f6"
+      "version": "0.2-255-g0dbb3f71c5f6",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "tinycbor",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "tinyusb",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "unity",
-      "version": "v2.4.3-51-g7d2bf62b7e6a"
+      "version": "v2.4.3-51-g7d2bf62b7e6a",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     }
   ]
 }

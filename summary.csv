@@ -1,17 +1,17 @@
 slug,project,repository,nvd_scanner,firmpath,missed_by_nvd_scanners,not_checked_against_nvd,packages_to_upgrade,packages_to_look_at,components
-fluidnc,FluidNC,https://github.com/bdring/FluidNC,29,49,20,0,3,4,35
-openbeken,OpenBeken,https://github.com/openshwprojects/OpenBK7231T_App,28,49,20,1,4,3,47
-flipper-zero,Flipper Zero,https://github.com/flipperdevices/flipperzero-firmware,31,50,19,0,3,0,11
+fluidnc,FluidNC,https://github.com/bdring/FluidNC,29,49,20,0,3,5,35
+flipper-zero,Flipper Zero,https://github.com/flipperdevices/flipperzero-firmware,31,50,19,0,3,1,11
 meshcore,MeshCore,https://github.com/meshcore-dev/MeshCore,40,59,19,0,5,7,82
-slimevr,SlimeVR Tracker,https://github.com/SlimeVR/SlimeVR-Tracker-ESP,31,49,18,0,3,8,46
-esphome,ESPHome,https://github.com/esphome/esphome,13,30,17,0,4,5,99
-wled,WLED,https://github.com/wled/WLED,23,40,17,0,2,5,45
+openbeken,OpenBeken,https://github.com/openshwprojects/OpenBK7231T_App,28,48,19,1,4,3,47
+esphome,ESPHome,https://github.com/esphome/esphome,13,30,17,0,4,6,99
+slimevr,SlimeVR Tracker,https://github.com/SlimeVR/SlimeVR-Tracker-ESP,31,48,17,0,3,8,46
+wled,WLED,https://github.com/wled/WLED,23,40,17,0,2,7,45
 openevse,OpenEVSE,https://github.com/OpenEVSE/openevse_esp32_firmware,16,31,15,0,4,7,52
 tasmota,Tasmota,https://github.com/arendst/Tasmota,13,28,15,0,3,3,24
-opendtu,OpenDTU,https://github.com/tbnobody/OpenDTU,37,51,14,0,4,7,37
-openshock,OpenShock,https://github.com/OpenShock/Firmware,37,51,14,0,4,8,31
 espeasy,ESPEasy,https://github.com/letscontrolit/ESPEasy,13,26,13,0,2,4,33
 micropython,MicroPython,https://github.com/micropython/micropython,5,20,13,2,3,2,39
+opendtu,OpenDTU,https://github.com/tbnobody/OpenDTU,37,50,13,0,4,8,37
+openshock,OpenShock,https://github.com/OpenShock/Firmware,37,50,13,0,4,8,31
 ot-br-posix,OpenThread Border Router,https://github.com/openthread/ot-br-posix,18,27,3,6,2,1,4
 pebbleos,PebbleOS,https://github.com/coredevices/PebbleOS,0,2,2,0,1,2,13
 openmqttgateway,OpenMQTTGateway,https://github.com/1technophile/OpenMQTTGateway,12,13,1,0,5,9,83

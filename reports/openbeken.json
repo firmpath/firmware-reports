@@ -10,7 +10,10 @@
     "look": 3,
     "clear": 3,
     "unwatched": 37,
-    "missed_by_nvd_scanners": 20
+    "vulnerabilities": 48,
+    "nvd_would_report": 28,
+    "missed_by_nvd_scanners": 19,
+    "not_checked_against_nvd": 1
   },
   "components": 47,
   "fix": [
@@ -92,18 +95,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
           "id": "CVE-2026-50587",
           "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
           "severity": "medium",
@@ -125,6 +116,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-possible-buffer-overflow-ecdh-calc-secret/",
             "https://www.cve.org/CVERecord?id=CVE-2026-35336"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
           ]
         },
         {
@@ -538,18 +541,6 @@
       "action": "Upgrade to 5.5.2 or later",
       "vulns": [
         {
-          "id": "CVE-2025-66409",
-          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
-          ]
-        },
-        {
           "id": "CVE-2025-65092",
           "title": "ESP32-P4 JPEG Decoder Header Parsing Vulnerability",
           "severity": "medium",
@@ -574,18 +565,6 @@
           ]
         },
         {
-          "id": "CVE-2025-64342",
-          "title": "ESP32 Bluetooth Controller Invalid Access Address Vulnerability",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/espressif/esp-idf/security/advisories/GHSA-8mg7-9qpg-p92v",
-            "https://www.cve.org/CVERecord?id=CVE-2025-64342"
-          ]
-        },
-        {
           "id": "CVE-2025-68473",
           "title": "Out-of-Bounds Write in ESP32 Bluetooth SDP Result Handling",
           "severity": "medium",
@@ -598,10 +577,22 @@
           ]
         },
         {
-          "id": "CVE-2020-26142",
-          "title": "Vulnerable Espressif WLAN device processes every single fragmented AMPDU frame as an independent and a full frame",
+          "id": "CVE-2025-66409",
+          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
           "severity": "medium",
           "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
+          ]
+        },
+        {
+          "id": "CVE-2020-26142",
+          "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
+          "severity": "medium",
+          "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
@@ -703,18 +694,6 @@
           ]
         },
         {
-          "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
-          ]
-        },
-        {
           "id": "CVE-2023-41097",
           "title": "Due to a padding oracle, attackers with access to precise time measurement may be able to learn confidential information protected by AES-CBC or RSA OAEP without requiring key information",
           "severity": "medium",
@@ -748,6 +727,18 @@
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
           ]
+        },
+        {
+          "id": "CVE-2023-45199",
+          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
+          ]
         }
       ]
     },
@@ -774,151 +765,336 @@
   "unwatched": [
     {
       "name": "beken-freertos-sdk",
-      "version": "f5a64d4cda03bac6d885f4f30c27bbd3435c5e3a"
+      "version": "f5a64d4cda03bac6d885f4f30c27bbd3435c5e3a",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "bouffalo-sdk",
-      "version": "2.3.26..2.3.27"
+      "version": "2.3.26..2.3.27",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "cmock",
-      "version": "v2.5.2-2-geeecc49ce8af"
+      "version": "v2.5.2-2-geeecc49ce8af",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-ble-mesh-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-phy-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp-thread-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32-wifi-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c2-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c3-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c5-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32c6-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "esp32h2-bt-lib",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "mqtt",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "openbk7231n",
-      "version": "07fd9e0e2da0aabaddab00be2a897589be235158"
+      "version": "07fd9e0e2da0aabaddab00be2a897589be235158",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openbk7231t",
-      "version": "d9411f8808990d8e1dc3767f3aa548a7444e1c01"
+      "version": "d9411f8808990d8e1dc3767f3aa548a7444e1c01",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 3
+      }
     },
     {
       "name": "openbk7239n",
-      "version": "3f1b4f4ce1798a7d062467160f64dea37020f9ee"
+      "version": "3f1b4f4ce1798a7d062467160f64dea37020f9ee",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openbl602",
-      "version": "e0efddc364037ed2b2cd79dae3e51f3e21a75177"
+      "version": "e0efddc364037ed2b2cd79dae3e51f3e21a75177",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openecr6600",
-      "version": "1aa42baa4cbb0781c716f75da28b6371da81215c"
+      "version": "1aa42baa4cbb0781c716f75da28b6371da81215c",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openesp8266",
-      "version": "67a4c26e81ab8b7703c3cf9e4a9178c6245ba277"
+      "version": "67a4c26e81ab8b7703c3cf9e4a9178c6245ba277",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "opengd32vw553",
-      "version": "8b859b21d57bc6b508dc13675c222c893aaec767"
+      "version": "8b859b21d57bc6b508dc13675c222c893aaec767",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openln8825",
-      "version": "2.0.."
+      "version": "2.0..",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openln882h",
-      "version": "84149f251efc120561bdefa17ce399f62eadb8be"
+      "version": "84149f251efc120561bdefa17ce399f62eadb8be",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openrda5981",
-      "version": "46cd5bf6b352615ce4ba0c44ce8634855a233ebc"
+      "version": "46cd5bf6b352615ce4ba0c44ce8634855a233ebc",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openrtl8710a-b",
-      "version": "5d8d26b2cb68f4041a48cca6beae6eb69f34456a"
+      "version": "5d8d26b2cb68f4041a48cca6beae6eb69f34456a",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openrtl8720d",
-      "version": "ad3d02c713286a1da04e7025d0aa74f5214080dc"
+      "version": "ad3d02c713286a1da04e7025d0aa74f5214080dc",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openrtl87x0c",
-      "version": "1e7a2048dc97d1bd37bd62fffc2d49c422ca214a"
+      "version": "1e7a2048dc97d1bd37bd62fffc2d49c422ca214a",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "opentr6260",
-      "version": "a6f72569d0fa195396440bb018d87a43595f334b"
+      "version": "a6f72569d0fa195396440bb018d87a43595f334b",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "opentxw81x",
-      "version": "05bd1742cd07e6d91f1276ca87baae374e156798"
+      "version": "05bd1742cd07e6d91f1276ca87baae374e156798",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openw600",
-      "version": "db909ce9100e389f45c9ccfd155f755b8dd3a350"
+      "version": "db909ce9100e389f45c9ccfd155f755b8dd3a350",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openw800",
-      "version": "f917fe93389846f7762e1f40b2cf9593749ad760"
+      "version": "f917fe93389846f7762e1f40b2cf9593749ad760",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openxr806",
-      "version": "3113bbb32f8378206f52d72406aa123a1368bfec"
+      "version": "3113bbb32f8378206f52d72406aa123a1368bfec",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openxr809",
-      "version": "b35b75ce118dc25ecdf0d767f79a5f5dac5144cf"
+      "version": "b35b75ce118dc25ecdf0d767f79a5f5dac5144cf",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "openxr872",
-      "version": "84deedb8e2014e6b5252f2b21055fa31eb3d4b90"
+      "version": "84deedb8e2014e6b5252f2b21055fa31eb3d4b90",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "spiffs",
-      "version": "0.2-255-g0dbb3f71c5f6"
+      "version": "0.2-255-g0dbb3f71c5f6",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     },
     {
       "name": "tlsf",
-      "version": null
+      "version": null,
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     },
     {
       "name": "unity",
-      "version": "v2.6.0-RC1"
+      "version": "v2.6.0-RC1",
+      "nvd": {
+        "by": null,
+        "checked_at": null,
+        "records": null
+      }
     }
   ]
 }

@@ -10,7 +10,10 @@
     "look": 1,
     "clear": 0,
     "unwatched": 1,
-    "missed_by_nvd_scanners": 3
+    "vulnerabilities": 27,
+    "nvd_would_report": 18,
+    "missed_by_nvd_scanners": 3,
+    "not_checked_against_nvd": 6
   },
   "components": 4,
   "fix": [
@@ -371,7 +374,12 @@
   "unwatched": [
     {
       "name": "ot-br-posix",
-      "version": "v2026.10.0"
+      "version": "v2026.10.0",
+      "nvd": {
+        "by": "name",
+        "checked_at": "2026-10-12T23:44:39.519Z",
+        "records": 0
+      }
     }
   ]
 }
