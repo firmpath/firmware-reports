@@ -35,18 +35,6 @@
           ]
         },
         {
-          "id": "CVE-2021-38441",
-          "title": "Eclipse CycloneDDS versions prior to 0.8.0 are vulnerable to a write-what-where condition, which may allow an attacker t",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2021-38441",
-            "https://www.cve.org/CVERecord?id=CVE-2021-38441"
-          ]
-        },
-        {
           "id": "CVE-2021-38443",
           "title": "Eclipse CycloneDDS versions prior to 0.8.0 improperly handle invalid structures, which may allow an attacker to write ar",
           "severity": "medium",
@@ -56,6 +44,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2021-38443",
             "https://www.cve.org/CVERecord?id=CVE-2021-38443"
+          ]
+        },
+        {
+          "id": "CVE-2021-38441",
+          "title": "Eclipse CycloneDDS versions prior to 0.8.0 are vulnerable to a write-what-where condition, which may allow an attacker t",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-38441",
+            "https://www.cve.org/CVERecord?id=CVE-2021-38441"
           ]
         },
         {
@@ -102,18 +102,6 @@
           ]
         },
         {
-          "id": "CVE-2016-6129",
-          "title": "The rsa_verify_hash_ex function in rsa_verify_hash.c in LibTomCrypt, as used in OP-TEE before 2.2.0, does not validate t",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2016-6129",
-            "https://www.cve.org/CVERecord?id=CVE-2016-6129"
-          ]
-        },
-        {
           "id": "CVE-2005-1600",
           "title": "A \"mathematical flaw\" in the implementation of the El Gamal signature algorithm for LibTomCrypt 1.0 to 1.0.2 allows atta",
           "severity": "high",
@@ -123,6 +111,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2005-1600",
             "https://www.cve.org/CVERecord?id=CVE-2005-1600"
+          ]
+        },
+        {
+          "id": "CVE-2016-6129",
+          "title": "The rsa_verify_hash_ex function in rsa_verify_hash.c in LibTomCrypt, as used in OP-TEE before 2.2.0, does not validate t",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2016-6129",
+            "https://www.cve.org/CVERecord?id=CVE-2016-6129"
           ]
         },
         {
@@ -325,18 +325,18 @@
       "name": "tflite-micro",
       "version": "3c0b1e3091e4ea423e1bf9da89d41d09517eb0c9",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     },
     {
       "name": "zenoh-pico",
       "version": "6ec4dc1995f185330e4f6faa8c719eb86f180deb",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     }
   ]

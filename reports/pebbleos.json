@@ -8,8 +8,8 @@
   "summary": {
     "fix": 1,
     "look": 2,
-    "clear": 0,
-    "unwatched": 10,
+    "clear": 1,
+    "unwatched": 9,
     "vulnerabilities": 2,
     "nvd_would_report": 0,
     "missed_by_nvd_scanners": 2,
@@ -49,20 +49,207 @@
   ],
   "look": [
     {
+      "name": "moddable",
+      "version": "25f1a3bb1e47d1dff750d4571ae314239735bee9",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2020-25462",
+          "title": "Heap buffer overflow in the fxCheckArrowFunction function at moddable/xs/sources/xsSyntaxical.c:3562 in Moddable SDK bef",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-25462",
+            "https://www.cve.org/CVERecord?id=CVE-2020-25462"
+          ]
+        },
+        {
+          "id": "CVE-2019-16366",
+          "title": "In XS 9.0.0 in Moddable SDK OS180329, there is a heap-based buffer overflow in fxBeginHost in xsAPI.c when called from f",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-16366",
+            "https://www.cve.org/CVERecord?id=CVE-2019-16366"
+          ]
+        },
+        {
+          "id": "CVE-2022-29368",
+          "title": "Moddable commit before 135aa9a4a6a9b49b60aa730ebc3bcc6247d75c45 was discovered to contain an out-of-bounds read via the ",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-29368",
+            "https://www.cve.org/CVERecord?id=CVE-2022-29368"
+          ]
+        },
+        {
+          "id": "CVE-2021-29328",
+          "title": "OpenSource Moddable v10.5.0 was discovered to contain buffer over-read in the fxDebugThrow function at /moddable/xs/sour",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-29328",
+            "https://www.cve.org/CVERecord?id=CVE-2021-29328"
+          ]
+        },
+        {
+          "id": "CVE-2021-29329",
+          "title": "OpenSource Moddable v10.5.0 was discovered to contain a stack overflow in the fxBinaryExpressionNodeDistribute function ",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-29329",
+            "https://www.cve.org/CVERecord?id=CVE-2021-29329"
+          ]
+        },
+        {
+          "id": "CVE-2021-29327",
+          "title": "OpenSource Moddable v10.5.0 was discovered to contain a heap buffer overflow in the fx_ArrayBuffer function at /moddable",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-29327",
+            "https://www.cve.org/CVERecord?id=CVE-2021-29327"
+          ]
+        },
+        {
+          "id": "CVE-2021-29326",
+          "title": "OpenSource Moddable v10.5.0 was discovered to contain a heap buffer overflow in the fxIDToString function at /moddable/x",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-29326",
+            "https://www.cve.org/CVERecord?id=CVE-2021-29326"
+          ]
+        },
+        {
+          "id": "CVE-2021-29324",
+          "title": "OpenSource Moddable v10.5.0 was discovered to contain a stack overflow via the component /moddable/xs/sources/xsScript.c",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-29324",
+            "https://www.cve.org/CVERecord?id=CVE-2021-29324"
+          ]
+        },
+        {
+          "id": "CVE-2021-29325",
+          "title": "OpenSource Moddable v10.5.0 was discovered to contain a heap buffer overflow in the fx_String_prototype_repeat function ",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-29325",
+            "https://www.cve.org/CVERecord?id=CVE-2021-29325"
+          ]
+        },
+        {
+          "id": "CVE-2020-22882",
+          "title": "Issue was discovered in the fxParserTree function in moddable, allows attackers to cause denial of service via a crafted",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-22882",
+            "https://www.cve.org/CVERecord?id=CVE-2020-22882"
+          ]
+        },
+        {
+          "id": "CVE-2020-25465",
+          "title": "Null Pointer Dereference. in xObjectBindingFromExpression at moddable/xs/sources/xsSyntaxical.c:3419 in Moddable SDK bef",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-25465",
+            "https://www.cve.org/CVERecord?id=CVE-2020-25465"
+          ]
+        },
+        {
+          "id": "CVE-2020-25464",
+          "title": "Heap buffer overflow at moddable/xs/sources/xsDebug.c in Moddable SDK before before 20200903. The top stack frame is onl",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-25464",
+            "https://www.cve.org/CVERecord?id=CVE-2020-25464"
+          ]
+        },
+        {
+          "id": "CVE-2020-25463",
+          "title": "Invalid Memory Access in fxUTF8Decode at moddable/xs/sources/xsCommon.c:916 in Moddable SDK before OS200908 causes a den",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-25463",
+            "https://www.cve.org/CVERecord?id=CVE-2020-25463"
+          ]
+        },
+        {
+          "id": "CVE-2020-25461",
+          "title": "Invalid Memory Access in the fxProxyGetter function in moddable/xs/sources/xsProxy.c in Moddable SDK before OS200908 cau",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-25461",
+            "https://www.cve.org/CVERecord?id=CVE-2020-25461"
+          ]
+        },
+        {
+          "id": "CVE-2021-29323",
+          "title": "OpenSource Moddable v10.5.0 was discovered to contain a heap buffer overflow via the component /modules/network/wifi/esp",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-29323",
+            "https://www.cve.org/CVERecord?id=CVE-2021-29323"
+          ]
+        }
+      ]
+    },
+    {
       "name": "nimble",
       "version": "2ea18b9af381cb6741620fb710395b5d506d323d",
       "action": "A vendor fork: check whether it carries the fixes",
       "vulns": [
         {
-          "id": "CVE-2026-45813",
-          "title": "Incorrect data validation in BASS add/modify source operation",
+          "id": "CVE-2026-45816",
+          "title": "NULL pointer dereference vulnerability in SMP LTK request",
           "severity": "high",
           "vendor": "nimble",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
           ]
         },
         {
@@ -78,6 +265,18 @@
           ]
         },
         {
+          "id": "CVE-2026-45813",
+          "title": "Incorrect data validation in BASS add/modify source operation",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
+          ]
+        },
+        {
           "id": "CVE-2026-45811",
           "title": "Buffer overflow in socket HCI transport",
           "severity": "high",
@@ -87,18 +286,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
             "https://www.cve.org/CVERecord?id=CVE-2026-45811"
-          ]
-        },
-        {
-          "id": "CVE-2025-52435",
-          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
-            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
           ]
         },
         {
@@ -126,27 +313,15 @@
           ]
         },
         {
-          "id": "CVE-2026-45816",
-          "title": "NULL pointer dereference vulnerability in SMP LTK request",
+          "id": "CVE-2025-52435",
+          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
           "severity": "high",
           "vendor": "nimble",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
-          ]
-        },
-        {
-          "id": "CVE-2026-45812",
-          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
           ]
         },
         {
@@ -162,6 +337,18 @@
           ]
         },
         {
+          "id": "CVE-2026-45812",
+          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
+          ]
+        },
+        {
           "id": "CVE-2025-53470",
           "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
           "severity": "low",
@@ -171,73 +358,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-53470",
             "https://www.cve.org/CVERecord?id=CVE-2025-53470"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "freertos-kernel",
-      "version": "8583941bff119369cad8dc65489a7d05140f5f67",
-      "action": "Version numbers can't settle this. Have a look.",
-      "vulns": [
-        {
-          "id": "CVE-2026-77235",
-          "title": "Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-55pf-q87x-c58c",
-            "https://www.cve.org/CVERecord?id=CVE-2026-77235"
-          ]
-        },
-        {
-          "id": "CVE-2026-77236",
-          "title": "Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-vq2f-9qj3-jj2m",
-            "https://www.cve.org/CVERecord?id=CVE-2026-77236"
-          ]
-        },
-        {
-          "id": "CVE-2026-77234",
-          "title": "Improper input validation in FreeRTOS-Kernel timer command handling",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-w3vr-pr75-5hc6",
-            "https://www.cve.org/CVERecord?id=CVE-2026-77234"
-          ]
-        },
-        {
-          "id": "CVE-2024-28115",
-          "title": "Potential Privilege Escalation in FreeRTOS Kernel ARMv7-M MPU ports and ARMv8-M ports with MPU support enabled",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-xcv7-v92w-gq6r",
-            "https://www.cve.org/CVERecord?id=CVE-2024-28115"
-          ]
-        },
-        {
-          "id": "CVE-2026-77237",
-          "title": "Missing type validation in xQueueAddToSet in FreeRTOS-Kernel",
-          "severity": "medium",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-9wvc-hqvx-5wf5",
-            "https://www.cve.org/CVERecord?id=CVE-2026-77237"
           ]
         }
       ]
@@ -251,6 +371,15 @@
         "by": "name",
         "checked_at": "2026-10-12T23:44:39.519Z",
         "records": 0
+      }
+    },
+    {
+      "name": "freertos-kernel",
+      "version": "8583941bff119369cad8dc65489a7d05140f5f67",
+      "nvd": {
+        "by": "cpe",
+        "checked_at": null,
+        "records": null
       }
     },
     {
@@ -269,15 +398,6 @@
         "by": "name",
         "checked_at": "2026-10-12T23:44:39.519Z",
         "records": 0
-      }
-    },
-    {
-      "name": "moddable",
-      "version": "25f1a3bb1e47d1dff750d4571ae314239735bee9",
-      "nvd": {
-        "by": "cpe",
-        "checked_at": null,
-        "records": null
       }
     },
     {
@@ -317,21 +437,12 @@
       }
     },
     {
-      "name": "speex",
-      "version": "1.2.1..",
-      "nvd": {
-        "by": "cpe",
-        "checked_at": null,
-        "records": null
-      }
-    },
-    {
       "name": "tinymt",
       "version": "1.1.2..",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     }
   ]

@@ -7,12 +7,12 @@
   },
   "summary": {
     "fix": 3,
-    "look": 3,
+    "look": 4,
     "clear": 3,
-    "unwatched": 15,
-    "vulnerabilities": 28,
-    "nvd_would_report": 13,
-    "missed_by_nvd_scanners": 15,
+    "unwatched": 14,
+    "vulnerabilities": 30,
+    "nvd_would_report": 17,
+    "missed_by_nvd_scanners": 13,
     "not_checked_against_nvd": 0
   },
   "components": 24,
@@ -155,6 +155,18 @@
           ]
         },
         {
+          "id": "CVE-2026-50588",
+          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
+          ]
+        },
+        {
           "id": "CVE-2026-73064",
           "title": "A random generator fault can compromise TLS data integrity",
           "severity": "low",
@@ -176,18 +188,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
             "https://www.cve.org/CVERecord?id=CVE-2025-66442"
-          ]
-        },
-        {
-          "id": "CVE-2026-50588",
-          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
           ]
         }
       ]
@@ -222,15 +222,15 @@
           ]
         },
         {
-          "id": "CVE-2024-51569",
-          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
+          "id": "CVE-2026-45816",
+          "title": "NULL pointer dereference vulnerability in SMP LTK request",
           "severity": "high",
           "vendor": "nimble",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
-            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
           ]
         },
         {
@@ -243,18 +243,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
             "https://www.cve.org/CVERecord?id=CVE-2026-45813"
-          ]
-        },
-        {
-          "id": "CVE-2024-24746",
-          "title": "Denial of service in NimBLE Bluetooth stack",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
-            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
           ]
         },
         {
@@ -282,15 +270,39 @@
           ]
         },
         {
-          "id": "CVE-2026-45816",
-          "title": "NULL pointer dereference vulnerability in SMP LTK request",
+          "id": "CVE-2024-51569",
+          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
           "severity": "high",
           "vendor": "nimble",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
+            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
+          ]
+        },
+        {
+          "id": "CVE-2024-24746",
+          "title": "Denial of service in NimBLE Bluetooth stack",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
+            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
+          ]
+        },
+        {
+          "id": "CVE-2026-46452",
+          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
+            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
           ]
         },
         {
@@ -318,18 +330,6 @@
           ]
         },
         {
-          "id": "CVE-2026-46452",
-          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
-            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
-          ]
-        },
-        {
           "id": "CVE-2025-53470",
           "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
           "severity": "low",
@@ -344,22 +344,67 @@
       ]
     },
     {
-      "name": "esp-idf",
-      "version": "5.5.5",
-      "action": "Upgrade to 6.1.1 or later",
+      "name": "unity",
+      "version": "v2.6.0-RC1",
+      "action": "No fixed version given. Read the advisory.",
       "vulns": [
         {
-          "id": "CVE-2026-81508",
-          "title": "Heap Out-of-Bounds Read in Bluedroid A2DP Sink Media Packet Processing",
-          "severity": "medium",
-          "vendor": "espressif",
+          "id": "CVE-2014-5195",
+          "title": "Unity before 7.2.3 and 7.3.x before 7.3.1, as used in Ubuntu, does not properly take focus of the keyboard when switchin",
+          "severity": "high",
+          "vendor": null,
           "exploited": false,
-          "nvd_scanner": false,
+          "nvd_scanner": true,
           "links": [
-            "https://github.com/espressif/esp-idf/security/advisories/GHSA-xcpr-5mqp-9qvv",
-            "https://www.cve.org/CVERecord?id=CVE-2026-81508"
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-5195",
+            "https://www.cve.org/CVERecord?id=CVE-2014-5195"
           ]
         },
+        {
+          "id": "CVE-2014-3203",
+          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly restrict access to the Dash when the lock screen is activ",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3203",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3203"
+          ]
+        },
+        {
+          "id": "CVE-2014-3202",
+          "title": "Unity before 7.2.1 does not properly handle entry activation, which allows physically proximate attackers to bypass the ",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3202",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3202"
+          ]
+        },
+        {
+          "id": "CVE-2014-3204",
+          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly handle keyboard shortcuts, which allows physically proxim",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3204",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3204"
+          ]
+        }
+      ]
+    }
+  ],
+  "look": [
+    {
+      "name": "esp-idf",
+      "version": "5.5.5",
+      "action": "Version numbers can't settle this. Have a look.",
+      "vulns": [
         {
           "id": "CVE-2020-26142",
           "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
@@ -373,9 +418,7 @@
           ]
         }
       ]
-    }
-  ],
-  "look": [
+    },
     {
       "name": "lwip",
       "version": "2.2.0",
@@ -555,15 +598,6 @@
     {
       "name": "tlsf",
       "version": null,
-      "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
-      }
-    },
-    {
-      "name": "unity",
-      "version": "v2.6.0-RC1",
       "nvd": {
         "by": null,
         "checked_at": null,

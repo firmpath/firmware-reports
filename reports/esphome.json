@@ -7,12 +7,12 @@
   },
   "summary": {
     "fix": 4,
-    "look": 6,
+    "look": 7,
     "clear": 4,
-    "unwatched": 85,
-    "vulnerabilities": 30,
-    "nvd_would_report": 13,
-    "missed_by_nvd_scanners": 17,
+    "unwatched": 84,
+    "vulnerabilities": 32,
+    "nvd_would_report": 17,
+    "missed_by_nvd_scanners": 15,
     "not_checked_against_nvd": 0
   },
   "components": 99,
@@ -155,6 +155,18 @@
           ]
         },
         {
+          "id": "CVE-2026-50588",
+          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
+          ]
+        },
+        {
           "id": "CVE-2026-73064",
           "title": "A random generator fault can compromise TLS data integrity",
           "severity": "low",
@@ -176,18 +188,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
             "https://www.cve.org/CVERecord?id=CVE-2025-66442"
-          ]
-        },
-        {
-          "id": "CVE-2026-50588",
-          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
           ]
         }
       ]
@@ -222,15 +222,15 @@
           ]
         },
         {
-          "id": "CVE-2024-51569",
-          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
+          "id": "CVE-2026-45816",
+          "title": "NULL pointer dereference vulnerability in SMP LTK request",
           "severity": "high",
           "vendor": "nimble",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
-            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
           ]
         },
         {
@@ -243,18 +243,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
             "https://www.cve.org/CVERecord?id=CVE-2026-45813"
-          ]
-        },
-        {
-          "id": "CVE-2024-24746",
-          "title": "Denial of service in NimBLE Bluetooth stack",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
-            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
           ]
         },
         {
@@ -282,15 +270,39 @@
           ]
         },
         {
-          "id": "CVE-2026-45816",
-          "title": "NULL pointer dereference vulnerability in SMP LTK request",
+          "id": "CVE-2024-51569",
+          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
           "severity": "high",
           "vendor": "nimble",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
+            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
+          ]
+        },
+        {
+          "id": "CVE-2024-24746",
+          "title": "Denial of service in NimBLE Bluetooth stack",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
+            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
+          ]
+        },
+        {
+          "id": "CVE-2026-46452",
+          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
+            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
           ]
         },
         {
@@ -318,18 +330,6 @@
           ]
         },
         {
-          "id": "CVE-2026-46452",
-          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
-            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
-          ]
-        },
-        {
           "id": "CVE-2025-53470",
           "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
           "severity": "low",
@@ -344,22 +344,98 @@
       ]
     },
     {
-      "name": "esp-idf",
-      "version": "5.5.5",
-      "action": "Upgrade to 6.1.1 or later",
+      "name": "unity",
+      "version": "v2.6.0-RC1",
+      "action": "No fixed version given. Read the advisory.",
       "vulns": [
         {
-          "id": "CVE-2026-81508",
-          "title": "Heap Out-of-Bounds Read in Bluedroid A2DP Sink Media Packet Processing",
+          "id": "CVE-2014-5195",
+          "title": "Unity before 7.2.3 and 7.3.x before 7.3.1, as used in Ubuntu, does not properly take focus of the keyboard when switchin",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-5195",
+            "https://www.cve.org/CVERecord?id=CVE-2014-5195"
+          ]
+        },
+        {
+          "id": "CVE-2014-3203",
+          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly restrict access to the Dash when the lock screen is activ",
           "severity": "medium",
-          "vendor": "espressif",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3203",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3203"
+          ]
+        },
+        {
+          "id": "CVE-2014-3202",
+          "title": "Unity before 7.2.1 does not properly handle entry activation, which allows physically proximate attackers to bypass the ",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3202",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3202"
+          ]
+        },
+        {
+          "id": "CVE-2014-3204",
+          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly handle keyboard shortcuts, which allows physically proxim",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3204",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3204"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "espasyncwebserver",
+      "version": "3.9.6",
+      "action": "Upgrade to 3.11.2 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-62966",
+          "title": "Null-pointer write in ESPAsyncWebServer multipart parser ",
+          "severity": "high",
+          "vendor": "espasyncwebserver",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://github.com/espressif/esp-idf/security/advisories/GHSA-xcpr-5mqp-9qvv",
-            "https://www.cve.org/CVERecord?id=CVE-2026-81508"
+            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-8m8p-vhxc-jmjw",
+            "https://www.cve.org/CVERecord?id=CVE-2026-62966"
           ]
         },
+        {
+          "id": "CVE-2026-54571",
+          "title": "Integer overflow in multipart boundary parser causes denial of service",
+          "severity": "high",
+          "vendor": "espasyncwebserver",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-4phx-fcj6-46r4",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54571"
+          ]
+        }
+      ]
+    }
+  ],
+  "look": [
+    {
+      "name": "esp-idf",
+      "version": "5.5.5",
+      "action": "Version numbers can't settle this. Have a look.",
+      "vulns": [
         {
           "id": "CVE-2020-26142",
           "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
@@ -374,39 +450,6 @@
         }
       ]
     },
-    {
-      "name": "espasyncwebserver",
-      "version": "3.9.6",
-      "action": "Upgrade to 3.11.2 or later",
-      "vulns": [
-        {
-          "id": "CVE-2026-54571",
-          "title": "Integer overflow in multipart boundary parser causes denial of service",
-          "severity": "high",
-          "vendor": "espasyncwebserver",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-4phx-fcj6-46r4",
-            "https://www.cve.org/CVERecord?id=CVE-2026-54571"
-          ]
-        },
-        {
-          "id": "CVE-2026-62966",
-          "title": "Null-pointer write in ESPAsyncWebServer multipart parser ",
-          "severity": "high",
-          "vendor": "espasyncwebserver",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-8m8p-vhxc-jmjw",
-            "https://www.cve.org/CVERecord?id=CVE-2026-62966"
-          ]
-        }
-      ]
-    }
-  ],
-  "look": [
     {
       "name": "lwip",
       "version": "2.2.0",
@@ -452,73 +495,6 @@
       "vulns": []
     },
     {
-      "name": "freertos-kernel",
-      "version": null,
-      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
-      "vulns": [
-        {
-          "id": "CVE-2026-77235",
-          "title": "Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-55pf-q87x-c58c",
-            "https://www.cve.org/CVERecord?id=CVE-2026-77235"
-          ]
-        },
-        {
-          "id": "CVE-2026-77236",
-          "title": "Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-vq2f-9qj3-jj2m",
-            "https://www.cve.org/CVERecord?id=CVE-2026-77236"
-          ]
-        },
-        {
-          "id": "CVE-2026-77234",
-          "title": "Improper input validation in FreeRTOS-Kernel timer command handling",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-w3vr-pr75-5hc6",
-            "https://www.cve.org/CVERecord?id=CVE-2026-77234"
-          ]
-        },
-        {
-          "id": "CVE-2024-28115",
-          "title": "Potential Privilege Escalation in FreeRTOS Kernel ARMv7-M MPU ports and ARMv8-M ports with MPU support enabled",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-xcv7-v92w-gq6r",
-            "https://www.cve.org/CVERecord?id=CVE-2024-28115"
-          ]
-        },
-        {
-          "id": "CVE-2026-77237",
-          "title": "Missing type validation in xQueueAddToSet in FreeRTOS-Kernel",
-          "severity": "medium",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/FreeRTOS/FreeRTOS-Kernel/security/advisories/GHSA-9wvc-hqvx-5wf5",
-            "https://www.cve.org/CVERecord?id=CVE-2026-77237"
-          ]
-        }
-      ]
-    },
-    {
       "name": "arduinocore-api",
       "version": null,
       "action": "Bundled in an SDK with no version of its own. Check the advisories.",
@@ -552,6 +528,25 @@
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/200-299/A-00000279.md",
             "https://www.cve.org/CVERecord?id=CVE-2021-26706"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "updater",
+      "version": null,
+      "action": "No version given. Add the exact release to your SBOM.",
+      "vulns": [
+        {
+          "id": "CVE-2025-4455",
+          "title": "A vulnerability was found in Patch My PC Home Updater up to 5.1.3.0. It has been rated as critical. This issue affects s",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-4455",
+            "https://www.cve.org/CVERecord?id=CVE-2025-4455"
           ]
         }
       ]
@@ -937,6 +932,15 @@
       }
     },
     {
+      "name": "freertos-kernel",
+      "version": null,
+      "nvd": {
+        "by": "cpe",
+        "checked_at": null,
+        "records": null
+      }
+    },
+    {
       "name": "haierprotocol",
       "version": "0.9.31",
       "nvd": {
@@ -1237,27 +1241,27 @@
       "name": "tflite-micro",
       "version": "1.3.3~1",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     },
     {
       "name": "tinygpsplus",
       "version": "v1.1.0",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     },
     {
       "name": "tinyusb",
       "version": "2.2.1",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     },
     {
@@ -1273,54 +1277,36 @@
       "name": "tm1651",
       "version": "1.0.1",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
-      }
-    },
-    {
-      "name": "unity",
-      "version": "v2.6.0-RC1",
-      "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
-      }
-    },
-    {
-      "name": "updater",
-      "version": null,
-      "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     },
     {
       "name": "uzlib",
       "version": null,
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     },
     {
       "name": "w5500",
       "version": "1.0.1",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     },
     {
       "name": "wifi-remote-over-eppp",
       "version": "0.3.3",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-13T07:41:17.736Z",
+        "records": 0
       }
     }
   ]
