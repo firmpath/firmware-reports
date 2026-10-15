@@ -145,9 +145,9 @@
       "name": "dsdl",
       "version": "993be80a62ec957c01fb41115b83663959a49f46",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-14T07:21:19.105Z",
+        "records": 0
       }
     },
     {

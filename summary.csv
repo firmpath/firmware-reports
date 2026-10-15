@@ -1,5 +1,5 @@
 slug,project,repository,nvd_scanner,firmpath,missed_by_nvd_scanners,not_checked_against_nvd,packages_to_upgrade,packages_to_look_at,components
-flipper-zero,Flipper Zero,https://github.com/flipperdevices/flipperzero-firmware,31,50,19,0,3,1,11
+flipper-zero,Flipper Zero,https://github.com/flipperdevices/flipperzero-firmware,26,45,19,0,2,1,11
 fluidnc,FluidNC,https://github.com/bdring/FluidNC,33,52,19,0,4,5,35
 meshcore,MeshCore,https://github.com/meshcore-dev/MeshCore,79,98,19,0,8,6,82
 openbeken,OpenBeken,https://github.com/openshwprojects/OpenBK7231T_App,32,51,18,1,5,3,47

@@ -9,7 +9,7 @@ Firmpath.
 
 | Project | NVD scanner | Firmpath | Not reported by NVD scanners | |
 |---|---:|---:|---:|---|
-| [Flipper Zero](https://app.firmpath.dev/reports/flipper-zero) | 31 | **50** | 19 | [data](reports/flipper-zero.json) |
+| [Flipper Zero](https://app.firmpath.dev/reports/flipper-zero) | 26 | **45** | 19 | [data](reports/flipper-zero.json) |
 | [FluidNC](https://app.firmpath.dev/reports/fluidnc) | 33 | **52** | 19 | [data](reports/fluidnc.json) |
 | [MeshCore](https://app.firmpath.dev/reports/meshcore) | 79 | **98** | 19 | [data](reports/meshcore.json) |
 | [OpenBeken](https://app.firmpath.dev/reports/openbeken) | 32 | **51** | 18 | [data](reports/openbeken.json) |

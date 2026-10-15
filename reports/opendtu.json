@@ -1697,9 +1697,9 @@
       "name": "rf24",
       "version": "1.6.2",
       "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
+        "by": "name",
+        "checked_at": "2026-10-14T07:21:19.105Z",
+        "records": 0
       }
     },
     {
