@@ -7,9 +7,9 @@
   },
   "summary": {
     "fix": 4,
-    "look": 7,
+    "look": 8,
     "clear": 4,
-    "unwatched": 84,
+    "unwatched": 83,
     "vulnerabilities": 32,
     "nvd_would_report": 17,
     "missed_by_nvd_scanners": 15,
@@ -495,6 +495,37 @@
       "vulns": []
     },
     {
+      "name": "freertos-kernel",
+      "version": null,
+      "action": "Bundled in an SDK with no version of its own. Check the advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2026-109587",
+          "title": "Arm Cortex-R82 MPU Region Limit Mask Inversion",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-109587",
+            "https://www.cve.org/CVERecord?id=CVE-2026-109587"
+          ]
+        },
+        {
+          "id": "CVE-2026-109588",
+          "title": "Arm Cortex-R82 MPU Buffer Authorization Truncation",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-109588",
+            "https://www.cve.org/CVERecord?id=CVE-2026-109588"
+          ]
+        }
+      ]
+    },
+    {
       "name": "arduinocore-api",
       "version": null,
       "action": "Bundled in an SDK with no version of its own. Check the advisories.",
@@ -929,15 +960,6 @@
         "by": "name",
         "checked_at": "2026-10-12T23:44:39.519Z",
         "records": 0
-      }
-    },
-    {
-      "name": "freertos-kernel",
-      "version": null,
-      "nvd": {
-        "by": "cpe",
-        "checked_at": null,
-        "records": null
       }
     },
     {

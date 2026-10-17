@@ -7,9 +7,9 @@
   },
   "summary": {
     "fix": 1,
-    "look": 2,
+    "look": 3,
     "clear": 1,
-    "unwatched": 9,
+    "unwatched": 8,
     "vulnerabilities": 2,
     "nvd_would_report": 0,
     "missed_by_nvd_scanners": 2,
@@ -361,6 +361,37 @@
           ]
         }
       ]
+    },
+    {
+      "name": "freertos-kernel",
+      "version": "8583941bff119369cad8dc65489a7d05140f5f67",
+      "action": "Version numbers can't settle this. Have a look.",
+      "vulns": [
+        {
+          "id": "CVE-2026-109587",
+          "title": "Arm Cortex-R82 MPU Region Limit Mask Inversion",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-109587",
+            "https://www.cve.org/CVERecord?id=CVE-2026-109587"
+          ]
+        },
+        {
+          "id": "CVE-2026-109588",
+          "title": "Arm Cortex-R82 MPU Buffer Authorization Truncation",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-109588",
+            "https://www.cve.org/CVERecord?id=CVE-2026-109588"
+          ]
+        }
+      ]
     }
   ],
   "unwatched": [
@@ -371,15 +402,6 @@
         "by": "name",
         "checked_at": "2026-10-12T23:44:39.519Z",
         "records": 0
-      }
-    },
-    {
-      "name": "freertos-kernel",
-      "version": "8583941bff119369cad8dc65489a7d05140f5f67",
-      "nvd": {
-        "by": "cpe",
-        "checked_at": null,
-        "records": null
       }
     },
     {

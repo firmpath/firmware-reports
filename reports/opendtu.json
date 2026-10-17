@@ -1328,18 +1328,6 @@
       "action": "A vendor fork: check whether it carries the fixes",
       "vulns": [
         {
-          "id": "CVE-2020-22284",
-          "title": "Buffer overread vulnerability allows attackers to access sensitive information",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2020-22284",
-            "https://www.cve.org/CVERecord?id=CVE-2020-22284"
-          ]
-        },
-        {
           "id": "CVE-2020-22283",
           "title": "Buffer overflow vulnerability via a crafted ICMPv6 message may lead to accessing sensitive information",
           "severity": "high",
@@ -1349,6 +1337,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2020-22283",
             "https://www.cve.org/CVERecord?id=CVE-2020-22283"
+          ]
+        },
+        {
+          "id": "CVE-2020-22284",
+          "title": "Buffer overread vulnerability allows attackers to access sensitive information",
+          "severity": "high",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-22284",
+            "https://www.cve.org/CVERecord?id=CVE-2020-22284"
           ]
         }
       ]

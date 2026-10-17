@@ -8,8 +8,8 @@
   "summary": {
     "fix": 0,
     "look": 0,
-    "clear": 0,
-    "unwatched": 1,
+    "clear": 1,
+    "unwatched": 0,
     "vulnerabilities": 0,
     "nvd_would_report": 0,
     "missed_by_nvd_scanners": 0,
@@ -18,15 +18,5 @@
   "components": 1,
   "fix": [],
   "look": [],
-  "unwatched": [
-    {
-      "name": "freertos-kernel",
-      "version": "10.4.3..11.2.0",
-      "nvd": {
-        "by": "cpe",
-        "checked_at": null,
-        "records": null
-      }
-    }
-  ]
+  "unwatched": []
 }
