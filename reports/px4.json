@@ -7,15 +7,15 @@
   },
   "summary": {
     "fix": 1,
-    "look": 1,
-    "clear": 0,
-    "unwatched": 22,
+    "look": 4,
+    "clear": 1,
+    "unwatched": 21,
     "vulnerabilities": 5,
     "nvd_would_report": 2,
     "missed_by_nvd_scanners": 1,
     "not_checked_against_nvd": 2
   },
-  "components": 24,
+  "components": 27,
   "fix": [
     {
       "name": "cyclonedds",
@@ -85,6 +85,121 @@
   ],
   "look": [
     {
+      "name": "nuttx",
+      "version": "8.2..",
+      "action": "Version numbers can't settle this. Have a look.",
+      "vulns": [
+        {
+          "id": "CVE-2025-35003",
+          "title": "Improper Restriction of Operations within the Bounds of a Memory Buffer and Stack-based Buffer Overflow vulnerabilities ",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-35003",
+            "https://www.cve.org/CVERecord?id=CVE-2025-35003"
+          ]
+        },
+        {
+          "id": "CVE-2020-1939",
+          "title": "The Apache NuttX (Incubating) project provides an optional separate \"apps\" repository which contains various optional co",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-1939",
+            "https://www.cve.org/CVERecord?id=CVE-2020-1939"
+          ]
+        },
+        {
+          "id": "CVE-2025-47869",
+          "title": "Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability was discovered in Apache NuttX RTO",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-47869",
+            "https://www.cve.org/CVERecord?id=CVE-2025-47869"
+          ]
+        },
+        {
+          "id": "CVE-2021-26461",
+          "title": "Apache Nuttx Versions prior to 10.1.0 are vulnerable to integer wrap-around in functions malloc, realloc and memalign. T",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-26461",
+            "https://www.cve.org/CVERecord?id=CVE-2021-26461"
+          ]
+        },
+        {
+          "id": "CVE-2020-17528",
+          "title": "Out-of-bounds Write vulnerability in TCP stack of Apache NuttX (incubating) versions up to and including 9.1.0 and 10.0.",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-17528",
+            "https://www.cve.org/CVERecord?id=CVE-2020-17528"
+          ]
+        },
+        {
+          "id": "CVE-2025-47868",
+          "title": "Out-of-bounds Write resulting in possible Heap-based Buffer Overflow vulnerability was discovered in tools/bdf-converter",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-47868",
+            "https://www.cve.org/CVERecord?id=CVE-2025-47868"
+          ]
+        },
+        {
+          "id": "CVE-2020-17529",
+          "title": "Out-of-bounds Write vulnerability in TCP Stack of Apache NuttX (incubating) versions up to and including 9.1.0 and 10.0.",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-17529",
+            "https://www.cve.org/CVERecord?id=CVE-2020-17529"
+          ]
+        },
+        {
+          "id": "CVE-2025-48769",
+          "title": "Use After Free vulnerability was discovered in fs/vfs/fs_rename code of the Apache NuttX RTOS, that due recursive implem",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-48769",
+            "https://www.cve.org/CVERecord?id=CVE-2025-48769"
+          ]
+        },
+        {
+          "id": "CVE-2025-48768",
+          "title": "Release of Invalid Pointer or Reference vulnerability was discovered in fs/inode/fs_inoderemove code of the Apache NuttX",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-48768",
+            "https://www.cve.org/CVERecord?id=CVE-2025-48768"
+          ]
+        }
+      ]
+    },
+    {
       "name": "libtomcrypt",
       "version": "673f5ce29015a9bba3c96792920a10601b5b0718",
       "action": "A vendor fork: check whether it carries the fixes",
@@ -102,18 +217,6 @@
           ]
         },
         {
-          "id": "CVE-2005-1600",
-          "title": "A \"mathematical flaw\" in the implementation of the El Gamal signature algorithm for LibTomCrypt 1.0 to 1.0.2 allows atta",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2005-1600",
-            "https://www.cve.org/CVERecord?id=CVE-2005-1600"
-          ]
-        },
-        {
           "id": "CVE-2016-6129",
           "title": "The rsa_verify_hash_ex function in rsa_verify_hash.c in LibTomCrypt, as used in OP-TEE before 2.2.0, does not validate t",
           "severity": "high",
@@ -123,6 +226,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2016-6129",
             "https://www.cve.org/CVERecord?id=CVE-2016-6129"
+          ]
+        },
+        {
+          "id": "CVE-2005-1600",
+          "title": "A \"mathematical flaw\" in the implementation of the El Gamal signature algorithm for LibTomCrypt 1.0 to 1.0.2 allows atta",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2005-1600",
+            "https://www.cve.org/CVERecord?id=CVE-2005-1600"
           ]
         },
         {
@@ -138,6 +253,31 @@
           ]
         }
       ]
+    },
+    {
+      "name": "libtommath",
+      "version": "fd73d7630b9d3ed5a79d613ff680a549e9780de7",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2023-36328",
+          "title": "Integer Overflow vulnerability in mp_grow in libtom libtommath before commit beba892bc0d4e4ded4d667ab1d2a94f4d75109a9, a",
+          "severity": "critical",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-36328",
+            "https://www.cve.org/CVERecord?id=CVE-2023-36328"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lord-microstrain-mip-sdk",
+      "version": "35596994b60ba89fe02f71ce5127baa5e7ff2bbf",
+      "action": "Move to a supported release: all is out of support",
+      "vulns": []
     }
   ],
   "unwatched": [
@@ -187,26 +327,17 @@
       }
     },
     {
-      "name": "libevents",
-      "version": "9ef591c447fe0386d698bf6fb9a6d27e43988ee4",
+      "name": "libcanard",
+      "version": "5c69d451ab0787a81dcb615692d707f2a286f5e5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-13T01:18:20.212Z",
         "records": 0
       }
     },
     {
-      "name": "libtommath",
-      "version": "fd73d7630b9d3ed5a79d613ff680a549e9780de7",
-      "nvd": {
-        "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
-        "records": 3
-      }
-    },
-    {
-      "name": "lord-microstrain-mip-sdk",
-      "version": "35596994b60ba89fe02f71ce5127baa5e7ff2bbf",
+      "name": "libevents",
+      "version": "9ef591c447fe0386d698bf6fb9a6d27e43988ee4",
       "nvd": {
         "by": "name",
         "checked_at": "2026-10-12T23:44:39.519Z",

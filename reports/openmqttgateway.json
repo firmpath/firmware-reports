@@ -7,9 +7,9 @@
   },
   "summary": {
     "fix": 7,
-    "look": 9,
+    "look": 8,
     "clear": 0,
-    "unwatched": 67,
+    "unwatched": 68,
     "vulnerabilities": 48,
     "nvd_would_report": 47,
     "missed_by_nvd_scanners": 1,
@@ -23,18 +23,6 @@
       "action": "Upgrade to 2.8.4 or later",
       "vulns": [
         {
-          "id": "CVE-2024-45492",
-          "title": "An issue was discovered in libexpat before 2.6.3. nextScaffoldPart in xmlparse.c can have an integer overflow for m_grou",
-          "severity": "critical",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-45492",
-            "https://www.cve.org/CVERecord?id=CVE-2024-45492"
-          ]
-        },
-        {
           "id": "CVE-2024-45491",
           "title": "An issue was discovered in libexpat before 2.6.3. dtdCopy in xmlparse.c can have an integer overflow for nDefaultAtts on",
           "severity": "critical",
@@ -47,39 +35,15 @@
           ]
         },
         {
-          "id": "CVE-2026-66046",
-          "title": "Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAt",
-          "severity": "high",
+          "id": "CVE-2024-45492",
+          "title": "An issue was discovered in libexpat before 2.6.3. nextScaffoldPart in xmlparse.c can have an integer overflow for m_grou",
+          "severity": "critical",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
-            "https://www.cve.org/CVERecord?id=CVE-2026-66046"
-          ]
-        },
-        {
-          "id": "CVE-2024-45490",
-          "title": "An issue was discovered in libexpat before 2.6.3. xmlparse.c does not reject a negative length for XML_ParseBuffer.",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-45490",
-            "https://www.cve.org/CVERecord?id=CVE-2024-45490"
-          ]
-        },
-        {
-          "id": "CVE-2023-52425",
-          "title": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in th",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2023-52425",
-            "https://www.cve.org/CVERecord?id=CVE-2023-52425"
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-45492",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45492"
           ]
         },
         {
@@ -95,51 +59,39 @@
           ]
         },
         {
-          "id": "CVE-2026-76957",
-          "title": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur",
-          "severity": "medium",
+          "id": "CVE-2026-66046",
+          "title": "Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAt",
+          "severity": "high",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-76957",
-            "https://www.cve.org/CVERecord?id=CVE-2026-76957"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
+            "https://www.cve.org/CVERecord?id=CVE-2026-66046"
           ]
         },
         {
-          "id": "CVE-2026-56412",
-          "title": "libexpat before 2.8.2 does not consider XML_TOK_DATA_CHARS in doCdataSection and thus lacks handler call depth tracking ",
-          "severity": "medium",
+          "id": "CVE-2023-52425",
+          "title": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in th",
+          "severity": "high",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56412",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56412"
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-52425",
+            "https://www.cve.org/CVERecord?id=CVE-2023-52425"
           ]
         },
         {
-          "id": "CVE-2026-56410",
-          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow in resolveSystemId.",
-          "severity": "medium",
+          "id": "CVE-2024-45490",
+          "title": "An issue was discovered in libexpat before 2.6.3. xmlparse.c does not reject a negative length for XML_ParseBuffer.",
+          "severity": "high",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56410",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56410"
-          ]
-        },
-        {
-          "id": "CVE-2026-56411",
-          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow in endDoctypeDecl via NOTATION declarations.",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56411",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56411"
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-45490",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45490"
           ]
         },
         {
@@ -155,90 +107,6 @@
           ]
         },
         {
-          "id": "CVE-2026-56408",
-          "title": "libexpat before 2.8.2 has an integer overflow in copyString.",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56408",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56408"
-          ]
-        },
-        {
-          "id": "CVE-2026-56407",
-          "title": "libexpat before 2.8.2 has an integer overflow in doProlog that is related to storeEntityValue and entity textLen.",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56407",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56407"
-          ]
-        },
-        {
-          "id": "CVE-2026-56406",
-          "title": "libexpat before 2.8.2 has an integer overflow in XML_ParseBuffer because it lacked a check that was present in XML_Parse",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56406",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56406"
-          ]
-        },
-        {
-          "id": "CVE-2026-56405",
-          "title": "libexpat before 2.8.2 has an integer overflow in getAttributeId.",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56405",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56405"
-          ]
-        },
-        {
-          "id": "CVE-2026-56404",
-          "title": "libexpat before 2.8.2 has an integer overflow in addBinding.",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56404",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56404"
-          ]
-        },
-        {
-          "id": "CVE-2026-56403",
-          "title": "libexpat before 2.8.2 has an integer overflow in storeAtts.",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56403",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56403"
-          ]
-        },
-        {
-          "id": "CVE-2026-56132",
-          "title": "In libexpat before 2.8.2, there is a heap-based buffer overflow in doProlog in xmlparse.c because scaffold backing array",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56132",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56132"
-          ]
-        },
-        {
           "id": "CVE-2026-56131",
           "title": "libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_ResumeParser from within handlers in cases of a",
           "severity": "medium",
@@ -251,39 +119,15 @@
           ]
         },
         {
-          "id": "CVE-2026-50219",
-          "title": "libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_GetBuffer, XML_Parse, XML_ParseBuffer, XML_Pars",
+          "id": "CVE-2026-56408",
+          "title": "libexpat before 2.8.2 has an integer overflow in copyString.",
           "severity": "medium",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-50219",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50219"
-          ]
-        },
-        {
-          "id": "CVE-2026-32777",
-          "title": "Hitachi Energy RTU500",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-32777",
-            "https://www.cve.org/CVERecord?id=CVE-2026-32777"
-          ]
-        },
-        {
-          "id": "CVE-2026-32776",
-          "title": "Hitachi Energy RTU500",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-32776",
-            "https://www.cve.org/CVERecord?id=CVE-2026-32776"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56408",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56408"
           ]
         },
         {
@@ -299,6 +143,18 @@
           ]
         },
         {
+          "id": "CVE-2024-50602",
+          "title": "An issue was discovered in libexpat before 2.6.4. There is a crash within the XML_ResumeParser function because XML_Stop",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-50602",
+            "https://www.cve.org/CVERecord?id=CVE-2024-50602"
+          ]
+        },
+        {
           "id": "CVE-2025-59375",
           "title": "Hitachi Energy RTU500 Product",
           "severity": "medium",
@@ -308,6 +164,114 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
             "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ]
+        },
+        {
+          "id": "CVE-2026-76957",
+          "title": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-76957",
+            "https://www.cve.org/CVERecord?id=CVE-2026-76957"
+          ]
+        },
+        {
+          "id": "CVE-2026-32777",
+          "title": "Hitachi Energy RTU500",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32777",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32777"
+          ]
+        },
+        {
+          "id": "CVE-2026-56403",
+          "title": "libexpat before 2.8.2 has an integer overflow in storeAtts.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56403",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56403"
+          ]
+        },
+        {
+          "id": "CVE-2026-56411",
+          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow in endDoctypeDecl via NOTATION declarations.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56411",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56411"
+          ]
+        },
+        {
+          "id": "CVE-2026-56405",
+          "title": "libexpat before 2.8.2 has an integer overflow in getAttributeId.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56405",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56405"
+          ]
+        },
+        {
+          "id": "CVE-2026-56407",
+          "title": "libexpat before 2.8.2 has an integer overflow in doProlog that is related to storeEntityValue and entity textLen.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56407",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56407"
+          ]
+        },
+        {
+          "id": "CVE-2026-56404",
+          "title": "libexpat before 2.8.2 has an integer overflow in addBinding.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56404",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56404"
+          ]
+        },
+        {
+          "id": "CVE-2026-56412",
+          "title": "libexpat before 2.8.2 does not consider XML_TOK_DATA_CHARS in doCdataSection and thus lacks handler call depth tracking ",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56412",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56412"
+          ]
+        },
+        {
+          "id": "CVE-2026-50219",
+          "title": "libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_GetBuffer, XML_Parse, XML_ParseBuffer, XML_Pars",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-50219",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50219"
           ]
         },
         {
@@ -323,39 +287,51 @@
           ]
         },
         {
-          "id": "CVE-2024-50602",
-          "title": "An issue was discovered in libexpat before 2.6.4. There is a crash within the XML_ResumeParser function because XML_Stop",
+          "id": "CVE-2026-56132",
+          "title": "In libexpat before 2.8.2, there is a heap-based buffer overflow in doProlog in xmlparse.c because scaffold backing array",
           "severity": "medium",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-50602",
-            "https://www.cve.org/CVERecord?id=CVE-2024-50602"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56132",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56132"
           ]
         },
         {
-          "id": "CVE-2026-45186",
-          "title": "In libexpat before 2.8.1, the computational complexity of attribute name collision checks allows a denial of service via",
-          "severity": "low",
+          "id": "CVE-2026-56410",
+          "title": "xmlwf in libexpat before 2.8.2 has an integer overflow in resolveSystemId.",
+          "severity": "medium",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45186",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45186"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56410",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56410"
           ]
         },
         {
-          "id": "CVE-2026-41080",
-          "title": "libexpat before 2.8.0 uses insufficient entropy, and thus hash flooding can occur via a crafted XML document.",
-          "severity": "low",
+          "id": "CVE-2026-32776",
+          "title": "Hitachi Energy RTU500",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32776",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32776"
+          ]
+        },
+        {
+          "id": "CVE-2026-56406",
+          "title": "libexpat before 2.8.2 has an integer overflow in XML_ParseBuffer because it lacked a check that was present in XML_Parse",
+          "severity": "medium",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-41080",
-            "https://www.cve.org/CVERecord?id=CVE-2026-41080"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56406",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56406"
           ]
         },
         {
@@ -371,6 +347,18 @@
           ]
         },
         {
+          "id": "CVE-2026-41080",
+          "title": "libexpat before 2.8.0 uses insufficient entropy, and thus hash flooding can occur via a crafted XML document.",
+          "severity": "low",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-41080",
+            "https://www.cve.org/CVERecord?id=CVE-2026-41080"
+          ]
+        },
+        {
           "id": "CVE-2026-24515",
           "title": "Hitachi Energy RTU500",
           "severity": "low",
@@ -380,6 +368,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-24515",
             "https://www.cve.org/CVERecord?id=CVE-2026-24515"
+          ]
+        },
+        {
+          "id": "CVE-2026-45186",
+          "title": "In libexpat before 2.8.1, the computational complexity of attribute name collision checks allows a denial of service via",
+          "severity": "low",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45186",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45186"
           ]
         },
         {
@@ -524,18 +524,6 @@
       "action": "Move to 5.2.2: 4.4 is out of support since 2024-07",
       "vulns": [
         {
-          "id": "CVE-2020-26142",
-          "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20EN.pdf",
-            "https://www.cve.org/CVERecord?id=CVE-2020-26142"
-          ]
-        },
-        {
           "id": "CVE-2025-66409",
           "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
           "severity": "medium",
@@ -558,6 +546,18 @@
             "https://nvd.nist.gov/vuln/detail/CVE-2025-55297",
             "https://www.cve.org/CVERecord?id=CVE-2025-55297"
           ]
+        },
+        {
+          "id": "CVE-2020-26142",
+          "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20EN.pdf",
+            "https://www.cve.org/CVERecord?id=CVE-2020-26142"
+          ]
         }
       ]
     },
@@ -566,18 +566,6 @@
       "version": "1.7.15",
       "action": "Upgrade to 1.7.18 or later",
       "vulns": [
-        {
-          "id": "CVE-2023-26819",
-          "title": "cJSON 1.7.15 might allow a denial of service via a crafted JSON document such as {\"a\": true, \"b\": [ null,999999999999999",
-          "severity": "low",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2023-26819",
-            "https://www.cve.org/CVERecord?id=CVE-2023-26819"
-          ]
-        },
         {
           "id": "CVE-2023-53154",
           "title": "parse_string in cJSON before 1.7.18 has a heap-based buffer over-read via {\"1\":1, with no trailing newline if cJSON_Pars",
@@ -588,6 +576,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2023-53154",
             "https://www.cve.org/CVERecord?id=CVE-2023-53154"
+          ]
+        },
+        {
+          "id": "CVE-2023-26819",
+          "title": "cJSON 1.7.15 might allow a denial of service via a crafted JSON document such as {\"a\": true, \"b\": [ null,999999999999999",
+          "severity": "low",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-26819",
+            "https://www.cve.org/CVERecord?id=CVE-2023-26819"
           ]
         }
       ]
@@ -650,6 +650,66 @@
       "action": "Move to a maintained branch: 3.6 (until 2027-03), 4.1 (until 2029-03), or the newest release: 2.28 is out of support",
       "vulns": [
         {
+          "id": "CVE-2023-52353",
+          "title": "Server refuses TLS 1.3 connection from peer if peer used TLS 1.2 previously",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-52353",
+            "https://www.cve.org/CVERecord?id=CVE-2023-52353"
+          ]
+        },
+        {
+          "id": "CVE-2024-45158",
+          "title": "Stack buffer overflow in ECDSA signature conversion functions",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45158"
+          ]
+        },
+        {
+          "id": "CVE-2025-47917",
+          "title": "Misleading memory management in mbedtls_x509_string_to_names()",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-47917",
+            "https://www.cve.org/CVERecord?id=CVE-2025-47917"
+          ]
+        },
+        {
+          "id": "CVE-2024-45157",
+          "title": "CTR_DRBG prioritized over HMAC_DRBG as the PSA DRBG",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-45157",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45157"
+          ]
+        },
+        {
+          "id": "CVE-2025-54764",
+          "title": "Side channel in RSA key generation and operations",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
+            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
+          ]
+        },
+        {
           "id": "CVE-2021-43615",
           "title": "Buffer overread in TLS stream 7.5 cipher suites",
           "severity": "critical",
@@ -671,42 +731,6 @@
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
             "https://www.cve.org/CVERecord?id=CVE-2024-49195"
-          ]
-        },
-        {
-          "id": "CVE-2024-45159",
-          "title": "Limited authentication bypass in TLS 1.3 optional client authentication",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000530.md",
-            "https://www.cve.org/CVERecord?id=CVE-2024-45159"
-          ]
-        },
-        {
-          "id": "CVE-2024-45158",
-          "title": "Stack buffer overflow in ECDSA signature conversion functions",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
-            "https://www.cve.org/CVERecord?id=CVE-2024-45158"
-          ]
-        },
-        {
-          "id": "CVE-2024-45157",
-          "title": "CTR_DRBG prioritized over HMAC_DRBG as the PSA DRBG",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-45157",
-            "https://www.cve.org/CVERecord?id=CVE-2024-45157"
           ]
         },
         {
@@ -734,39 +758,15 @@
           ]
         },
         {
-          "id": "CVE-2025-54764",
-          "title": "Side channel in RSA key generation and operations",
+          "id": "CVE-2024-45159",
+          "title": "Limited authentication bypass in TLS 1.3 optional client authentication",
           "severity": "critical",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
-            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
-          ]
-        },
-        {
-          "id": "CVE-2025-47917",
-          "title": "Misleading memory management in mbedtls_x509_string_to_names()",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-47917",
-            "https://www.cve.org/CVERecord?id=CVE-2025-47917"
-          ]
-        },
-        {
-          "id": "CVE-2023-52353",
-          "title": "Server refuses TLS 1.3 connection from peer if peer used TLS 1.2 previously",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2023-52353",
-            "https://www.cve.org/CVERecord?id=CVE-2023-52353"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000530.md",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45159"
           ]
         },
         {
@@ -806,30 +806,6 @@
           ]
         },
         {
-          "id": "CVE-2024-28755",
-          "title": "Vulnerability in devices operating as TLS 1.3 servers",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000514.md",
-            "https://www.cve.org/CVERecord?id=CVE-2024-28755"
-          ]
-        },
-        {
-          "id": "CVE-2024-23744",
-          "title": "Vulnerability in devices operating as TLS 1.3 servers",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000514.md",
-            "https://www.cve.org/CVERecord?id=CVE-2024-23744"
-          ]
-        },
-        {
           "id": "CVE-2026-25835",
           "title": "PSA random generator cloning",
           "severity": "high",
@@ -839,18 +815,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-25835",
             "https://www.cve.org/CVERecord?id=CVE-2026-25835"
-          ]
-        },
-        {
-          "id": "CVE-2024-28960",
-          "title": "Vulnerability affecting all VSE devices and TrustZone aware projects using PSA Crypto APIs with array arguments",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-28960",
-            "https://www.cve.org/CVERecord?id=CVE-2024-28960"
           ]
         },
         {
@@ -878,15 +842,27 @@
           ]
         },
         {
-          "id": "CVE-2022-46393",
-          "title": "Potential heap overflow for certain configurations of Mbed TLS before 2.28.2 and 3.3.0",
+          "id": "CVE-2024-23744",
+          "title": "Vulnerability in devices operating as TLS 1.3 servers",
           "severity": "high",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2022-46393",
-            "https://www.cve.org/CVERecord?id=CVE-2022-46393"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000514.md",
+            "https://www.cve.org/CVERecord?id=CVE-2024-23744"
+          ]
+        },
+        {
+          "id": "CVE-2024-28755",
+          "title": "Vulnerability in devices operating as TLS 1.3 servers",
+          "severity": "high",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000514.md",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28755"
           ]
         },
         {
@@ -902,6 +878,18 @@
           ]
         },
         {
+          "id": "CVE-2024-28960",
+          "title": "Vulnerability affecting all VSE devices and TrustZone aware projects using PSA Crypto APIs with array arguments",
+          "severity": "high",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28960",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28960"
+          ]
+        },
+        {
           "id": "CVE-2021-43666",
           "title": "Denial of Service the mbedtls_pkcs12_derivation function in Mbed TLS <=3.0.0",
           "severity": "high",
@@ -914,122 +902,15 @@
           ]
         },
         {
-          "id": "CVE-2026-50587",
-          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
-          ]
-        },
-        {
-          "id": "CVE-2026-35336",
-          "title": "Possible buffer overflow in mbedtls_ecdh_calc_secret()",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-possible-buffer-overflow-ecdh-calc-secret/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-35336"
-          ]
-        },
-        {
-          "id": "A-00000492",
-          "title": "A bug in TLS MAC length calculation may cause a buffer overread",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
-          ]
-        },
-        {
-          "id": "CVE-2026-54435",
-          "title": "Side channel leak in ECC optimized modp",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ecc-optimized-modp-side-channel/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-54435"
-          ]
-        },
-        {
-          "id": "CVE-2026-50585",
-          "title": "Incomplete context reset in mbedtls_ssl_session_reset()",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ssl-session-reset-incomplete-context-reset/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50585"
-          ]
-        },
-        {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
-          "id": "CVE-2023-41097",
-          "title": "Due to a padding oracle, attackers with access to precise time measurement may be able to learn confidential information protected by AES-CBC or RSA OAEP without requiring key information",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-41097"
-          ]
-        },
-        {
-          "id": "CVE-2025-49087",
-          "title": "Timing side-channel in block cipher decryption with PKCS#7 padding",
-          "severity": "medium",
+          "id": "CVE-2022-46393",
+          "title": "Potential heap overflow for certain configurations of Mbed TLS before 2.28.2 and 3.3.0",
+          "severity": "high",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
-            "https://www.cve.org/CVERecord?id=CVE-2025-49087"
-          ]
-        },
-        {
-          "id": "CVE-2025-49601",
-          "title": "Out-of-bounds read in mbedtls_lms_import_public_key()",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
-            "https://www.cve.org/CVERecord?id=CVE-2025-49601"
-          ]
-        },
-        {
-          "id": "CVE-2025-49600",
-          "title": "Unchecked return value in LMS verification allows signature bypass",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
-            "https://www.cve.org/CVERecord?id=CVE-2025-49600"
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-46393",
+            "https://www.cve.org/CVERecord?id=CVE-2022-46393"
           ]
         },
         {
@@ -1045,51 +926,15 @@
           ]
         },
         {
-          "id": "CVE-2026-34872",
-          "title": "FFDH: lack of contributory behaviour due to improper input validation",
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
           "severity": "medium",
           "vendor": "mbedtls",
           "exploited": false,
-          "nvd_scanner": true,
+          "nvd_scanner": false,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34872",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34872"
-          ]
-        },
-        {
-          "id": "CVE-2025-48965",
-          "title": "NULL pointer dereference after using mbedtls_asn1_store_named_data()",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-48965",
-            "https://www.cve.org/CVERecord?id=CVE-2025-48965"
-          ]
-        },
-        {
-          "id": "CVE-2025-52497",
-          "title": "Heap buffer under-read when parsing PEM-encrypted material",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-52497",
-            "https://www.cve.org/CVERecord?id=CVE-2025-52497"
-          ]
-        },
-        {
-          "id": "CVE-2025-52496",
-          "title": "Race condition in AESNI support detection",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-52496",
-            "https://www.cve.org/CVERecord?id=CVE-2025-52496"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
           ]
         },
         {
@@ -1105,27 +950,39 @@
           ]
         },
         {
-          "id": "CVE-2025-27809",
-          "title": "Server hostname is not verified in a TLS handshake",
+          "id": "CVE-2026-50587",
+          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
+          ]
+        },
+        {
+          "id": "CVE-2025-49600",
+          "title": "Unchecked return value in LMS verification allows signature bypass",
           "severity": "medium",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-27809",
-            "https://www.cve.org/CVERecord?id=CVE-2025-27809"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49600"
           ]
         },
         {
-          "id": "CVE-2023-43615",
-          "title": "Buffer overread in TLS stream cipher suites",
+          "id": "CVE-2025-52496",
+          "title": "Race condition in AESNI support detection",
           "severity": "medium",
           "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2023-43615",
-            "https://www.cve.org/CVERecord?id=CVE-2023-43615"
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52496",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52496"
           ]
         },
         {
@@ -1141,6 +998,54 @@
           ]
         },
         {
+          "id": "CVE-2025-49087",
+          "title": "Timing side-channel in block cipher decryption with PKCS#7 padding",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49087"
+          ]
+        },
+        {
+          "id": "CVE-2026-35336",
+          "title": "Possible buffer overflow in mbedtls_ecdh_calc_secret()",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-possible-buffer-overflow-ecdh-calc-secret/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-35336"
+          ]
+        },
+        {
+          "id": "CVE-2026-34872",
+          "title": "FFDH: lack of contributory behaviour due to improper input validation",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34872",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34872"
+          ]
+        },
+        {
+          "id": "CVE-2023-41097",
+          "title": "Due to a padding oracle, attackers with access to precise time measurement may be able to learn confidential information protected by AES-CBC or RSA OAEP without requiring key information",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-41097"
+          ]
+        },
+        {
           "id": "CVE-2021-45451",
           "title": "Vulnerabilities in PSA Crypto included in GSDK before 4.2.0",
           "severity": "medium",
@@ -1153,6 +1058,101 @@
           ]
         },
         {
+          "id": "A-00000492",
+          "title": "A bug in TLS MAC length calculation may cause a buffer overread",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
+          ]
+        },
+        {
+          "id": "CVE-2025-52497",
+          "title": "Heap buffer under-read when parsing PEM-encrypted material",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52497",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52497"
+          ]
+        },
+        {
+          "id": "CVE-2026-54435",
+          "title": "Side channel leak in ECC optimized modp",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ecc-optimized-modp-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54435"
+          ]
+        },
+        {
+          "id": "CVE-2025-27809",
+          "title": "Server hostname is not verified in a TLS handshake",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-27809",
+            "https://www.cve.org/CVERecord?id=CVE-2025-27809"
+          ]
+        },
+        {
+          "id": "CVE-2025-49601",
+          "title": "Out-of-bounds read in mbedtls_lms_import_public_key()",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49601"
+          ]
+        },
+        {
+          "id": "CVE-2026-50585",
+          "title": "Incomplete context reset in mbedtls_ssl_session_reset()",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ssl-session-reset-incomplete-context-reset/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50585"
+          ]
+        },
+        {
+          "id": "CVE-2025-48965",
+          "title": "NULL pointer dereference after using mbedtls_asn1_store_named_data()",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-48965",
+            "https://www.cve.org/CVERecord?id=CVE-2025-48965"
+          ]
+        },
+        {
+          "id": "CVE-2023-43615",
+          "title": "Buffer overread in TLS stream cipher suites",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-43615",
+            "https://www.cve.org/CVERecord?id=CVE-2023-43615"
+          ]
+        },
+        {
           "id": "CVE-2026-54441",
           "title": "Signature algorithm restrictions not enforced on certificate chain",
           "severity": "low",
@@ -1162,42 +1162,6 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-signature-algorithm-restrictions-certificate-chain/",
             "https://www.cve.org/CVERecord?id=CVE-2026-54441"
-          ]
-        },
-        {
-          "id": "CVE-2026-50581",
-          "title": "Extended master secret calculation failure ignored",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-extended-master-secret-calculation-failure-ignored/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50581"
-          ]
-        },
-        {
-          "id": "CVE-2026-50586",
-          "title": "Information disclosure in TLS 1.2 NewSessionTicket",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-newsessionticket-information-disclosure/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50586"
-          ]
-        },
-        {
-          "id": "CVE-2026-34877",
-          "title": "Risk of insufficient protection of serialized session or context data leading to potential memory safety issues",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34877",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34877"
           ]
         },
         {
@@ -1223,192 +1187,41 @@
             "https://nvd.nist.gov/vuln/detail/CVE-2026-34871",
             "https://www.cve.org/CVERecord?id=CVE-2026-34871"
           ]
-        }
-      ]
-    },
-    {
-      "name": "nimble",
-      "version": "1.3.0..",
-      "action": "A vendor fork: check whether it carries the fixes",
-      "vulns": [
-        {
-          "id": "CVE-2026-45816",
-          "title": "NULL pointer dereference vulnerability in SMP LTK request",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
-          ]
         },
         {
-          "id": "CVE-2026-45815",
-          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
-          ]
-        },
-        {
-          "id": "CVE-2026-45813",
-          "title": "Incorrect data validation in BASS add/modify source operation",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
-          ]
-        },
-        {
-          "id": "CVE-2026-45811",
-          "title": "Buffer overflow in socket HCI transport",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
-          ]
-        },
-        {
-          "id": "CVE-2025-62235",
-          "title": "Incorrect handling of SMP Security Request could lead to undesirable pairing",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-62235",
-            "https://www.cve.org/CVERecord?id=CVE-2025-62235"
-          ]
-        },
-        {
-          "id": "CVE-2025-53477",
-          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
-          ]
-        },
-        {
-          "id": "CVE-2025-52435",
-          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
-            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
-          ]
-        },
-        {
-          "id": "CVE-2024-51569",
-          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
-            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
-          ]
-        },
-        {
-          "id": "CVE-2024-24746",
-          "title": "Denial of service in NimBLE Bluetooth stack",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
-            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
-          ]
-        },
-        {
-          "id": "CVE-2026-46452",
-          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
-            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
-          ]
-        },
-        {
-          "id": "CVE-2026-45812",
-          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
-          ]
-        },
-        {
-          "id": "CVE-2024-47250",
-          "title": "Lack of input validation in HCI advertising report could lead to potential out-of-bound access",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-47250",
-            "https://www.cve.org/CVERecord?id=CVE-2024-47250"
-          ]
-        },
-        {
-          "id": "CVE-2024-47249",
-          "title": "Lack of input sanitization leading to out-of-bound reads in multiple advertisement handler",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-47249",
-            "https://www.cve.org/CVERecord?id=CVE-2024-47249"
-          ]
-        },
-        {
-          "id": "CVE-2024-47248",
-          "title": "Buffer overflow in NimBLE MESH Bluetooth stack",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-47248",
-            "https://www.cve.org/CVERecord?id=CVE-2024-47248"
-          ]
-        },
-        {
-          "id": "CVE-2025-53470",
-          "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
+          "id": "CVE-2026-34877",
+          "title": "Risk of insufficient protection of serialized session or context data leading to potential memory safety issues",
           "severity": "low",
-          "vendor": "nimble",
+          "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53470",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53470"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34877",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34877"
+          ]
+        },
+        {
+          "id": "CVE-2026-50581",
+          "title": "Extended master secret calculation failure ignored",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-extended-master-secret-calculation-failure-ignored/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50581"
+          ]
+        },
+        {
+          "id": "CVE-2026-50586",
+          "title": "Information disclosure in TLS 1.2 NewSessionTicket",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-newsessionticket-information-disclosure/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50586"
           ]
         }
       ]
@@ -1450,29 +1263,6 @@
       "action": "A vendor fork with no release version. Check the vendor's notes on these advisories.",
       "vulns": [
         {
-          "id": "A-00000463",
-          "title": "OpenThread Vulnerability - Key ID Mode 2 Security",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000463.md"
-          ]
-        },
-        {
-          "id": "CVE-2023-41096",
-          "title": "Keys Stored in Plaintext on Secure Vault High for Silabs Ember ZNet and OpenThread devices",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000482.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-41096"
-          ]
-        },
-        {
           "id": "CVE-2023-41095",
           "title": "Keys Stored in Plaintext on Secure Vault High for Silabs Ember ZNet and OpenThread devices",
           "severity": "high",
@@ -1497,26 +1287,38 @@
           ]
         },
         {
-          "id": "A-00000492",
-          "title": "A bug in TLS MAC length calculation may cause a buffer overread",
-          "severity": "medium",
+          "id": "CVE-2023-41096",
+          "title": "Keys Stored in Plaintext on Secure Vault High for Silabs Ember ZNet and OpenThread devices",
+          "severity": "high",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000482.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-41096"
           ]
         },
         {
-          "id": "CVE-2025-2329",
-          "title": "Heavy traffic environment results in denial of service",
+          "id": "A-00000463",
+          "title": "OpenThread Vulnerability - Key ID Mode 2 Security",
+          "severity": "high",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000463.md"
+          ]
+        },
+        {
+          "id": "CVE-2023-45199",
+          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
           "severity": "medium",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000533.md",
-            "https://www.cve.org/CVERecord?id=CVE-2025-2329"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
           ]
         },
         {
@@ -1532,15 +1334,26 @@
           ]
         },
         {
-          "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
+          "id": "CVE-2025-2329",
+          "title": "Heavy traffic environment results in denial of service",
           "severity": "medium",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000533.md",
+            "https://www.cve.org/CVERecord?id=CVE-2025-2329"
+          ]
+        },
+        {
+          "id": "A-00000492",
+          "title": "A bug in TLS MAC length calculation may cause a buffer overread",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
           ]
         }
       ]
@@ -1560,6 +1373,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2014-5195",
             "https://www.cve.org/CVERecord?id=CVE-2014-5195"
+          ]
+        },
+        {
+          "id": "CVE-2014-3204",
+          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly handle keyboard shortcuts, which allows physically proxim",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3204",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3204"
           ]
         },
         {
@@ -1584,18 +1409,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2014-3202",
             "https://www.cve.org/CVERecord?id=CVE-2014-3202"
-          ]
-        },
-        {
-          "id": "CVE-2014-3204",
-          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly handle keyboard shortcuts, which allows physically proxim",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2014-3204",
-            "https://www.cve.org/CVERecord?id=CVE-2014-3204"
           ]
         }
       ]
@@ -1649,18 +1462,6 @@
       "action": "Bundled in an SDK with no version of its own. Check the advisories.",
       "vulns": [
         {
-          "id": "CVE-2019-16128",
-          "title": "Microchip CryptoAuthentication Library CryptoAuthLib prior to 20191122 has a Buffer Overflow (issue 1 of 2).",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2019-16128",
-            "https://www.cve.org/CVERecord?id=CVE-2019-16128"
-          ]
-        },
-        {
           "id": "CVE-2019-16129",
           "title": "Microchip CryptoAuthentication Library CryptoAuthLib prior to 20191122 has a Buffer Overflow (issue 2 of 2).",
           "severity": "medium",
@@ -1670,6 +1471,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2019-16129",
             "https://www.cve.org/CVERecord?id=CVE-2019-16129"
+          ]
+        },
+        {
+          "id": "CVE-2019-16128",
+          "title": "Microchip CryptoAuthentication Library CryptoAuthLib prior to 20191122 has a Buffer Overflow (issue 1 of 2).",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-16128",
+            "https://www.cve.org/CVERecord?id=CVE-2019-16128"
           ]
         }
       ]
@@ -2147,6 +1960,15 @@
         "by": "name",
         "checked_at": "2026-10-12T23:44:39.519Z",
         "records": 0
+      }
+    },
+    {
+      "name": "nimble",
+      "version": "1.3.0..",
+      "nvd": {
+        "by": "cpe",
+        "checked_at": null,
+        "records": null
       }
     },
     {

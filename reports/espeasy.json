@@ -6,12 +6,12 @@
     "filename": "oss-letscontrolit__ESPEasy.cdx.json"
   },
   "summary": {
-    "fix": 3,
+    "fix": 2,
     "look": 4,
     "clear": 3,
-    "unwatched": 23,
-    "vulnerabilities": 30,
-    "nvd_would_report": 17,
+    "unwatched": 24,
+    "vulnerabilities": 18,
+    "nvd_would_report": 5,
     "missed_by_nvd_scanners": 13,
     "not_checked_against_nvd": 0
   },
@@ -59,18 +59,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50587",
-          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
-          ]
-        },
-        {
           "id": "CVE-2026-50584",
           "title": "ChaCha20 counter overflow can reuse keystream",
           "severity": "medium",
@@ -80,6 +68,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50584"
+          ]
+        },
+        {
+          "id": "CVE-2026-50587",
+          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
           ]
         },
         {
@@ -155,18 +155,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50588",
-          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
-          ]
-        },
-        {
           "id": "CVE-2026-73064",
           "title": "A random generator fault can compromise TLS data integrity",
           "severity": "low",
@@ -189,156 +177,17 @@
             "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
             "https://www.cve.org/CVERecord?id=CVE-2025-66442"
           ]
-        }
-      ]
-    },
-    {
-      "name": "nimble",
-      "version": "1.6.0",
-      "action": "Upgrade to 1.10.0 or later",
-      "vulns": [
-        {
-          "id": "CVE-2026-45815",
-          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
-          ]
         },
         {
-          "id": "CVE-2025-52435",
-          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
-            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
-          ]
-        },
-        {
-          "id": "CVE-2026-45816",
-          "title": "NULL pointer dereference vulnerability in SMP LTK request",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
-          ]
-        },
-        {
-          "id": "CVE-2026-45813",
-          "title": "Incorrect data validation in BASS add/modify source operation",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
-          ]
-        },
-        {
-          "id": "CVE-2026-45811",
-          "title": "Buffer overflow in socket HCI transport",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
-          ]
-        },
-        {
-          "id": "CVE-2025-53477",
-          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
-          ]
-        },
-        {
-          "id": "CVE-2024-51569",
-          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
-            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
-          ]
-        },
-        {
-          "id": "CVE-2024-24746",
-          "title": "Denial of service in NimBLE Bluetooth stack",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
-            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
-          ]
-        },
-        {
-          "id": "CVE-2026-46452",
-          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
-            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
-          ]
-        },
-        {
-          "id": "CVE-2026-45812",
-          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
-          ]
-        },
-        {
-          "id": "CVE-2024-47249",
-          "title": "Lack of input sanitization leading to out-of-bound reads in multiple advertisement handler",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-47249",
-            "https://www.cve.org/CVERecord?id=CVE-2024-47249"
-          ]
-        },
-        {
-          "id": "CVE-2025-53470",
-          "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
+          "id": "CVE-2026-50588",
+          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
           "severity": "low",
-          "vendor": "nimble",
+          "vendor": "mbedtls",
           "exploited": false,
-          "nvd_scanner": true,
+          "nvd_scanner": false,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53470",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53470"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
           ]
         }
       ]
@@ -358,6 +207,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2014-5195",
             "https://www.cve.org/CVERecord?id=CVE-2014-5195"
+          ]
+        },
+        {
+          "id": "CVE-2014-3204",
+          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly handle keyboard shortcuts, which allows physically proxim",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3204",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3204"
           ]
         },
         {
@@ -382,18 +243,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2014-3202",
             "https://www.cve.org/CVERecord?id=CVE-2014-3202"
-          ]
-        },
-        {
-          "id": "CVE-2014-3204",
-          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly handle keyboard shortcuts, which allows physically proxim",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2014-3204",
-            "https://www.cve.org/CVERecord?id=CVE-2014-3204"
           ]
         }
       ]
@@ -430,18 +279,6 @@
           ]
         },
         {
-          "id": "CVE-2026-45541",
-          "title": "Remote Null Pointer Dereference in WebSocket Server",
-          "severity": "high",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45541",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45541"
-          ]
-        },
-        {
           "id": "CVE-2026-45329",
           "title": "Out-of-Bounds Read in ESP-TEE Secure Service Wrappers",
           "severity": "high",
@@ -466,27 +303,15 @@
           ]
         },
         {
-          "id": "CVE-2024-51428",
-          "title": "An issue in Espressif Esp idf v5.3.0 allows attackers to cause a Denial of Service (DoS) via a crafted data channel pack",
+          "id": "CVE-2019-12587",
+          "title": "The EAP peer implementation in Espressif ESP-IDF 2.0.0 through 4.0.0 and ESP8266_NONOS_SDK 2.2.0 through 3.1.0 allows th",
           "severity": "high",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-51428",
-            "https://www.cve.org/CVERecord?id=CVE-2024-51428"
-          ]
-        },
-        {
-          "id": "CVE-2024-33453",
-          "title": "Buffer Overflow vulnerability in esp-idf v.5.1 allows a remote attacker to obtain sensitive information via the external",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-33453",
-            "https://www.cve.org/CVERecord?id=CVE-2024-33453"
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-12587",
+            "https://www.cve.org/CVERecord?id=CVE-2019-12587"
           ]
         },
         {
@@ -514,87 +339,39 @@
           ]
         },
         {
-          "id": "CVE-2019-12587",
-          "title": "The EAP peer implementation in Espressif ESP-IDF 2.0.0 through 4.0.0 and ESP8266_NONOS_SDK 2.2.0 through 3.1.0 allows th",
+          "id": "CVE-2026-45541",
+          "title": "Remote Null Pointer Dereference in WebSocket Server",
+          "severity": "high",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45541",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45541"
+          ]
+        },
+        {
+          "id": "CVE-2024-33453",
+          "title": "Buffer Overflow vulnerability in esp-idf v.5.1 allows a remote attacker to obtain sensitive information via the external",
           "severity": "high",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2019-12587",
-            "https://www.cve.org/CVERecord?id=CVE-2019-12587"
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-33453",
+            "https://www.cve.org/CVERecord?id=CVE-2024-33453"
           ]
         },
         {
-          "id": "CVE-2026-81507",
-          "title": "Bluetooth Classic L2CAP Heap Memory Disclosure Allowing Unauthorized Access to Sensitive Data",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/espressif/esp-idf/security/advisories/GHSA-v335-fxwc-rc44",
-            "https://www.cve.org/CVERecord?id=CVE-2026-81507"
-          ]
-        },
-        {
-          "id": "CVE-2020-26142",
-          "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20EN.pdf",
-            "https://www.cve.org/CVERecord?id=CVE-2020-26142"
-          ]
-        },
-        {
-          "id": "CVE-2026-46532",
-          "title": "Heap Out-of-Bounds Read in Bluedroid AVRCP Target Parser",
-          "severity": "medium",
-          "vendor": "espressif",
+          "id": "CVE-2024-51428",
+          "title": "An issue in Espressif Esp idf v5.3.0 allows attackers to cause a Denial of Service (DoS) via a crafted data channel pack",
+          "severity": "high",
+          "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-46532",
-            "https://www.cve.org/CVERecord?id=CVE-2026-46532"
-          ]
-        },
-        {
-          "id": "CVE-2026-45160",
-          "title": "Out-of-bounds Read in lwIP DHCP Server Option Parser",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45160",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45160"
-          ]
-        },
-        {
-          "id": "CVE-2026-25532",
-          "title": "WPS Enrollee Fragment Integer Underflow Vulnerability",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25532",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25532"
-          ]
-        },
-        {
-          "id": "CVE-2026-25508",
-          "title": "Out-of-Bounds Read Vulnerability in BLE Provisioning",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25508",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25508"
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-51428",
+            "https://www.cve.org/CVERecord?id=CVE-2024-51428"
           ]
         },
         {
@@ -610,30 +387,6 @@
           ]
         },
         {
-          "id": "CVE-2025-68474",
-          "title": "Out-of-Bounds Write in ESP32 Bluetooth AVRCP Vendor Command Handling",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-68474",
-            "https://www.cve.org/CVERecord?id=CVE-2025-68474"
-          ]
-        },
-        {
-          "id": "CVE-2025-68473",
-          "title": "Out-of-Bounds Write in ESP32 Bluetooth SDP Result Handling",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-68473",
-            "https://www.cve.org/CVERecord?id=CVE-2025-68473"
-          ]
-        },
-        {
           "id": "CVE-2025-66409",
           "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
           "severity": "medium",
@@ -643,18 +396,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
             "https://www.cve.org/CVERecord?id=CVE-2025-66409"
-          ]
-        },
-        {
-          "id": "CVE-2025-55297",
-          "title": "BluFi Example Memory Overflow Vulnerability",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-55297",
-            "https://www.cve.org/CVERecord?id=CVE-2025-55297"
           ]
         },
         {
@@ -670,6 +411,18 @@
           ]
         },
         {
+          "id": "CVE-2021-31571",
+          "title": "“BadAlloc” Vulnerability in Amazon FreeRTOS",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2021-005%20Security%20Advisory%20on%20BadAlloc%20Vulnerabilities.pdf",
+            "https://www.cve.org/CVERecord?id=CVE-2021-31571"
+          ]
+        },
+        {
           "id": "CVE-2024-33454",
           "title": "Buffer Overflow vulnerability in esp-idf v.5.1 allows a remote attacker to execute arbitrary code via a crafted script t",
           "severity": "medium",
@@ -679,6 +432,42 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2024-33454",
             "https://www.cve.org/CVERecord?id=CVE-2024-33454"
+          ]
+        },
+        {
+          "id": "CVE-2026-25532",
+          "title": "WPS Enrollee Fragment Integer Underflow Vulnerability",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25532",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25532"
+          ]
+        },
+        {
+          "id": "CVE-2025-68474",
+          "title": "Out-of-Bounds Write in ESP32 Bluetooth AVRCP Vendor Command Handling",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-68474",
+            "https://www.cve.org/CVERecord?id=CVE-2025-68474"
+          ]
+        },
+        {
+          "id": "CVE-2020-12638",
+          "title": "Security Advisory Concerning Wi-Fi Authentication Bypass",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-12638",
+            "https://www.cve.org/CVERecord?id=CVE-2020-12638"
           ]
         },
         {
@@ -694,15 +483,27 @@
           ]
         },
         {
-          "id": "CVE-2022-24893",
-          "title": "Espressif Bluetooth Mesh Stack Vulnerability ",
+          "id": "CVE-2019-12586",
+          "title": "The EAP peer implementation in Espressif ESP-IDF 2.0.0 through 4.0.0 and ESP8266_NONOS_SDK 2.2.0 through 3.1.0 processes",
           "severity": "medium",
-          "vendor": "espressif",
+          "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2022-24893",
-            "https://www.cve.org/CVERecord?id=CVE-2022-24893"
+            "https://nvd.nist.gov/vuln/detail/CVE-2019-12586",
+            "https://www.cve.org/CVERecord?id=CVE-2019-12586"
+          ]
+        },
+        {
+          "id": "CVE-2021-31572",
+          "title": "“BadAlloc” Vulnerability in Amazon FreeRTOS",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2021-005%20Security%20Advisory%20on%20BadAlloc%20Vulnerabilities.pdf",
+            "https://www.cve.org/CVERecord?id=CVE-2021-31572"
           ]
         },
         {
@@ -730,39 +531,15 @@
           ]
         },
         {
-          "id": "CVE-2020-13594",
-          "title": "Denial-of-Service in SweynTooth",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2020-13594",
-            "https://www.cve.org/CVERecord?id=CVE-2020-13594"
-          ]
-        },
-        {
-          "id": "CVE-2020-12638",
-          "title": "Security Advisory Concerning Wi-Fi Authentication Bypass",
+          "id": "CVE-2026-45160",
+          "title": "Out-of-bounds Read in lwIP DHCP Server Option Parser",
           "severity": "medium",
           "vendor": "espressif",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2020-12638",
-            "https://www.cve.org/CVERecord?id=CVE-2020-12638"
-          ]
-        },
-        {
-          "id": "CVE-2019-12586",
-          "title": "The EAP peer implementation in Espressif ESP-IDF 2.0.0 through 4.0.0 and ESP8266_NONOS_SDK 2.2.0 through 3.1.0 processes",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2019-12586",
-            "https://www.cve.org/CVERecord?id=CVE-2019-12586"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45160",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45160"
           ]
         },
         {
@@ -790,27 +567,87 @@
           ]
         },
         {
-          "id": "CVE-2021-31572",
-          "title": "“BadAlloc” Vulnerability in Amazon FreeRTOS",
+          "id": "CVE-2020-13594",
+          "title": "Denial-of-Service in SweynTooth",
           "severity": "medium",
           "vendor": "silabs",
           "exploited": false,
-          "nvd_scanner": false,
+          "nvd_scanner": true,
           "links": [
-            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2021-005%20Security%20Advisory%20on%20BadAlloc%20Vulnerabilities.pdf",
-            "https://www.cve.org/CVERecord?id=CVE-2021-31572"
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-13594",
+            "https://www.cve.org/CVERecord?id=CVE-2020-13594"
           ]
         },
         {
-          "id": "CVE-2021-31571",
-          "title": "“BadAlloc” Vulnerability in Amazon FreeRTOS",
+          "id": "CVE-2025-55297",
+          "title": "BluFi Example Memory Overflow Vulnerability",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-55297",
+            "https://www.cve.org/CVERecord?id=CVE-2025-55297"
+          ]
+        },
+        {
+          "id": "CVE-2025-68473",
+          "title": "Out-of-Bounds Write in ESP32 Bluetooth SDP Result Handling",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-68473",
+            "https://www.cve.org/CVERecord?id=CVE-2025-68473"
+          ]
+        },
+        {
+          "id": "CVE-2022-24893",
+          "title": "Espressif Bluetooth Mesh Stack Vulnerability ",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-24893",
+            "https://www.cve.org/CVERecord?id=CVE-2022-24893"
+          ]
+        },
+        {
+          "id": "CVE-2026-46532",
+          "title": "Heap Out-of-Bounds Read in Bluedroid AVRCP Target Parser",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-46532",
+            "https://www.cve.org/CVERecord?id=CVE-2026-46532"
+          ]
+        },
+        {
+          "id": "CVE-2020-26142",
+          "title": "FragAttacks Wi-Fi vulnerability CVE-2020-26142",
           "severity": "medium",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2021-005%20Security%20Advisory%20on%20BadAlloc%20Vulnerabilities.pdf",
-            "https://www.cve.org/CVERecord?id=CVE-2021-31571"
+            "https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20EN.pdf",
+            "https://www.cve.org/CVERecord?id=CVE-2020-26142"
+          ]
+        },
+        {
+          "id": "CVE-2026-25508",
+          "title": "Out-of-Bounds Read Vulnerability in BLE Provisioning",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25508",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25508"
           ]
         },
         {
@@ -1073,6 +910,15 @@
       "version": null,
       "nvd": {
         "by": null,
+        "checked_at": null,
+        "records": null
+      }
+    },
+    {
+      "name": "nimble",
+      "version": "1.6.0",
+      "nvd": {
+        "by": "cpe",
         "checked_at": null,
         "records": null
       }

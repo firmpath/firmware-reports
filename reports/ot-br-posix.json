@@ -47,6 +47,78 @@
           ]
         },
         {
+          "id": "CVE-2026-22776",
+          "title": "Denial of service (DOS) using zip bomb",
+          "severity": "high",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-22776",
+            "https://www.cve.org/CVERecord?id=CVE-2026-22776"
+          ]
+        },
+        {
+          "id": "CVE-2026-33745",
+          "title": "cpp-httplib Client Leaks Authentication Credentials to Untrusted Hosts on Cross-Origin HTTP Redirect",
+          "severity": "high",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-33745",
+            "https://www.cve.org/CVERecord?id=CVE-2026-33745"
+          ]
+        },
+        {
+          "id": "CVE-2025-46728",
+          "title": "Unbounded Memory Allocation in Chunked/No-Length Requests",
+          "severity": "high",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-px83-72rx-v57c",
+            "https://www.cve.org/CVERecord?id=CVE-2025-46728"
+          ]
+        },
+        {
+          "id": "CVE-2026-28435",
+          "title": "Payload size limit bypass via gzip decompression in ContentReader (streaming) allows oversized request bodies in cpp-httplib",
+          "severity": "high",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-28435",
+            "https://www.cve.org/CVERecord?id=CVE-2026-28435"
+          ]
+        },
+        {
+          "id": "CVE-2025-53629",
+          "title": "Persistency of Unbounded Memory Allocation in Chunked/No-Length Requests Vulnerability",
+          "severity": "high",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53629",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53629"
+          ]
+        },
+        {
+          "id": "CVE-2026-32627",
+          "title": "Silent TLS Certificate Verification Bypass on HTTPS Redirect via Proxy",
+          "severity": "high",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32627",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32627"
+          ]
+        },
+        {
           "id": "CVE-2026-102944",
           "title": "Cookie header leaked on cross-origin redirect",
           "severity": "high",
@@ -71,42 +143,6 @@
           ]
         },
         {
-          "id": "CVE-2026-45372",
-          "title": "HTTP header value percent-decoding in server-side `parse_header` enables CRLF injection",
-          "severity": "high",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45372",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45372"
-          ]
-        },
-        {
-          "id": "CVE-2026-33745",
-          "title": "cpp-httplib Client Leaks Authentication Credentials to Untrusted Hosts on Cross-Origin HTTP Redirect",
-          "severity": "high",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-33745",
-            "https://www.cve.org/CVERecord?id=CVE-2026-33745"
-          ]
-        },
-        {
-          "id": "CVE-2026-32627",
-          "title": "Silent TLS Certificate Verification Bypass on HTTPS Redirect via Proxy",
-          "severity": "high",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-32627",
-            "https://www.cve.org/CVERecord?id=CVE-2026-32627"
-          ]
-        },
-        {
           "id": "CVE-2026-31870",
           "title": "Remote Process Crash via Malformed Content-Length Response Header",
           "severity": "high",
@@ -119,87 +155,15 @@
           ]
         },
         {
-          "id": "CVE-2026-28435",
-          "title": "Payload size limit bypass via gzip decompression in ContentReader (streaming) allows oversized request bodies in cpp-httplib",
+          "id": "CVE-2026-45372",
+          "title": "HTTP header value percent-decoding in server-side `parse_header` enables CRLF injection",
           "severity": "high",
           "vendor": "cpp-httplib",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-28435",
-            "https://www.cve.org/CVERecord?id=CVE-2026-28435"
-          ]
-        },
-        {
-          "id": "CVE-2026-22776",
-          "title": "Denial of service (DOS) using zip bomb",
-          "severity": "high",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-22776",
-            "https://www.cve.org/CVERecord?id=CVE-2026-22776"
-          ]
-        },
-        {
-          "id": "CVE-2025-53629",
-          "title": "Persistency of Unbounded Memory Allocation in Chunked/No-Length Requests Vulnerability",
-          "severity": "high",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53629",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53629"
-          ]
-        },
-        {
-          "id": "CVE-2025-46728",
-          "title": "Unbounded Memory Allocation in Chunked/No-Length Requests",
-          "severity": "high",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-px83-72rx-v57c",
-            "https://www.cve.org/CVERecord?id=CVE-2025-46728"
-          ]
-        },
-        {
-          "id": "CVE-2026-45352",
-          "title": "DoS: Negative chunk-size in chunked Transfer-Encoding",
-          "severity": "medium",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45352",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45352"
-          ]
-        },
-        {
-          "id": "CVE-2026-34441",
-          "title": "HTTP Request Smuggling via Unconsumed GET Request Body",
-          "severity": "medium",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34441",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34441"
-          ]
-        },
-        {
-          "id": "CVE-2026-29076",
-          "title": "Stack Overflow Denial of Service (DoS) via std::regex in multipart filename parsing",
-          "severity": "medium",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-29076",
-            "https://www.cve.org/CVERecord?id=CVE-2026-29076"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45372",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45372"
           ]
         },
         {
@@ -215,6 +179,30 @@
           ]
         },
         {
+          "id": "CVE-2025-53628",
+          "title": "HTTP Header Smuggling due to insecure trailers merge",
+          "severity": "medium",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53628",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53628"
+          ]
+        },
+        {
+          "id": "CVE-2026-29076",
+          "title": "Stack Overflow Denial of Service (DoS) via std::regex in multipart filename parsing",
+          "severity": "medium",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-29076",
+            "https://www.cve.org/CVERecord?id=CVE-2026-29076"
+          ]
+        },
+        {
           "id": "CVE-2025-66577",
           "title": "Untrusted HTTP Header Handling: X-Forwarded-For/X-Real-IP Trust ",
           "severity": "medium",
@@ -227,15 +215,27 @@
           ]
         },
         {
-          "id": "CVE-2025-53628",
-          "title": "HTTP Header Smuggling due to insecure trailers merge",
+          "id": "CVE-2026-34441",
+          "title": "HTTP Request Smuggling via Unconsumed GET Request Body",
           "severity": "medium",
           "vendor": "cpp-httplib",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53628",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53628"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34441",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34441"
+          ]
+        },
+        {
+          "id": "CVE-2026-45352",
+          "title": "DoS: Negative chunk-size in chunked Transfer-Encoding",
+          "severity": "medium",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45352",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45352"
           ]
         },
         {

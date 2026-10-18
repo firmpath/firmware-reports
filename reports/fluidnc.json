@@ -6,13 +6,13 @@
     "filename": "oss-bdring__FluidNC.cdx.json"
   },
   "summary": {
-    "fix": 4,
+    "fix": 3,
     "look": 5,
     "clear": 3,
-    "unwatched": 23,
-    "vulnerabilities": 52,
-    "nvd_would_report": 33,
-    "missed_by_nvd_scanners": 19,
+    "unwatched": 24,
+    "vulnerabilities": 38,
+    "nvd_would_report": 20,
+    "missed_by_nvd_scanners": 18,
     "not_checked_against_nvd": 0
   },
   "components": 35,
@@ -59,6 +59,18 @@
           ]
         },
         {
+          "id": "CVE-2026-25835",
+          "title": "PSA random generator cloning",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25835",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25835"
+          ]
+        },
+        {
           "id": "CVE-2026-50713",
           "title": "Heap corruption with early renegotiation after corrupted record in DTLS",
           "severity": "high",
@@ -71,15 +83,15 @@
           ]
         },
         {
-          "id": "CVE-2026-25835",
-          "title": "PSA random generator cloning",
-          "severity": "high",
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
           "vendor": "mbedtls",
           "exploited": false,
-          "nvd_scanner": true,
+          "nvd_scanner": false,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25835",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25835"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
           ]
         },
         {
@@ -107,18 +119,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
           "id": "CVE-2026-50640",
           "title": "Ignored TLS 1.3 resumption secret derivation error",
           "severity": "low",
@@ -131,6 +131,18 @@
           ]
         },
         {
+          "id": "CVE-2026-25833",
+          "title": "Buffer underflow in x509_inet_pton_ipv6()",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25833",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25833"
+          ]
+        },
+        {
           "id": "CVE-2026-50583",
           "title": "Out-of-bounds read when parsing a zero-length ECC public key",
           "severity": "low",
@@ -140,6 +152,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-zero-length-ecc-public-key-oob-read/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50583"
+          ]
+        },
+        {
+          "id": "CVE-2026-25834",
+          "title": "Signature Algorithm Injection",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25834",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25834"
           ]
         },
         {
@@ -167,27 +191,27 @@
           ]
         },
         {
-          "id": "CVE-2026-25833",
-          "title": "Buffer underflow in x509_inet_pton_ipv6()",
-          "severity": "low",
+          "id": "CVE-2026-34873",
+          "title": "Client impersonation while resuming a TLS 1.3 session",
+          "severity": "high",
           "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25833",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25833"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34873",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34873"
           ]
         },
         {
-          "id": "CVE-2026-25834",
-          "title": "Signature Algorithm Injection",
-          "severity": "low",
+          "id": "CVE-2026-34875",
+          "title": "Buffer overflow in FFDH public key export",
+          "severity": "high",
           "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25834",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25834"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34875",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34875"
           ]
         },
         {
@@ -203,18 +227,6 @@
           ]
         },
         {
-          "id": "CVE-2026-34873",
-          "title": "Client impersonation while resuming a TLS 1.3 session",
-          "severity": "high",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34873",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34873"
-          ]
-        },
-        {
           "id": "CVE-2026-34874",
           "title": "Null pointer dereference when setting a distinguished name",
           "severity": "high",
@@ -227,15 +239,15 @@
           ]
         },
         {
-          "id": "CVE-2026-34875",
-          "title": "Buffer overflow in FFDH public key export",
-          "severity": "high",
+          "id": "CVE-2026-34872",
+          "title": "FFDH: lack of contributory behaviour due to improper input validation",
+          "severity": "medium",
           "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34875",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34875"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34872",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34872"
           ]
         },
         {
@@ -275,18 +287,6 @@
           ]
         },
         {
-          "id": "CVE-2026-34872",
-          "title": "FFDH: lack of contributory behaviour due to improper input validation",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34872",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34872"
-          ]
-        },
-        {
           "id": "CVE-2026-54441",
           "title": "Signature algorithm restrictions not enforced on certificate chain",
           "severity": "low",
@@ -299,18 +299,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50588",
-          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
-          ]
-        },
-        {
           "id": "CVE-2026-73064",
           "title": "A random generator fault can compromise TLS data integrity",
           "severity": "low",
@@ -320,18 +308,6 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-random-generator-fault-tls-integrity/",
             "https://www.cve.org/CVERecord?id=CVE-2026-73064"
-          ]
-        },
-        {
-          "id": "CVE-2026-34877",
-          "title": "Risk of insufficient protection of serialized session or context data leading to potential memory safety issues",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34877",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34877"
           ]
         },
         {
@@ -357,168 +333,29 @@
             "https://nvd.nist.gov/vuln/detail/CVE-2026-34871",
             "https://www.cve.org/CVERecord?id=CVE-2026-34871"
           ]
-        }
-      ]
-    },
-    {
-      "name": "nimble",
-      "version": "1.6.0",
-      "action": "Upgrade to 1.10.0 or later",
-      "vulns": [
-        {
-          "id": "CVE-2026-45815",
-          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
-          ]
         },
         {
-          "id": "CVE-2025-62235",
-          "title": "Incorrect handling of SMP Security Request could lead to undesirable pairing",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-62235",
-            "https://www.cve.org/CVERecord?id=CVE-2025-62235"
-          ]
-        },
-        {
-          "id": "CVE-2025-52435",
-          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
-            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
-          ]
-        },
-        {
-          "id": "CVE-2026-45816",
-          "title": "NULL pointer dereference vulnerability in SMP LTK request",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
-          ]
-        },
-        {
-          "id": "CVE-2026-45813",
-          "title": "Incorrect data validation in BASS add/modify source operation",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
-          ]
-        },
-        {
-          "id": "CVE-2026-45811",
-          "title": "Buffer overflow in socket HCI transport",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
-          ]
-        },
-        {
-          "id": "CVE-2025-53477",
-          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
-          ]
-        },
-        {
-          "id": "CVE-2024-51569",
-          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
-            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
-          ]
-        },
-        {
-          "id": "CVE-2024-24746",
-          "title": "Denial of service in NimBLE Bluetooth stack",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
-            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
-          ]
-        },
-        {
-          "id": "CVE-2026-46452",
-          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
-            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
-          ]
-        },
-        {
-          "id": "CVE-2026-45812",
-          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
-          ]
-        },
-        {
-          "id": "CVE-2024-47249",
-          "title": "Lack of input sanitization leading to out-of-bound reads in multiple advertisement handler",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-47249",
-            "https://www.cve.org/CVERecord?id=CVE-2024-47249"
-          ]
-        },
-        {
-          "id": "CVE-2025-53470",
-          "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
+          "id": "CVE-2026-34877",
+          "title": "Risk of insufficient protection of serialized session or context data leading to potential memory safety issues",
           "severity": "low",
-          "vendor": "nimble",
+          "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53470",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53470"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34877",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34877"
+          ]
+        },
+        {
+          "id": "CVE-2026-50588",
+          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
           ]
         }
       ]
@@ -526,7 +363,7 @@
     {
       "name": "esp-idf",
       "version": "5.5.4",
-      "action": "Upgrade to 6.1.1 or later",
+      "action": "No fixed version given. Read the advisory.",
       "vulns": [
         {
           "id": "CVE-2026-45328",
@@ -553,18 +390,6 @@
           ]
         },
         {
-          "id": "CVE-2026-45541",
-          "title": "Remote Null Pointer Dereference in WebSocket Server",
-          "severity": "high",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45541",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45541"
-          ]
-        },
-        {
           "id": "CVE-2026-45329",
           "title": "Out-of-Bounds Read in ESP-TEE Secure Service Wrappers",
           "severity": "high",
@@ -577,15 +402,15 @@
           ]
         },
         {
-          "id": "CVE-2026-81507",
-          "title": "Bluetooth Classic L2CAP Heap Memory Disclosure Allowing Unauthorized Access to Sensitive Data",
-          "severity": "medium",
+          "id": "CVE-2026-45541",
+          "title": "Remote Null Pointer Dereference in WebSocket Server",
+          "severity": "high",
           "vendor": "espressif",
           "exploited": false,
-          "nvd_scanner": false,
+          "nvd_scanner": true,
           "links": [
-            "https://github.com/espressif/esp-idf/security/advisories/GHSA-v335-fxwc-rc44",
-            "https://www.cve.org/CVERecord?id=CVE-2026-81507"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45541",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45541"
           ]
         },
         {
@@ -632,6 +457,18 @@
           ]
         },
         {
+          "id": "CVE-2014-3204",
+          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly handle keyboard shortcuts, which allows physically proxim",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2014-3204",
+            "https://www.cve.org/CVERecord?id=CVE-2014-3204"
+          ]
+        },
+        {
           "id": "CVE-2014-3203",
           "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly restrict access to the Dash when the lock screen is activ",
           "severity": "medium",
@@ -653,18 +490,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2014-3202",
             "https://www.cve.org/CVERecord?id=CVE-2014-3202"
-          ]
-        },
-        {
-          "id": "CVE-2014-3204",
-          "title": "Unity before 7.2.1, as used in Ubuntu 14.04, does not properly handle keyboard shortcuts, which allows physically proxim",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2014-3204",
-            "https://www.cve.org/CVERecord?id=CVE-2014-3204"
           ]
         }
       ]
@@ -702,29 +527,6 @@
       "action": "A vendor fork with no release version. Check the vendor's notes on these advisories.",
       "vulns": [
         {
-          "id": "A-00000463",
-          "title": "OpenThread Vulnerability - Key ID Mode 2 Security",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000463.md"
-          ]
-        },
-        {
-          "id": "CVE-2023-41096",
-          "title": "Keys Stored in Plaintext on Secure Vault High for Silabs Ember ZNet and OpenThread devices",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000482.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-41096"
-          ]
-        },
-        {
           "id": "CVE-2023-41095",
           "title": "Keys Stored in Plaintext on Secure Vault High for Silabs Ember ZNet and OpenThread devices",
           "severity": "high",
@@ -749,26 +551,38 @@
           ]
         },
         {
-          "id": "A-00000492",
-          "title": "A bug in TLS MAC length calculation may cause a buffer overread",
-          "severity": "medium",
+          "id": "CVE-2023-41096",
+          "title": "Keys Stored in Plaintext on Secure Vault High for Silabs Ember ZNet and OpenThread devices",
+          "severity": "high",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000482.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-41096"
           ]
         },
         {
-          "id": "CVE-2025-2329",
-          "title": "Heavy traffic environment results in denial of service",
+          "id": "A-00000463",
+          "title": "OpenThread Vulnerability - Key ID Mode 2 Security",
+          "severity": "high",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000463.md"
+          ]
+        },
+        {
+          "id": "CVE-2023-45199",
+          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
           "severity": "medium",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000533.md",
-            "https://www.cve.org/CVERecord?id=CVE-2025-2329"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
           ]
         },
         {
@@ -784,15 +598,26 @@
           ]
         },
         {
-          "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
+          "id": "CVE-2025-2329",
+          "title": "Heavy traffic environment results in denial of service",
           "severity": "medium",
           "vendor": "silabs",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
-            "https://www.cve.org/CVERecord?id=CVE-2023-45199"
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000533.md",
+            "https://www.cve.org/CVERecord?id=CVE-2025-2329"
+          ]
+        },
+        {
+          "id": "A-00000492",
+          "title": "A bug in TLS MAC length calculation may cause a buffer overread",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md"
           ]
         }
       ]
@@ -803,18 +628,6 @@
       "action": "No version given. Add the exact release to your SBOM.",
       "vulns": [
         {
-          "id": "CVE-2026-62966",
-          "title": "Null-pointer write in ESPAsyncWebServer multipart parser ",
-          "severity": "high",
-          "vendor": "espasyncwebserver",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-8m8p-vhxc-jmjw",
-            "https://www.cve.org/CVERecord?id=CVE-2026-62966"
-          ]
-        },
-        {
           "id": "CVE-2026-54571",
           "title": "Integer overflow in multipart boundary parser causes denial of service",
           "severity": "high",
@@ -824,6 +637,18 @@
           "links": [
             "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-4phx-fcj6-46r4",
             "https://www.cve.org/CVERecord?id=CVE-2026-54571"
+          ]
+        },
+        {
+          "id": "CVE-2026-62966",
+          "title": "Null-pointer write in ESPAsyncWebServer multipart parser ",
+          "severity": "high",
+          "vendor": "espasyncwebserver",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-8m8p-vhxc-jmjw",
+            "https://www.cve.org/CVERecord?id=CVE-2026-62966"
           ]
         },
         {
@@ -1010,6 +835,15 @@
       "version": null,
       "nvd": {
         "by": null,
+        "checked_at": null,
+        "records": null
+      }
+    },
+    {
+      "name": "nimble",
+      "version": "1.6.0",
+      "nvd": {
+        "by": "cpe",
         "checked_at": null,
         "records": null
       }
