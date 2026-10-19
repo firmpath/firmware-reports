@@ -10,27 +10,136 @@
     "look": 0,
     "clear": 0,
     "unwatched": 2,
-    "vulnerabilities": 1,
-    "nvd_would_report": 0,
+    "vulnerabilities": 10,
+    "nvd_would_report": 10,
     "missed_by_nvd_scanners": 0,
-    "not_checked_against_nvd": 1
+    "not_checked_against_nvd": 0
   },
   "components": 3,
   "fix": [
     {
       "name": "freertos-kernel",
       "version": "10.4.0..10.4.1",
-      "action": "Listed for this exact version. Open the CVEs to find the fix.",
+      "action": "Upgrade to 10.6.2 or later",
       "vulns": [
         {
-          "id": "CVE-2024-28115",
-          "title": "Privilege Escalation in FreeRTOS Kernel ARMv7-M MPU ports and ARMv8-M ports with MPU support enabled",
-          "severity": null,
-          "vendor": "OSV",
+          "id": "CVE-2021-32020",
+          "title": "The kernel in Amazon Web Services FreeRTOS before 10.4.3 has insufficient bounds checking during management of heap memo",
+          "severity": "critical",
+          "vendor": null,
           "exploited": false,
-          "nvd_scanner": null,
+          "nvd_scanner": true,
           "links": [
-            "https://osv.dev/vulnerability/CVE-2024-28115"
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-32020",
+            "https://www.cve.org/CVERecord?id=CVE-2021-32020"
+          ]
+        },
+        {
+          "id": "CVE-2026-77235",
+          "title": "Missing privilege check in SecureContext_FreeContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-77235",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77235"
+          ]
+        },
+        {
+          "id": "CVE-2026-77236",
+          "title": "Missing size validation in SecureContext_AllocateContext in FreeRTOS-Kernel",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-77236",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77236"
+          ]
+        },
+        {
+          "id": "CVE-2026-77234",
+          "title": "Improper input validation in FreeRTOS-Kernel timer command handling",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-77234",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77234"
+          ]
+        },
+        {
+          "id": "CVE-2024-28115",
+          "title": "Potential Privilege Escalation in FreeRTOS Kernel ARMv7-M MPU ports and ARMv8-M ports with MPU support enabled",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28115",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28115"
+          ]
+        },
+        {
+          "id": "CVE-2021-43997",
+          "title": "FreeRTOS versions 10.2.0 through 10.4.5 do not prevent non-kernel code from calling the xPortRaisePrivilege internal fun",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-43997",
+            "https://www.cve.org/CVERecord?id=CVE-2021-43997"
+          ]
+        },
+        {
+          "id": "CVE-2021-31571",
+          "title": "“BadAlloc” Vulnerability in Amazon FreeRTOS",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-31571",
+            "https://www.cve.org/CVERecord?id=CVE-2021-31571"
+          ]
+        },
+        {
+          "id": "CVE-2021-31572",
+          "title": "“BadAlloc” Vulnerability in Amazon FreeRTOS",
+          "severity": "medium",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-31572",
+            "https://www.cve.org/CVERecord?id=CVE-2021-31572"
+          ]
+        },
+        {
+          "id": "CVE-2026-77237",
+          "title": "Missing type validation in xQueueAddToSet in FreeRTOS-Kernel",
+          "severity": "medium",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-77237",
+            "https://www.cve.org/CVERecord?id=CVE-2026-77237"
+          ]
+        },
+        {
+          "id": "CVE-2021-27504",
+          "title": "Texas Instruments devices running FREERTOS, malloc returns a valid \npointer to a small buffer on extremely large values,",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-27504",
+            "https://www.cve.org/CVERecord?id=CVE-2021-27504"
           ]
         }
       ]

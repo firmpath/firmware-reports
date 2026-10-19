@@ -6,12 +6,12 @@
     "filename": "oss-arendst__Tasmota.cdx.json"
   },
   "summary": {
-    "fix": 2,
+    "fix": 3,
     "look": 4,
     "clear": 3,
-    "unwatched": 15,
-    "vulnerabilities": 18,
-    "nvd_would_report": 5,
+    "unwatched": 14,
+    "vulnerabilities": 30,
+    "nvd_would_report": 17,
     "missed_by_nvd_scanners": 13,
     "not_checked_against_nvd": 0
   },
@@ -188,6 +188,157 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50588"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nimble",
+      "version": "1.6.0",
+      "action": "Upgrade to 1.10.0 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-45815",
+          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
+          ]
+        },
+        {
+          "id": "CVE-2025-52435",
+          "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52435",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52435"
+          ]
+        },
+        {
+          "id": "CVE-2024-51569",
+          "title": "Lack of input sanitization leading to out-of-bound reads in Number of Completed Packets HCI event handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-51569",
+            "https://www.cve.org/CVERecord?id=CVE-2024-51569"
+          ]
+        },
+        {
+          "id": "CVE-2026-45813",
+          "title": "Incorrect data validation in BASS add/modify source operation",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
+          ]
+        },
+        {
+          "id": "CVE-2024-24746",
+          "title": "Denial of service in NimBLE Bluetooth stack",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-24746",
+            "https://www.cve.org/CVERecord?id=CVE-2024-24746"
+          ]
+        },
+        {
+          "id": "CVE-2026-45811",
+          "title": "Buffer overflow in socket HCI transport",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
+          ]
+        },
+        {
+          "id": "CVE-2025-53477",
+          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
+          ]
+        },
+        {
+          "id": "CVE-2026-45816",
+          "title": "NULL pointer dereference vulnerability in SMP LTK request",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45816",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45816"
+          ]
+        },
+        {
+          "id": "CVE-2026-45812",
+          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
+          ]
+        },
+        {
+          "id": "CVE-2024-47249",
+          "title": "Lack of input sanitization leading to out-of-bound reads in multiple advertisement handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-47249",
+            "https://www.cve.org/CVERecord?id=CVE-2024-47249"
+          ]
+        },
+        {
+          "id": "CVE-2026-46452",
+          "title": "Mesh Proxy SAR reassembly unbounded append and unchecked failure",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-46452",
+            "https://www.cve.org/CVERecord?id=CVE-2026-46452"
+          ]
+        },
+        {
+          "id": "CVE-2025-53470",
+          "title": "Out-of-Bounds Write Vulnerability in NimBLE HCI H4 driver",
+          "severity": "low",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53470",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53470"
           ]
         }
       ]
@@ -431,15 +582,6 @@
       "version": null,
       "nvd": {
         "by": null,
-        "checked_at": null,
-        "records": null
-      }
-    },
-    {
-      "name": "nimble",
-      "version": "1.6.0",
-      "nvd": {
-        "by": "cpe",
         "checked_at": null,
         "records": null
       }
