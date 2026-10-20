@@ -538,18 +538,6 @@
           ]
         },
         {
-          "id": "CVE-2025-66409",
-          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
-          ]
-        },
-        {
           "id": "CVE-2025-52471",
           "title": "ESP-NOW Integer Underflow Vulnerability Advisory",
           "severity": "medium",
@@ -799,6 +787,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-25508",
             "https://www.cve.org/CVERecord?id=CVE-2026-25508"
+          ]
+        },
+        {
+          "id": "CVE-2025-66409",
+          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
           ]
         },
         {

@@ -524,18 +524,6 @@
       "action": "Move to 5.2.2: 4.4 is out of support since 2024-07",
       "vulns": [
         {
-          "id": "CVE-2025-66409",
-          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
-          ]
-        },
-        {
           "id": "CVE-2025-55297",
           "title": "BluFi Example Memory Overflow Vulnerability",
           "severity": "medium",
@@ -557,6 +545,18 @@
           "links": [
             "https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-008%20Security%20Advisory%20for%20WLAN%20FragAttacks%20EN.pdf",
             "https://www.cve.org/CVERecord?id=CVE-2020-26142"
+          ]
+        },
+        {
+          "id": "CVE-2025-66409",
+          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
           ]
         }
       ]

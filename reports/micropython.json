@@ -10,10 +10,10 @@
     "look": 2,
     "clear": 2,
     "unwatched": 32,
-    "vulnerabilities": 20,
+    "vulnerabilities": 21,
     "nvd_would_report": 5,
     "missed_by_nvd_scanners": 13,
-    "not_checked_against_nvd": 2
+    "not_checked_against_nvd": 3
   },
   "components": 39,
   "fix": [
@@ -261,6 +261,17 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2020-22283",
             "https://www.cve.org/CVERecord?id=CVE-2020-22283"
+          ]
+        },
+        {
+          "id": "CVE-2026-112062",
+          "title": "lwIP through 2.2.1 Stack Out-of-Bounds Write via mDNS Search Response Handler",
+          "severity": null,
+          "vendor": "OSV",
+          "exploited": false,
+          "nvd_scanner": null,
+          "links": [
+            "https://osv.dev/vulnerability/CVE-2026-112062"
           ]
         },
         {

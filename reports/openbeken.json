@@ -541,18 +541,6 @@
       "action": "No fixed version given. Read the advisory.",
       "vulns": [
         {
-          "id": "CVE-2025-66409",
-          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
-          ]
-        },
-        {
           "id": "CVE-2025-68474",
           "title": "Out-of-Bounds Write in ESP32 Bluetooth AVRCP Vendor Command Handling",
           "severity": "medium",
@@ -574,6 +562,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-68473",
             "https://www.cve.org/CVERecord?id=CVE-2025-68473"
+          ]
+        },
+        {
+          "id": "CVE-2025-66409",
+          "title": "Out-of-Bounds Read in ESP32 Bluetooth AVRCP Command Handling",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66409"
           ]
         },
         {

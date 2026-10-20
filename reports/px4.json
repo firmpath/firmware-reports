@@ -6,17 +6,107 @@
     "filename": "oss-PX4__PX4-Autopilot.cdx.json"
   },
   "summary": {
-    "fix": 1,
+    "fix": 2,
     "look": 4,
-    "clear": 1,
+    "clear": 0,
     "unwatched": 21,
-    "vulnerabilities": 5,
+    "vulnerabilities": 12,
     "nvd_would_report": 2,
-    "missed_by_nvd_scanners": 1,
-    "not_checked_against_nvd": 2
+    "missed_by_nvd_scanners": 5,
+    "not_checked_against_nvd": 5
   },
   "components": 27,
   "fix": [
+    {
+      "name": "px4-autopilot",
+      "version": "v1.17.0",
+      "action": "Upgrade to 1.17.0 or later",
+      "vulns": [
+        {
+          "id": "CVE-2026-32708",
+          "title": "Zenoh uORB Subscriber Allows Arbitrary Stack Allocation (PX4/PX4-Autopilot)",
+          "severity": "high",
+          "vendor": "PX4-Autopilot",
+          "exploited": false,
+          "nvd_scanner": null,
+          "links": [
+            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-69g4-hcqf-j45p",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32708"
+          ]
+        },
+        {
+          "id": "CVE-2026-32707",
+          "title": "Stack buffer overflow in tattu_can due to unbounded memcpy in frame assembly loop",
+          "severity": "medium",
+          "vendor": "PX4-Autopilot",
+          "exploited": false,
+          "nvd_scanner": null,
+          "links": [
+            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-wxwm-xmx9-hr32",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32707"
+          ]
+        },
+        {
+          "id": "CVE-2026-32713",
+          "title": "PX4 Autopilot MAVLink FTP Session Validation Logic Error Allows Operations on Invalid File Descriptors",
+          "severity": "medium",
+          "vendor": "PX4-Autopilot",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-pp2c-jr5g-6f2m",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32713"
+          ]
+        },
+        {
+          "id": "CVE-2026-32709",
+          "title": "PX4 Autopilot MAVLink FTP Unauthenticated Path Traversal (Arbitrary File Read/Write/Delete)",
+          "severity": "medium",
+          "vendor": "PX4-Autopilot",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-fh32-qxj9-x32f",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32709"
+          ]
+        },
+        {
+          "id": "CVE-2026-32705",
+          "title": "BST Device Name Length Can Overflow Driver Buffer",
+          "severity": "medium",
+          "vendor": "PX4-Autopilot",
+          "exploited": false,
+          "nvd_scanner": null,
+          "links": [
+            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-79mp-34pp-2f3f",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32705"
+          ]
+        },
+        {
+          "id": "CVE-2026-32743",
+          "title": "MavlinkLogHandler sscanf stack buffer overflow via MAVLink log request",
+          "severity": "medium",
+          "vendor": "PX4-Autopilot",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-97c4-68r9-96p5",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32743"
+          ]
+        },
+        {
+          "id": "37dcf98846f8",
+          "title": "There is a stack-buffer overflow vulnerability in the mavlink_receiver.cpp,which can cause the program to refuse to execute",
+          "severity": "high",
+          "vendor": "PX4-Autopilot",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-55wq-2hgm-75m4"
+          ]
+        }
+      ]
+    },
     {
       "name": "cyclonedds",
       "version": "314887ca403c2fb0a0316add22672102936ed36c",
