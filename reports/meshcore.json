@@ -618,18 +618,6 @@
           ]
         },
         {
-          "id": "CVE-2025-59375",
-          "title": "Hitachi Energy RTU500 Product",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
-            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
-          ]
-        },
-        {
           "id": "CVE-2026-76957",
           "title": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur",
           "severity": "medium",
@@ -795,6 +783,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-56406",
             "https://www.cve.org/CVERecord?id=CVE-2026-56406"
+          ]
+        },
+        {
+          "id": "CVE-2025-59375",
+          "title": "Hitachi Energy RTU500 Product",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
           ]
         },
         {
@@ -1491,7 +1491,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1500,7 +1500,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1509,7 +1509,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1518,7 +1518,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1527,7 +1527,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1536,7 +1536,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1545,7 +1545,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1554,7 +1554,7 @@
       "version": "4.6.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1563,7 +1563,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1572,7 +1572,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1581,7 +1581,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1590,7 +1590,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1599,7 +1599,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1608,7 +1608,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1617,7 +1617,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1626,7 +1626,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1635,7 +1635,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1644,7 +1644,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1653,7 +1653,7 @@
       "version": "1.0.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1662,7 +1662,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1671,7 +1671,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1680,7 +1680,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1689,7 +1689,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1707,7 +1707,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 1
       }
     },
@@ -1716,7 +1716,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1725,7 +1725,7 @@
       "version": "1.6.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1734,7 +1734,7 @@
       "version": "v2.5.2-2-geeecc49ce8af",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1752,7 +1752,7 @@
       "version": "0.2.3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1761,7 +1761,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1770,7 +1770,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1779,7 +1779,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1788,7 +1788,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1797,7 +1797,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1806,7 +1806,7 @@
       "version": "47b401f1de546118b03c18b5689dedec45871f2d",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1815,7 +1815,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1824,7 +1824,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1833,7 +1833,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1842,7 +1842,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1851,7 +1851,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1860,7 +1860,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1869,7 +1869,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 1
       }
     },
@@ -1878,7 +1878,7 @@
       "version": "1.17.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1887,7 +1887,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1896,7 +1896,7 @@
       "version": "4.6.0..4.6.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1905,7 +1905,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1914,7 +1914,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 9
       }
     },
@@ -1923,7 +1923,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1932,7 +1932,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1941,7 +1941,7 @@
       "version": "1.1..",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1950,7 +1950,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1968,7 +1968,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1977,7 +1977,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1986,7 +1986,7 @@
       "version": "7.7.1..7.8.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -1995,7 +1995,7 @@
       "version": "1.0.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -2004,7 +2004,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -2013,7 +2013,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -2022,7 +2022,7 @@
       "version": "0.2-255-g0dbb3f71c5f6",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },

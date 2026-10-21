@@ -152,7 +152,7 @@
       "version": "5.7.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     },
@@ -161,7 +161,7 @@
       "version": "c472ae93f839520ccdf76cc193c76214e73e42fd",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-12T23:44:39.519Z",
+        "checked_at": "2026-10-20T08:07:17.463Z",
         "records": 0
       }
     }

@@ -22,7 +22,7 @@ Firmpath.
 | [Tasmota](https://app.firmpath.dev/reports/tasmota) | 17 | **30** | 13 | [data](reports/tasmota.json) |
 | [OpenDTU](https://app.firmpath.dev/reports/opendtu) | 76 | **88** | 12 | [data](reports/opendtu.json) |
 | [OpenShock](https://app.firmpath.dev/reports/openshock) | 76 | **88** | 12 | [data](reports/openshock.json) |
-| [PX4 Autopilot](https://app.firmpath.dev/reports/px4) | 2 | **12** | 5 | [data](reports/px4.json) |
+| [PX4 Autopilot](https://app.firmpath.dev/reports/px4) | 2 | **12** | 8 | [data](reports/px4.json) |
 | [OpenThread Border Router](https://app.firmpath.dev/reports/ot-br-posix) | 18 | **27** | 3 | [data](reports/ot-br-posix.json) |
 | [PebbleOS](https://app.firmpath.dev/reports/pebbleos) | 0 | **2** | 2 | [data](reports/pebbleos.json) |
 | [OpenMQTTGateway](https://app.firmpath.dev/reports/openmqttgateway) | 47 | **48** | 1 | [data](reports/openmqttgateway.json) |

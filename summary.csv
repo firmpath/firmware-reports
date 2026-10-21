@@ -12,7 +12,7 @@ openevse,OpenEVSE,https://github.com/OpenEVSE/openevse_esp32_firmware,55,68,13,0
 tasmota,Tasmota,https://github.com/arendst/Tasmota,17,30,13,0,3,4,24
 opendtu,OpenDTU,https://github.com/tbnobody/OpenDTU,76,88,12,0,7,7,37
 openshock,OpenShock,https://github.com/OpenShock/Firmware,76,88,12,0,7,7,31
-px4,PX4 Autopilot,https://github.com/PX4/PX4-Autopilot,2,12,5,5,2,4,27
+px4,PX4 Autopilot,https://github.com/PX4/PX4-Autopilot,2,12,8,2,2,4,27
 ot-br-posix,OpenThread Border Router,https://github.com/openthread/ot-br-posix,18,27,3,6,2,1,4
 pebbleos,PebbleOS,https://github.com/coredevices/PebbleOS,0,2,2,0,1,3,13
 openmqttgateway,OpenMQTTGateway,https://github.com/1technophile/OpenMQTTGateway,47,48,1,0,7,10,83
