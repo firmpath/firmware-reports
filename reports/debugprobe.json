@@ -10,10 +10,10 @@
     "look": 0,
     "clear": 0,
     "unwatched": 0,
-    "vulnerabilities": 6,
+    "vulnerabilities": 8,
     "nvd_would_report": 6,
     "missed_by_nvd_scanners": 0,
-    "not_checked_against_nvd": 0
+    "not_checked_against_nvd": 2
   },
   "components": 1,
   "fix": [
@@ -92,6 +92,28 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2021-43997",
             "https://www.cve.org/CVERecord?id=CVE-2021-43997"
+          ]
+        },
+        {
+          "id": "CVE-2026-109587",
+          "title": "Incorrect authorization in the Arm Cortex-R82 MPU port in FreeRTOS-Kernel",
+          "severity": null,
+          "vendor": "OSV",
+          "exploited": false,
+          "nvd_scanner": null,
+          "links": [
+            "https://osv.dev/vulnerability/CVE-2026-109587"
+          ]
+        },
+        {
+          "id": "CVE-2026-109588",
+          "title": "Numeric truncation in the MPU buffer authorization check in FreeRTOS-Kernel",
+          "severity": null,
+          "vendor": "OSV",
+          "exploited": false,
+          "nvd_scanner": null,
+          "links": [
+            "https://osv.dev/vulnerability/CVE-2026-109588"
           ]
         }
       ]

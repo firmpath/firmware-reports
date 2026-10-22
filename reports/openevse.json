@@ -324,7 +324,7 @@
         },
         {
           "id": "CVE-2025-59375",
-          "title": "Hitachi Energy RTU500 Product",
+          "title": "Hitachi Energy RTU500 Product (Update A)",
           "severity": "medium",
           "vendor": "Hitachi Energy",
           "exploited": false,
@@ -878,6 +878,73 @@
   ],
   "look": [
     {
+      "name": "openthread",
+      "version": "2026.07.0..",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2023-2626",
+          "title": "Missing Key ID Mode validation when processing 6LoWPAN frames",
+          "severity": "high",
+          "vendor": "openthread",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/openthread/openthread/security/advisories/GHSA-vr3r-363g-72j9",
+            "https://www.cve.org/CVERecord?id=CVE-2023-2626"
+          ]
+        },
+        {
+          "id": "CVE-2019-20791",
+          "title": "Stack-based buffer overflow in MeshCoP::Commissioner::GeneratePskc()",
+          "severity": "medium",
+          "vendor": "openthread",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/openthread/openthread/security/advisories/GHSA-cw3r-mmv2-32mg",
+            "https://www.cve.org/CVERecord?id=CVE-2019-20791"
+          ]
+        },
+        {
+          "id": "CVE-2025-36939",
+          "title": "Denial of service when processing malformed MLE Child Timeout and Network Data TLVs",
+          "severity": "medium",
+          "vendor": "openthread",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/openthread/openthread/security/advisories/GHSA-m4cg-rg6v-w27x",
+            "https://www.cve.org/CVERecord?id=CVE-2025-36939"
+          ]
+        },
+        {
+          "id": "CVE-2026-112325",
+          "title": "NULL pointer dereference in mDNS RecordCache::Matches()",
+          "severity": "medium",
+          "vendor": "openthread",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/openthread/openthread/security/advisories/GHSA-xf9m-rgrq-7vqf",
+            "https://www.cve.org/CVERecord?id=CVE-2026-112325"
+          ]
+        },
+        {
+          "id": "CVE-2026-8369",
+          "title": "Improper input validation when processing IPv4 options in NAT64 translator",
+          "severity": "medium",
+          "vendor": "openthread",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/openthread/openthread/security/advisories/GHSA-pgq2-v29j-vr6j",
+            "https://www.cve.org/CVERecord?id=CVE-2026-8369"
+          ]
+        }
+      ]
+    },
+    {
       "name": "esp-idf",
       "version": "5.5.5",
       "action": "Version numbers can't settle this. Have a look.",
@@ -911,25 +978,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2020-22283",
             "https://www.cve.org/CVERecord?id=CVE-2020-22283"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "openthread",
-      "version": "2026.07.0..",
-      "action": "A vendor fork: check whether it carries the fixes",
-      "vulns": [
-        {
-          "id": "CVE-2023-2626",
-          "title": "Missing Key ID Mode validation when processing 6LoWPAN frames",
-          "severity": "high",
-          "vendor": "openthread",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/openthread/openthread/security/advisories/GHSA-vr3r-363g-72j9",
-            "https://www.cve.org/CVERecord?id=CVE-2023-2626"
           ]
         }
       ]
@@ -1272,7 +1320,7 @@
       "version": "8.4.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-14T07:21:19.105Z",
+        "checked_at": "2026-10-22T08:14:34.936Z",
         "records": 0
       }
     },
@@ -1344,7 +1392,7 @@
       "version": "0.0.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-13T07:41:17.736Z",
+        "checked_at": "2026-10-22T08:14:34.936Z",
         "records": 0
       }
     },
@@ -1353,7 +1401,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-13T07:41:17.736Z",
+        "checked_at": "2026-10-22T08:14:34.936Z",
         "records": 0
       }
     },
@@ -1362,7 +1410,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-13T07:41:17.736Z",
+        "checked_at": "2026-10-22T08:14:34.936Z",
         "records": 0
       }
     },
@@ -1380,7 +1428,7 @@
       "version": "1.4.7",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-13T07:41:17.736Z",
+        "checked_at": "2026-10-22T08:14:34.936Z",
         "records": 0
       }
     }
