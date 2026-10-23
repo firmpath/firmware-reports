@@ -9,23 +9,23 @@ Firmpath.
 
 | Project | NVD scanner | Firmpath | Not reported by NVD scanners | |
 |---|---:|---:|---:|---|
+| [MeshCore](https://app.firmpath.dev/reports/meshcore) | 78 | **98** | 20 | [data](reports/meshcore.json) |
 | [Flipper Zero](https://app.firmpath.dev/reports/flipper-zero) | 31 | **50** | 19 | [data](reports/flipper-zero.json) |
-| [MeshCore](https://app.firmpath.dev/reports/meshcore) | 79 | **98** | 19 | [data](reports/meshcore.json) |
 | [FluidNC](https://app.firmpath.dev/reports/fluidnc) | 33 | **51** | 18 | [data](reports/fluidnc.json) |
 | [OpenBeken](https://app.firmpath.dev/reports/openbeken) | 32 | **50** | 18 | [data](reports/openbeken.json) |
+| [SlimeVR Tracker](https://app.firmpath.dev/reports/slimevr) | 83 | **100** | 17 | [data](reports/slimevr.json) |
 | [WLED](https://app.firmpath.dev/reports/wled) | 27 | **44** | 17 | [data](reports/wled.json) |
-| [SlimeVR Tracker](https://app.firmpath.dev/reports/slimevr) | 84 | **100** | 16 | [data](reports/slimevr.json) |
 | [ESPHome](https://app.firmpath.dev/reports/esphome) | 17 | **32** | 15 | [data](reports/esphome.json) |
+| [OpenEVSE](https://app.firmpath.dev/reports/openevse) | 54 | **68** | 14 | [data](reports/openevse.json) |
 | [ESPEasy](https://app.firmpath.dev/reports/espeasy) | 17 | **30** | 13 | [data](reports/espeasy.json) |
 | [MicroPython](https://app.firmpath.dev/reports/micropython) | 5 | **20** | 13 | [data](reports/micropython.json) |
-| [OpenEVSE](https://app.firmpath.dev/reports/openevse) | 55 | **68** | 13 | [data](reports/openevse.json) |
+| [OpenDTU](https://app.firmpath.dev/reports/opendtu) | 75 | **88** | 13 | [data](reports/opendtu.json) |
+| [OpenShock](https://app.firmpath.dev/reports/openshock) | 75 | **88** | 13 | [data](reports/openshock.json) |
 | [Tasmota](https://app.firmpath.dev/reports/tasmota) | 17 | **30** | 13 | [data](reports/tasmota.json) |
-| [OpenDTU](https://app.firmpath.dev/reports/opendtu) | 76 | **88** | 12 | [data](reports/opendtu.json) |
-| [OpenShock](https://app.firmpath.dev/reports/openshock) | 76 | **88** | 12 | [data](reports/openshock.json) |
 | [PX4 Autopilot](https://app.firmpath.dev/reports/px4) | 2 | **12** | 8 | [data](reports/px4.json) |
 | [OpenThread Border Router](https://app.firmpath.dev/reports/ot-br-posix) | 18 | **27** | 3 | [data](reports/ot-br-posix.json) |
+| [OpenMQTTGateway](https://app.firmpath.dev/reports/openmqttgateway) | 46 | **48** | 2 | [data](reports/openmqttgateway.json) |
 | [PebbleOS](https://app.firmpath.dev/reports/pebbleos) | 0 | **2** | 2 | [data](reports/pebbleos.json) |
-| [OpenMQTTGateway](https://app.firmpath.dev/reports/openmqttgateway) | 47 | **48** | 1 | [data](reports/openmqttgateway.json) |
 | [Crazyflie](https://app.firmpath.dev/reports/crazyflie) | 10 | **12** | 0 | [data](reports/crazyflie.json) |
 | [Raspberry Pi Debug Probe](https://app.firmpath.dev/reports/debugprobe) | 6 | **8** | 0 | [data](reports/debugprobe.json) |
 

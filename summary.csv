@@ -1,20 +1,20 @@
 slug,project,repository,nvd_scanner,firmpath,missed_by_nvd_scanners,not_checked_against_nvd,packages_to_upgrade,packages_to_look_at,components
+meshcore,MeshCore,https://github.com/meshcore-dev/MeshCore,78,98,20,0,8,6,82
 flipper-zero,Flipper Zero,https://github.com/flipperdevices/flipperzero-firmware,31,50,19,0,3,1,11
-meshcore,MeshCore,https://github.com/meshcore-dev/MeshCore,79,98,19,0,8,6,82
 fluidnc,FluidNC,https://github.com/bdring/FluidNC,33,51,18,0,4,5,35
 openbeken,OpenBeken,https://github.com/openshwprojects/OpenBK7231T_App,32,50,18,0,4,4,47
+slimevr,SlimeVR Tracker,https://github.com/SlimeVR/SlimeVR-Tracker-ESP,83,100,17,0,7,6,46
 wled,WLED,https://github.com/wled/WLED,27,44,17,0,3,8,45
-slimevr,SlimeVR Tracker,https://github.com/SlimeVR/SlimeVR-Tracker-ESP,84,100,16,0,7,6,46
 esphome,ESPHome,https://github.com/esphome/esphome,17,32,15,0,4,10,99
+openevse,OpenEVSE,https://github.com/OpenEVSE/openevse_esp32_firmware,54,68,14,0,6,7,52
 espeasy,ESPEasy,https://github.com/letscontrolit/ESPEasy,17,30,13,0,3,4,33
 micropython,MicroPython,https://github.com/micropython/micropython,5,20,13,2,3,2,39
-openevse,OpenEVSE,https://github.com/OpenEVSE/openevse_esp32_firmware,55,68,13,0,6,7,52
+opendtu,OpenDTU,https://github.com/tbnobody/OpenDTU,75,88,13,0,7,7,37
+openshock,OpenShock,https://github.com/OpenShock/Firmware,75,88,13,0,7,7,31
 tasmota,Tasmota,https://github.com/arendst/Tasmota,17,30,13,0,3,4,24
-opendtu,OpenDTU,https://github.com/tbnobody/OpenDTU,76,88,12,0,7,7,37
-openshock,OpenShock,https://github.com/OpenShock/Firmware,76,88,12,0,7,7,31
 px4,PX4 Autopilot,https://github.com/PX4/PX4-Autopilot,2,12,8,2,2,4,27
 ot-br-posix,OpenThread Border Router,https://github.com/openthread/ot-br-posix,18,27,3,6,2,1,4
+openmqttgateway,OpenMQTTGateway,https://github.com/1technophile/OpenMQTTGateway,46,48,2,0,7,10,83
 pebbleos,PebbleOS,https://github.com/coredevices/PebbleOS,0,2,2,0,1,3,13
-openmqttgateway,OpenMQTTGateway,https://github.com/1technophile/OpenMQTTGateway,47,48,1,0,7,10,83
 crazyflie,Crazyflie,https://github.com/bitcraze/crazyflie-firmware,10,12,0,2,1,0,3
 debugprobe,Raspberry Pi Debug Probe,https://github.com/raspberrypi/debugprobe,6,8,0,2,1,0,1

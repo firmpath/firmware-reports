@@ -11,8 +11,8 @@
     "clear": 3,
     "unwatched": 36,
     "vulnerabilities": 68,
-    "nvd_would_report": 55,
-    "missed_by_nvd_scanners": 13,
+    "nvd_would_report": 54,
+    "missed_by_nvd_scanners": 14,
     "not_checked_against_nvd": 0
   },
   "components": 52,
@@ -59,18 +59,6 @@
           ]
         },
         {
-          "id": "CVE-2026-66046",
-          "title": "Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAt",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
-            "https://www.cve.org/CVERecord?id=CVE-2026-66046"
-          ]
-        },
-        {
           "id": "CVE-2023-52425",
           "title": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in th",
           "severity": "high",
@@ -92,6 +80,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2024-45490",
             "https://www.cve.org/CVERecord?id=CVE-2024-45490"
+          ]
+        },
+        {
+          "id": "CVE-2026-66046",
+          "title": "Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAt",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
+            "https://www.cve.org/CVERecord?id=CVE-2026-66046"
           ]
         },
         {
@@ -838,15 +838,14 @@
       "action": "Upgrade to 1.68.1 or later",
       "vulns": [
         {
-          "id": "CVE-2026-27135",
+          "id": "ICSA-26-295-11",
           "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
           "severity": "high",
           "vendor": "Siemens",
           "exploited": false,
-          "nvd_scanner": true,
+          "nvd_scanner": false,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-27135",
-            "https://www.cve.org/CVERecord?id=CVE-2026-27135"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-27135"
           ]
         },
         {
