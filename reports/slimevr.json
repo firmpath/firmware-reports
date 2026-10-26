@@ -913,18 +913,6 @@
       "action": "Upgrade to 1.10.0 or later",
       "vulns": [
         {
-          "id": "CVE-2026-45815",
-          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
-          ]
-        },
-        {
           "id": "CVE-2025-52435",
           "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
           "severity": "high",
@@ -946,6 +934,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-62235",
             "https://www.cve.org/CVERecord?id=CVE-2025-62235"
+          ]
+        },
+        {
+          "id": "CVE-2026-45815",
+          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
           ]
         },
         {
@@ -985,15 +985,15 @@
           ]
         },
         {
-          "id": "CVE-2026-45813",
-          "title": "Incorrect data validation in BASS add/modify source operation",
+          "id": "CVE-2025-53477",
+          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
           "severity": "high",
           "vendor": "nimble",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
           ]
         },
         {
@@ -1009,15 +1009,15 @@
           ]
         },
         {
-          "id": "CVE-2025-53477",
-          "title": "NULL Pointer Dereference in NimBLE host HCI layer",
+          "id": "CVE-2026-45813",
+          "title": "Incorrect data validation in BASS add/modify source operation",
           "severity": "high",
           "vendor": "nimble",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53477"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
           ]
         },
         {
@@ -1033,18 +1033,6 @@
           ]
         },
         {
-          "id": "CVE-2026-45812",
-          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
-          "severity": "medium",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
-          ]
-        },
-        {
           "id": "CVE-2024-47249",
           "title": "Lack of input sanitization leading to out-of-bound reads in multiple advertisement handler",
           "severity": "medium",
@@ -1054,6 +1042,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2024-47249",
             "https://www.cve.org/CVERecord?id=CVE-2024-47249"
+          ]
+        },
+        {
+          "id": "CVE-2026-45812",
+          "title": "OOB Read via sizeof(pointer) in Legacy Advertising Report Handler",
+          "severity": "medium",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45812",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45812"
           ]
         },
         {

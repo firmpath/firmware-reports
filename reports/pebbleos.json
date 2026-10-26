@@ -337,42 +337,6 @@
       "action": "A vendor fork: check whether it carries the fixes",
       "vulns": [
         {
-          "id": "CVE-2026-45813",
-          "title": "Incorrect data validation in BASS add/modify source operation",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
-          ]
-        },
-        {
-          "id": "CVE-2026-45815",
-          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
-          ]
-        },
-        {
-          "id": "CVE-2026-45811",
-          "title": "Buffer overflow in socket HCI transport",
-          "severity": "high",
-          "vendor": "nimble",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
-          ]
-        },
-        {
           "id": "CVE-2025-52435",
           "title": "Invalid error handling in pause encryption procedure in NimBLE controller",
           "severity": "high",
@@ -406,6 +370,42 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-53477",
             "https://www.cve.org/CVERecord?id=CVE-2025-53477"
+          ]
+        },
+        {
+          "id": "CVE-2026-45811",
+          "title": "Buffer overflow in socket HCI transport",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45811",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45811"
+          ]
+        },
+        {
+          "id": "CVE-2026-45815",
+          "title": "Remote reachable assertion in ATT Read Multiple Variable Response handler",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45815",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45815"
+          ]
+        },
+        {
+          "id": "CVE-2026-45813",
+          "title": "Incorrect data validation in BASS add/modify source operation",
+          "severity": "high",
+          "vendor": "nimble",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45813",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45813"
           ]
         },
         {
