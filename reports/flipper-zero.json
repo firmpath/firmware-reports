@@ -644,18 +644,6 @@
       "action": "A vendor fork: check whether it carries the fixes",
       "vulns": [
         {
-          "id": "CVE-2026-54417",
-          "title": "An integer overflow in the mtar_next function in src/microtar.c in rxi microtar 0.1.0 allows a remote attacker to cause ",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-54417",
-            "https://www.cve.org/CVERecord?id=CVE-2026-54417"
-          ]
-        },
-        {
           "id": "CVE-2026-55738",
           "title": "A stack-based buffer overflow exists in the raw_to_header function in src/microtar.c in rxi microtar 0.1.0. The function",
           "severity": "high",
@@ -665,6 +653,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-55738",
             "https://www.cve.org/CVERecord?id=CVE-2026-55738"
+          ]
+        },
+        {
+          "id": "CVE-2026-54417",
+          "title": "An integer overflow in the mtar_next function in src/microtar.c in rxi microtar 0.1.0 allows a remote attacker to cause ",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-54417",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54417"
           ]
         }
       ]
@@ -676,7 +676,7 @@
       "version": "1.12.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-20T08:07:17.463Z",
+        "checked_at": "2026-10-28T07:58:49.093Z",
         "records": 0
       }
     },
@@ -685,7 +685,7 @@
       "version": "0.25",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-20T08:07:17.463Z",
+        "checked_at": "2026-10-28T07:58:49.093Z",
         "records": 0
       }
     },
@@ -694,7 +694,7 @@
       "version": "7398ccc91652a33483245200cfa1a83b073bc206",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-20T08:07:17.463Z",
+        "checked_at": "2026-10-28T07:58:49.093Z",
         "records": 0
       }
     },
@@ -703,7 +703,7 @@
       "version": "6ca2857519f996244f7b324dd227fdf0a075fffb",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-20T08:07:17.463Z",
+        "checked_at": "2026-10-28T07:58:49.093Z",
         "records": 0
       }
     },
