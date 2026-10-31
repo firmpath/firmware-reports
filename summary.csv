@@ -8,7 +8,7 @@ wled,WLED,https://github.com/wled/WLED,27,44,17,0,3,8,45
 esphome,ESPHome,https://github.com/esphome/esphome,17,32,15,0,4,10,99
 openevse,OpenEVSE,https://github.com/OpenEVSE/openevse_esp32_firmware,54,68,14,0,6,7,52
 espeasy,ESPEasy,https://github.com/letscontrolit/ESPEasy,17,30,13,0,3,4,33
-micropython,MicroPython,https://github.com/micropython/micropython,5,20,13,2,3,2,39
+micropython,MicroPython,https://github.com/micropython/micropython,5,21,13,3,3,2,39
 opendtu,OpenDTU,https://github.com/tbnobody/OpenDTU,75,88,13,0,7,7,37
 openshock,OpenShock,https://github.com/OpenShock/Firmware,75,88,13,0,7,7,31
 tasmota,Tasmota,https://github.com/arendst/Tasmota,17,30,13,0,3,4,24

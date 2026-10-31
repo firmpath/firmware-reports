@@ -18,7 +18,7 @@ Firmpath.
 | [ESPHome](https://app.firmpath.dev/reports/esphome) | 17 | **32** | 15 | [data](reports/esphome.json) |
 | [OpenEVSE](https://app.firmpath.dev/reports/openevse) | 54 | **68** | 14 | [data](reports/openevse.json) |
 | [ESPEasy](https://app.firmpath.dev/reports/espeasy) | 17 | **30** | 13 | [data](reports/espeasy.json) |
-| [MicroPython](https://app.firmpath.dev/reports/micropython) | 5 | **20** | 13 | [data](reports/micropython.json) |
+| [MicroPython](https://app.firmpath.dev/reports/micropython) | 5 | **21** | 13 | [data](reports/micropython.json) |
 | [OpenDTU](https://app.firmpath.dev/reports/opendtu) | 75 | **88** | 13 | [data](reports/opendtu.json) |
 | [OpenShock](https://app.firmpath.dev/reports/openshock) | 75 | **88** | 13 | [data](reports/openshock.json) |
 | [Tasmota](https://app.firmpath.dev/reports/tasmota) | 17 | **30** | 13 | [data](reports/tasmota.json) |
