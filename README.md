@@ -9,8 +9,8 @@ Firmpath.
 
 | Project | NVD scanner | Firmpath | Not reported by NVD scanners | |
 |---|---:|---:|---:|---|
+| [Flipper Zero](https://app.firmpath.dev/reports/flipper-zero) | 31 | **51** | 20 | [data](reports/flipper-zero.json) |
 | [MeshCore](https://app.firmpath.dev/reports/meshcore) | 78 | **98** | 20 | [data](reports/meshcore.json) |
-| [Flipper Zero](https://app.firmpath.dev/reports/flipper-zero) | 31 | **50** | 19 | [data](reports/flipper-zero.json) |
 | [FluidNC](https://app.firmpath.dev/reports/fluidnc) | 33 | **51** | 18 | [data](reports/fluidnc.json) |
 | [OpenBeken](https://app.firmpath.dev/reports/openbeken) | 32 | **50** | 18 | [data](reports/openbeken.json) |
 | [SlimeVR Tracker](https://app.firmpath.dev/reports/slimevr) | 83 | **100** | 17 | [data](reports/slimevr.json) |
@@ -26,8 +26,8 @@ Firmpath.
 | [OpenThread Border Router](https://app.firmpath.dev/reports/ot-br-posix) | 18 | **27** | 3 | [data](reports/ot-br-posix.json) |
 | [OpenMQTTGateway](https://app.firmpath.dev/reports/openmqttgateway) | 46 | **48** | 2 | [data](reports/openmqttgateway.json) |
 | [PebbleOS](https://app.firmpath.dev/reports/pebbleos) | 0 | **2** | 2 | [data](reports/pebbleos.json) |
-| [Crazyflie](https://app.firmpath.dev/reports/crazyflie) | 10 | **12** | 0 | [data](reports/crazyflie.json) |
-| [Raspberry Pi Debug Probe](https://app.firmpath.dev/reports/debugprobe) | 6 | **8** | 0 | [data](reports/debugprobe.json) |
+| [Crazyflie](https://app.firmpath.dev/reports/crazyflie) | 10 | **13** | 1 | [data](reports/crazyflie.json) |
+| [Raspberry Pi Debug Probe](https://app.firmpath.dev/reports/debugprobe) | 6 | **9** | 1 | [data](reports/debugprobe.json) |
 
 19 projects. Each name links to the full report: every vulnerability, the package and version it affects, the
 upgrade that fixes it, and a link to the document the vendor published.

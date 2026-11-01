@@ -8,8 +8,8 @@
   "summary": {
     "fix": 4,
     "look": 10,
-    "clear": 5,
-    "unwatched": 80,
+    "clear": 6,
+    "unwatched": 79,
     "vulnerabilities": 32,
     "nvd_would_report": 17,
     "missed_by_nvd_scanners": 15,
@@ -834,6 +834,18 @@
             "https://nvd.nist.gov/vuln/detail/CVE-2026-77237",
             "https://www.cve.org/CVERecord?id=CVE-2026-77237"
           ]
+        },
+        {
+          "id": "CVE-2026-119086",
+          "title": "Missing type validation in xQueueSelectFromSet in FreeRTOS-Kernel",
+          "severity": "medium",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-119086",
+            "https://www.cve.org/CVERecord?id=CVE-2026-119086"
+          ]
         }
       ]
     },
@@ -1395,15 +1407,6 @@
         "by": "name",
         "checked_at": "2026-10-28T07:58:49.093Z",
         "records": 0
-      }
-    },
-    {
-      "name": "mdns",
-      "version": "1.12.0",
-      "nvd": {
-        "by": null,
-        "checked_at": null,
-        "records": null
       }
     },
     {

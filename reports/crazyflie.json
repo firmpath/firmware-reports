@@ -10,9 +10,9 @@
     "look": 0,
     "clear": 0,
     "unwatched": 2,
-    "vulnerabilities": 12,
+    "vulnerabilities": 13,
     "nvd_would_report": 10,
-    "missed_by_nvd_scanners": 0,
+    "missed_by_nvd_scanners": 1,
     "not_checked_against_nvd": 2
   },
   "components": 3,
@@ -128,6 +128,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-77237",
             "https://www.cve.org/CVERecord?id=CVE-2026-77237"
+          ]
+        },
+        {
+          "id": "CVE-2026-119086",
+          "title": "Missing type validation in xQueueSelectFromSet in FreeRTOS-Kernel",
+          "severity": "medium",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-119086",
+            "https://www.cve.org/CVERecord?id=CVE-2026-119086"
           ]
         },
         {

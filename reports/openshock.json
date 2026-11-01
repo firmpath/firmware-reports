@@ -1311,37 +1311,6 @@
       ]
     },
     {
-      "name": "espasyncwebserver",
-      "version": "7a13c34784ae385aabd45cc02f2e1d174ccc0601",
-      "action": "A vendor fork: check whether it carries the fixes",
-      "vulns": [
-        {
-          "id": "CVE-2026-62966",
-          "title": "Null-pointer write in ESPAsyncWebServer multipart parser ",
-          "severity": "high",
-          "vendor": "espasyncwebserver",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-8m8p-vhxc-jmjw",
-            "https://www.cve.org/CVERecord?id=CVE-2026-62966"
-          ]
-        },
-        {
-          "id": "CVE-2025-53094",
-          "title": "CRLF Injection in AsyncWebHeader.cpp",
-          "severity": "low",
-          "vendor": "espasyncwebserver",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-87j8-6f7g-h8wh",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53094"
-          ]
-        }
-      ]
-    },
-    {
       "name": "lwip",
       "version": "2.1.2",
       "action": "A vendor fork: check whether it carries the fixes",
@@ -1368,6 +1337,25 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2020-22284",
             "https://www.cve.org/CVERecord?id=CVE-2020-22284"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "espasyncwebserver",
+      "version": "7a13c34784ae385aabd45cc02f2e1d174ccc0601",
+      "action": "A vendor fork: check whether it carries the fixes",
+      "vulns": [
+        {
+          "id": "CVE-2025-53094",
+          "title": "CRLF Injection in AsyncWebHeader.cpp",
+          "severity": "low",
+          "vendor": "espasyncwebserver",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-87j8-6f7g-h8wh",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53094"
           ]
         }
       ]
