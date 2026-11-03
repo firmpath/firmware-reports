@@ -10,8 +10,8 @@
     "look": 7,
     "clear": 3,
     "unwatched": 14,
-    "vulnerabilities": 88,
-    "nvd_would_report": 75,
+    "vulnerabilities": 91,
+    "nvd_would_report": 78,
     "missed_by_nvd_scanners": 13,
     "not_checked_against_nvd": 0
   },
@@ -603,6 +603,42 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
             "https://www.cve.org/CVERecord?id=CVE-2026-66046"
+          ]
+        },
+        {
+          "id": "CVE-2026-118370",
+          "title": "libexpat through 2.9.0 contains a signed integer overflow vulnerability in storeAtts() in lib/xmlparse.c that allows att",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-118370",
+            "https://www.cve.org/CVERecord?id=CVE-2026-118370"
+          ]
+        },
+        {
+          "id": "CVE-2026-115506",
+          "title": "libexpat through 2.9.0 contains a denial of service vulnerability because billion laughs protection in accountingDiffTol",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-115506",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115506"
+          ]
+        },
+        {
+          "id": "CVE-2026-117610",
+          "title": "libexpat through 2.9.0 contains a NULL pointer dereference vulnerability in externalEntityInitProcessor2() in lib/xmlpar",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-117610",
+            "https://www.cve.org/CVERecord?id=CVE-2026-117610"
           ]
         },
         {
