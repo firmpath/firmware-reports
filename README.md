@@ -16,10 +16,10 @@ Firmpath.
 | [SlimeVR Tracker](https://app.firmpath.dev/reports/slimevr) | 86 | **103** | 17 | [data](reports/slimevr.json) |
 | [WLED](https://app.firmpath.dev/reports/wled) | 27 | **44** | 17 | [data](reports/wled.json) |
 | [ESPHome](https://app.firmpath.dev/reports/esphome) | 17 | **32** | 15 | [data](reports/esphome.json) |
-| [OpenEVSE](https://app.firmpath.dev/reports/openevse) | 54 | **68** | 14 | [data](reports/openevse.json) |
+| [OpenEVSE](https://app.firmpath.dev/reports/openevse) | 57 | **71** | 14 | [data](reports/openevse.json) |
 | [ESPEasy](https://app.firmpath.dev/reports/espeasy) | 17 | **30** | 13 | [data](reports/espeasy.json) |
 | [MicroPython](https://app.firmpath.dev/reports/micropython) | 5 | **21** | 13 | [data](reports/micropython.json) |
-| [OpenDTU](https://app.firmpath.dev/reports/opendtu) | 75 | **88** | 13 | [data](reports/opendtu.json) |
+| [OpenDTU](https://app.firmpath.dev/reports/opendtu) | 78 | **91** | 13 | [data](reports/opendtu.json) |
 | [OpenShock](https://app.firmpath.dev/reports/openshock) | 78 | **91** | 13 | [data](reports/openshock.json) |
 | [Tasmota](https://app.firmpath.dev/reports/tasmota) | 17 | **30** | 13 | [data](reports/tasmota.json) |
 | [PX4 Autopilot](https://app.firmpath.dev/reports/px4) | 2 | **12** | 8 | [data](reports/px4.json) |

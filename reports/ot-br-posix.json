@@ -162,7 +162,7 @@
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45372",
+            "https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-xjxg-64p4-vj4m",
             "https://www.cve.org/CVERecord?id=CVE-2026-45372"
           ]
         },
@@ -176,18 +176,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-28434",
             "https://www.cve.org/CVERecord?id=CVE-2026-28434"
-          ]
-        },
-        {
-          "id": "CVE-2025-53628",
-          "title": "HTTP Header Smuggling due to insecure trailers merge",
-          "severity": "medium",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-53628",
-            "https://www.cve.org/CVERecord?id=CVE-2025-53628"
           ]
         },
         {
@@ -215,18 +203,6 @@
           ]
         },
         {
-          "id": "CVE-2026-34441",
-          "title": "HTTP Request Smuggling via Unconsumed GET Request Body",
-          "severity": "medium",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34441",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34441"
-          ]
-        },
-        {
           "id": "CVE-2026-45352",
           "title": "DoS: Negative chunk-size in chunked Transfer-Encoding",
           "severity": "medium",
@@ -236,6 +212,30 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-45352",
             "https://www.cve.org/CVERecord?id=CVE-2026-45352"
+          ]
+        },
+        {
+          "id": "CVE-2026-34441",
+          "title": "HTTP Request Smuggling via Unconsumed GET Request Body",
+          "severity": "medium",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-jv63-rm9j-6jwc",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34441"
+          ]
+        },
+        {
+          "id": "CVE-2025-53628",
+          "title": "HTTP Header Smuggling due to insecure trailers merge",
+          "severity": "medium",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-j6p8-779x-p5pw",
+            "https://www.cve.org/CVERecord?id=CVE-2025-53628"
           ]
         },
         {

@@ -6,10 +6,10 @@ openbeken,OpenBeken,https://github.com/openshwprojects/OpenBK7231T_App,32,50,18,
 slimevr,SlimeVR Tracker,https://github.com/SlimeVR/SlimeVR-Tracker-ESP,86,103,17,0,7,6,46
 wled,WLED,https://github.com/wled/WLED,27,44,17,0,3,8,45
 esphome,ESPHome,https://github.com/esphome/esphome,17,32,15,0,4,10,99
-openevse,OpenEVSE,https://github.com/OpenEVSE/openevse_esp32_firmware,54,68,14,0,6,7,52
+openevse,OpenEVSE,https://github.com/OpenEVSE/openevse_esp32_firmware,57,71,14,0,6,7,52
 espeasy,ESPEasy,https://github.com/letscontrolit/ESPEasy,17,30,13,0,3,4,33
 micropython,MicroPython,https://github.com/micropython/micropython,5,21,13,3,3,3,39
-opendtu,OpenDTU,https://github.com/tbnobody/OpenDTU,75,88,13,0,7,7,37
+opendtu,OpenDTU,https://github.com/tbnobody/OpenDTU,78,91,13,0,7,7,37
 openshock,OpenShock,https://github.com/OpenShock/Firmware,78,91,13,0,7,7,31
 tasmota,Tasmota,https://github.com/arendst/Tasmota,17,30,13,0,3,4,24
 px4,PX4 Autopilot,https://github.com/PX4/PX4-Autopilot,2,12,8,2,2,4,27
