@@ -407,18 +407,6 @@
           ]
         },
         {
-          "id": "CVE-2025-66442",
-          "title": "Compiler-induced constant-time violations",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
-          ]
-        },
-        {
           "id": "CVE-2026-50640",
           "title": "Ignored TLS 1.3 resumption secret derivation error",
           "severity": "low",
@@ -524,6 +512,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-newsessionticket-information-disclosure/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50586"
+          ]
+        },
+        {
+          "id": "CVE-2025-66442",
+          "title": "Compiler-induced constant-time violations",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
           ]
         }
       ]
@@ -688,7 +688,7 @@
       "version": "1.12.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -697,7 +697,7 @@
       "version": "0.25",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -706,7 +706,7 @@
       "version": "7398ccc91652a33483245200cfa1a83b073bc206",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -715,7 +715,7 @@
       "version": "6ca2857519f996244f7b324dd227fdf0a075fffb",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },

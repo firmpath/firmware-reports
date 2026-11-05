@@ -718,18 +718,6 @@
           ]
         },
         {
-          "id": "CVE-2025-55297",
-          "title": "BluFi Example Memory Overflow Vulnerability",
-          "severity": "medium",
-          "vendor": "espressif",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-55297",
-            "https://www.cve.org/CVERecord?id=CVE-2025-55297"
-          ]
-        },
-        {
           "id": "CVE-2025-68473",
           "title": "Out-of-Bounds Write in ESP32 Bluetooth SDP Result Handling",
           "severity": "medium",
@@ -799,6 +787,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-66409",
             "https://www.cve.org/CVERecord?id=CVE-2025-66409"
+          ]
+        },
+        {
+          "id": "CVE-2025-55297",
+          "title": "BluFi Example Memory Overflow Vulnerability",
+          "severity": "medium",
+          "vendor": "espressif",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-55297",
+            "https://www.cve.org/CVERecord?id=CVE-2025-55297"
           ]
         },
         {

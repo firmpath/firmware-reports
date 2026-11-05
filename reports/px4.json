@@ -47,18 +47,6 @@
           ]
         },
         {
-          "id": "CVE-2026-32709",
-          "title": "PX4 Autopilot MAVLink FTP Unauthenticated Path Traversal (Arbitrary File Read/Write/Delete)",
-          "severity": "medium",
-          "vendor": "PX4-Autopilot",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-fh32-qxj9-x32f",
-            "https://www.cve.org/CVERecord?id=CVE-2026-32709"
-          ]
-        },
-        {
           "id": "CVE-2026-32743",
           "title": "MavlinkLogHandler sscanf stack buffer overflow via MAVLink log request",
           "severity": "medium",
@@ -92,6 +80,18 @@
           "links": [
             "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-79mp-34pp-2f3f",
             "https://www.cve.org/CVERecord?id=CVE-2026-32705"
+          ]
+        },
+        {
+          "id": "CVE-2026-32709",
+          "title": "PX4 Autopilot MAVLink FTP Unauthenticated Path Traversal (Arbitrary File Read/Write/Delete)",
+          "severity": "medium",
+          "vendor": "PX4-Autopilot",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/PX4/PX4-Autopilot/security/advisories/GHSA-fh32-qxj9-x32f",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32709"
           ]
         },
         {
