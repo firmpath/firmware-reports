@@ -47,18 +47,6 @@
           ]
         },
         {
-          "id": "CVE-2025-54764",
-          "title": "Side channel in RSA key generation and operations",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
-            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
-          ]
-        },
-        {
           "id": "CVE-2024-30166",
           "title": "Stack buffer over read in TLS 1.3 server",
           "severity": "critical",
@@ -68,6 +56,18 @@
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
             "https://www.cve.org/CVERecord?id=CVE-2024-30166"
+          ]
+        },
+        {
+          "id": "CVE-2025-54764",
+          "title": "Side channel in RSA key generation and operations",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
+            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
           ]
         },
         {

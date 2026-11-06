@@ -311,18 +311,6 @@
           ]
         },
         {
-          "id": "CVE-2025-66442",
-          "title": "Compiler-induced constant-time violations",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
-          ]
-        },
-        {
           "id": "CVE-2026-34871",
           "title": "Entropy on Linux can fall back to /dev/urandom",
           "severity": "low",
@@ -356,6 +344,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50588"
+          ]
+        },
+        {
+          "id": "CVE-2025-66442",
+          "title": "Compiler-induced constant-time violations",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
           ]
         }
       ]
@@ -891,7 +891,7 @@
       "version": "0.2.0..0.2.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -900,7 +900,7 @@
       "version": "1.7.6",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -909,7 +909,7 @@
       "version": "v2.5.2-2-geeecc49ce8af",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -918,7 +918,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -927,7 +927,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -936,7 +936,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -945,7 +945,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -954,7 +954,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -963,7 +963,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -972,7 +972,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -981,7 +981,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -990,7 +990,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -999,7 +999,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -1008,7 +1008,7 @@
       "version": "4.4.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -1017,7 +1017,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -1026,7 +1026,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -1044,7 +1044,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -1053,7 +1053,7 @@
       "version": "0.2-255-g0dbb3f71c5f6",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },

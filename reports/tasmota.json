@@ -167,18 +167,6 @@
           ]
         },
         {
-          "id": "CVE-2025-66442",
-          "title": "Compiler-induced constant-time violations",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
-          ]
-        },
-        {
           "id": "CVE-2026-50588",
           "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
           "severity": "low",
@@ -188,6 +176,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50588"
+          ]
+        },
+        {
+          "id": "CVE-2025-66442",
+          "title": "Compiler-induced constant-time violations",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66442"
           ]
         }
       ]
@@ -531,7 +531,7 @@
       "version": "v2.5.2-2-geeecc49ce8af",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -540,7 +540,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -549,7 +549,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -558,7 +558,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -567,7 +567,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -576,7 +576,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -585,7 +585,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -594,7 +594,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -603,7 +603,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -612,7 +612,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -621,7 +621,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
@@ -639,7 +639,7 @@
       "version": "0.2-265-gad902ca",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-28T07:58:49.093Z",
+        "checked_at": "2026-11-05T08:24:17.456Z",
         "records": 0
       }
     },
