@@ -7,9 +7,9 @@
   },
   "summary": {
     "fix": 6,
-    "look": 7,
+    "look": 8,
     "clear": 3,
-    "unwatched": 36,
+    "unwatched": 35,
     "vulnerabilities": 71,
     "nvd_would_report": 57,
     "missed_by_nvd_scanners": 14,
@@ -1123,6 +1123,37 @@
       ]
     },
     {
+      "name": "tinyusb",
+      "version": null,
+      "action": "A vendor fork with no release version. Check the vendor's notes on these advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2026-61495",
+          "title": "TinyUSB through 0.21.0, fixed in commit e85c2b8, contains an out-of-bounds write vulnerability in the MTP device class h",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-61495",
+            "https://www.cve.org/CVERecord?id=CVE-2026-61495"
+          ]
+        },
+        {
+          "id": "CVE-2026-61497",
+          "title": "TinyUSB before 0.20.1 contains an integer underflow vulnerability in the HID host report descriptor parser tuh_hid_parse",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-61497",
+            "https://www.cve.org/CVERecord?id=CVE-2026-61497"
+          ]
+        }
+      ]
+    },
+    {
       "name": "coex-lib",
       "version": null,
       "action": "Bundled in an SDK with no version of its own. Check the advisories.",
@@ -1355,7 +1386,7 @@
       "version": "8.4.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1427,7 +1458,7 @@
       "version": "0.0.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1436,16 +1467,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
-        "records": 0
-      }
-    },
-    {
-      "name": "tinyusb",
-      "version": null,
-      "nvd": {
-        "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1463,7 +1485,7 @@
       "version": "1.4.7",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     }

@@ -26,8 +26,8 @@ Firmpath.
 | [OpenThread Border Router](https://app.firmpath.dev/reports/ot-br-posix) | 18 | **27** | 3 | [data](reports/ot-br-posix.json) |
 | [OpenMQTTGateway](https://app.firmpath.dev/reports/openmqttgateway) | 49 | **51** | 2 | [data](reports/openmqttgateway.json) |
 | [PebbleOS](https://app.firmpath.dev/reports/pebbleos) | 0 | **2** | 2 | [data](reports/pebbleos.json) |
-| [Crazyflie](https://app.firmpath.dev/reports/crazyflie) | 10 | **13** | 1 | [data](reports/crazyflie.json) |
-| [Raspberry Pi Debug Probe](https://app.firmpath.dev/reports/debugprobe) | 6 | **9** | 1 | [data](reports/debugprobe.json) |
+| [Crazyflie](https://app.firmpath.dev/reports/crazyflie) | 10 | **11** | 1 | [data](reports/crazyflie.json) |
+| [Raspberry Pi Debug Probe](https://app.firmpath.dev/reports/debugprobe) | 6 | **7** | 1 | [data](reports/debugprobe.json) |
 
 19 projects. Each name links to the full report: every vulnerability, the package and version it affects, the
 upgrade that fixes it, and a link to the document the vendor published.

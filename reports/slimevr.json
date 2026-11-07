@@ -7,9 +7,9 @@
   },
   "summary": {
     "fix": 7,
-    "look": 6,
+    "look": 7,
     "clear": 3,
-    "unwatched": 30,
+    "unwatched": 29,
     "vulnerabilities": 103,
     "nvd_would_report": 86,
     "missed_by_nvd_scanners": 17,
@@ -71,18 +71,6 @@
           ]
         },
         {
-          "id": "CVE-2025-54764",
-          "title": "Side channel in RSA key generation and operations",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
-            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
-          ]
-        },
-        {
           "id": "CVE-2024-49195",
           "title": "Buffer underrun in pkwrite when writing an opaque key pair",
           "severity": "critical",
@@ -95,18 +83,6 @@
           ]
         },
         {
-          "id": "CVE-2025-59438",
-          "title": "Padding oracle through timing of cipher error reporting",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-59438",
-            "https://www.cve.org/CVERecord?id=CVE-2025-59438"
-          ]
-        },
-        {
           "id": "CVE-2024-45159",
           "title": "Limited authentication bypass in TLS 1.3 optional client authentication",
           "severity": "critical",
@@ -116,6 +92,30 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2024-45159",
             "https://www.cve.org/CVERecord?id=CVE-2024-45159"
+          ]
+        },
+        {
+          "id": "CVE-2025-54764",
+          "title": "Side channel in RSA key generation and operations",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
+            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
+          ]
+        },
+        {
+          "id": "CVE-2025-59438",
+          "title": "Padding oracle through timing of cipher error reporting",
+          "severity": "critical",
+          "vendor": "silabs",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59438",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59438"
           ]
         },
         {
@@ -1566,6 +1566,37 @@
       ]
     },
     {
+      "name": "tinyusb",
+      "version": null,
+      "action": "A vendor fork with no release version. Check the vendor's notes on these advisories.",
+      "vulns": [
+        {
+          "id": "CVE-2026-61495",
+          "title": "TinyUSB through 0.21.0, fixed in commit e85c2b8, contains an out-of-bounds write vulnerability in the MTP device class h",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-61495",
+            "https://www.cve.org/CVERecord?id=CVE-2026-61495"
+          ]
+        },
+        {
+          "id": "CVE-2026-61497",
+          "title": "TinyUSB before 0.20.1 contains an integer underflow vulnerability in the HID host report descriptor parser tuh_hid_parse",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-61497",
+            "https://www.cve.org/CVERecord?id=CVE-2026-61497"
+          ]
+        }
+      ]
+    },
+    {
       "name": "coex-lib",
       "version": null,
       "action": "Bundled in an SDK with no version of its own. Check the advisories.",
@@ -1830,15 +1861,6 @@
       }
     },
     {
-      "name": "tinyusb",
-      "version": null,
-      "nvd": {
-        "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
-        "records": 0
-      }
-    },
-    {
       "name": "tlsf",
       "version": null,
       "nvd": {
@@ -1852,7 +1874,7 @@
       "version": "2.9.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     }

@@ -8,8 +8,8 @@
   "summary": {
     "fix": 4,
     "look": 10,
-    "clear": 6,
-    "unwatched": 79,
+    "clear": 7,
+    "unwatched": 78,
     "vulnerabilities": 32,
     "nvd_would_report": 17,
     "missed_by_nvd_scanners": 15,
@@ -1396,7 +1396,7 @@
       "version": "9.5.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1576,7 +1576,7 @@
       "version": "1.3.3~1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1585,16 +1585,7 @@
       "version": "v1.1.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
-        "records": 0
-      }
-    },
-    {
-      "name": "tinyusb",
-      "version": "2.2.1",
-      "nvd": {
-        "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1612,7 +1603,7 @@
       "version": "1.0.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1621,7 +1612,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1630,7 +1621,7 @@
       "version": "1.0.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     },
@@ -1639,7 +1630,7 @@
       "version": "0.3.3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-10-30T07:44:20.955Z",
+        "checked_at": "2026-11-07T07:44:37.290Z",
         "records": 0
       }
     }
