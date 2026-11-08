@@ -119,18 +119,6 @@
           ]
         },
         {
-          "id": "CVE-2026-102944",
-          "title": "Cookie header leaked on cross-origin redirect",
-          "severity": "high",
-          "vendor": "cpp-httplib",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-22mf-w2v3-r2jv",
-            "https://www.cve.org/CVERecord?id=CVE-2026-102944"
-          ]
-        },
-        {
           "id": "CVE-2026-46527",
           "title": "cpp-httplib: Malicious `X-Forwarded-For` Under Trusted-Proxy Configuration Triggers Empty `vector::front()`, Leading to Undefined Behavior and Server Crash",
           "severity": "high",
@@ -164,6 +152,18 @@
           "links": [
             "https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-xjxg-64p4-vj4m",
             "https://www.cve.org/CVERecord?id=CVE-2026-45372"
+          ]
+        },
+        {
+          "id": "CVE-2026-102944",
+          "title": "Cookie header leaked on cross-origin redirect",
+          "severity": "high",
+          "vendor": "cpp-httplib",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-22mf-w2v3-r2jv",
+            "https://www.cve.org/CVERecord?id=CVE-2026-102944"
           ]
         },
         {
