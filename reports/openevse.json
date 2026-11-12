@@ -11,8 +11,8 @@
     "clear": 3,
     "unwatched": 35,
     "vulnerabilities": 71,
-    "nvd_would_report": 57,
-    "missed_by_nvd_scanners": 14,
+    "nvd_would_report": 58,
+    "missed_by_nvd_scanners": 13,
     "not_checked_against_nvd": 0
   },
   "components": 52,
@@ -47,18 +47,6 @@
           ]
         },
         {
-          "id": "CVE-2024-28757",
-          "title": "libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-28757",
-            "https://www.cve.org/CVERecord?id=CVE-2024-28757"
-          ]
-        },
-        {
           "id": "CVE-2023-52425",
           "title": "libexpat through 2.5.0 allows a denial of service (resource consumption) because many full reparsings are required in th",
           "severity": "high",
@@ -80,18 +68,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2024-45490",
             "https://www.cve.org/CVERecord?id=CVE-2024-45490"
-          ]
-        },
-        {
-          "id": "CVE-2026-66046",
-          "title": "Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAt",
-          "severity": "high",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
-            "https://www.cve.org/CVERecord?id=CVE-2026-66046"
           ]
         },
         {
@@ -131,15 +107,27 @@
           ]
         },
         {
-          "id": "CVE-2026-25210",
-          "title": "Hitachi Energy RTU500",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
+          "id": "CVE-2024-28757",
+          "title": "libexpat through 2.6.1 allows an XML Entity Expansion attack when there is isolated use of external parsers (created via",
+          "severity": "high",
+          "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25210",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25210"
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28757",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28757"
+          ]
+        },
+        {
+          "id": "CVE-2026-66046",
+          "title": "Expat through 2.8.3 contains a denial of service vulnerability caused by quadratic algorithmic complexity in the storeAt",
+          "severity": "high",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-66046",
+            "https://www.cve.org/CVERecord?id=CVE-2026-66046"
           ]
         },
         {
@@ -155,15 +143,51 @@
           ]
         },
         {
-          "id": "CVE-2026-76957",
-          "title": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur",
+          "id": "CVE-2023-52426",
+          "title": "libexpat through 2.5.0 allows recursive XML Entity Expansion if XML_DTD is undefined at compile time.",
           "severity": "medium",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-76957",
-            "https://www.cve.org/CVERecord?id=CVE-2026-76957"
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-52426",
+            "https://www.cve.org/CVERecord?id=CVE-2023-52426"
+          ]
+        },
+        {
+          "id": "CVE-2025-59375",
+          "title": "Hitachi Energy RTU500 Product (Update A)",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
+          ]
+        },
+        {
+          "id": "CVE-2026-25210",
+          "title": "Hitachi Energy RTU500",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25210",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25210"
+          ]
+        },
+        {
+          "id": "CVE-2026-32776",
+          "title": "Hitachi Energy RTU500",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32776",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32776"
           ]
         },
         {
@@ -191,51 +215,27 @@
           ]
         },
         {
-          "id": "CVE-2023-52426",
-          "title": "libexpat through 2.5.0 allows recursive XML Entity Expansion if XML_DTD is undefined at compile time.",
+          "id": "CVE-2026-56132",
+          "title": "In libexpat before 2.8.2, there is a heap-based buffer overflow in doProlog in xmlparse.c because scaffold backing array",
           "severity": "medium",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2023-52426",
-            "https://www.cve.org/CVERecord?id=CVE-2023-52426"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56132",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56132"
           ]
         },
         {
-          "id": "CVE-2026-32776",
-          "title": "Hitachi Energy RTU500",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-32776",
-            "https://www.cve.org/CVERecord?id=CVE-2026-32776"
-          ]
-        },
-        {
-          "id": "CVE-2025-59375",
-          "title": "Hitachi Energy RTU500 Product (Update A)",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-59375",
-            "https://www.cve.org/CVERecord?id=CVE-2025-59375"
-          ]
-        },
-        {
-          "id": "CVE-2026-56403",
-          "title": "libexpat before 2.8.2 has an integer overflow in storeAtts.",
+          "id": "CVE-2026-56131",
+          "title": "libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_ResumeParser from within handlers in cases of a",
           "severity": "medium",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56403",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56403"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56131",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56131"
           ]
         },
         {
@@ -251,6 +251,18 @@
           ]
         },
         {
+          "id": "CVE-2026-56403",
+          "title": "libexpat before 2.8.2 has an integer overflow in storeAtts.",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56403",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56403"
+          ]
+        },
+        {
           "id": "CVE-2026-56405",
           "title": "libexpat before 2.8.2 has an integer overflow in getAttributeId.",
           "severity": "medium",
@@ -263,18 +275,6 @@
           ]
         },
         {
-          "id": "CVE-2026-56406",
-          "title": "libexpat before 2.8.2 has an integer overflow in XML_ParseBuffer because it lacked a check that was present in XML_Parse",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56406",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56406"
-          ]
-        },
-        {
           "id": "CVE-2026-56407",
           "title": "libexpat before 2.8.2 has an integer overflow in doProlog that is related to storeEntityValue and entity textLen.",
           "severity": "medium",
@@ -284,6 +284,18 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-56407",
             "https://www.cve.org/CVERecord?id=CVE-2026-56407"
+          ]
+        },
+        {
+          "id": "CVE-2026-56406",
+          "title": "libexpat before 2.8.2 has an integer overflow in XML_ParseBuffer because it lacked a check that was present in XML_Parse",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-56406",
+            "https://www.cve.org/CVERecord?id=CVE-2026-56406"
           ]
         },
         {
@@ -347,39 +359,15 @@
           ]
         },
         {
-          "id": "CVE-2026-56131",
-          "title": "libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_ResumeParser from within handlers in cases of a",
+          "id": "CVE-2026-76957",
+          "title": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur",
           "severity": "medium",
           "vendor": null,
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56131",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56131"
-          ]
-        },
-        {
-          "id": "CVE-2026-56132",
-          "title": "In libexpat before 2.8.2, there is a heap-based buffer overflow in doProlog in xmlparse.c because scaffold backing array",
-          "severity": "medium",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-56132",
-            "https://www.cve.org/CVERecord?id=CVE-2026-56132"
-          ]
-        },
-        {
-          "id": "CVE-2026-32778",
-          "title": "Hitachi Energy RTU500",
-          "severity": "low",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-32778",
-            "https://www.cve.org/CVERecord?id=CVE-2026-32778"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-76957",
+            "https://www.cve.org/CVERecord?id=CVE-2026-76957"
           ]
         },
         {
@@ -395,6 +383,18 @@
           ]
         },
         {
+          "id": "CVE-2025-66382",
+          "title": "Siemens SINEC OS",
+          "severity": "low",
+          "vendor": "Siemens",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-66382",
+            "https://www.cve.org/CVERecord?id=CVE-2025-66382"
+          ]
+        },
+        {
           "id": "CVE-2026-24515",
           "title": "Hitachi Energy RTU500",
           "severity": "low",
@@ -407,6 +407,18 @@
           ]
         },
         {
+          "id": "CVE-2026-32778",
+          "title": "Hitachi Energy RTU500",
+          "severity": "low",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32778",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32778"
+          ]
+        },
+        {
           "id": "CVE-2026-45186",
           "title": "In libexpat before 2.8.1, the computational complexity of attribute name collision checks allows a denial of service via",
           "severity": "low",
@@ -416,18 +428,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-45186",
             "https://www.cve.org/CVERecord?id=CVE-2026-45186"
-          ]
-        },
-        {
-          "id": "CVE-2025-66382",
-          "title": "Siemens SINEC OS",
-          "severity": "low",
-          "vendor": "Siemens",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-66382",
-            "https://www.cve.org/CVERecord?id=CVE-2025-66382"
           ]
         }
       ]
@@ -874,14 +874,15 @@
       "action": "Upgrade to 1.68.1 or later",
       "vulns": [
         {
-          "id": "ICSA-26-295-11",
+          "id": "CVE-2026-27135",
           "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
           "severity": "high",
           "vendor": "Siemens",
           "exploited": false,
-          "nvd_scanner": false,
+          "nvd_scanner": true,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-27135"
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-27135",
+            "https://www.cve.org/CVERecord?id=CVE-2026-27135"
           ]
         },
         {
@@ -1179,7 +1180,7 @@
       "version": "2.0.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1188,7 +1189,7 @@
       "version": "1.15.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1197,7 +1198,7 @@
       "version": "6.20.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1206,7 +1207,7 @@
       "version": "0.04..1.0.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1224,7 +1225,7 @@
       "version": "v2.5.2-2-geeecc49ce8af",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1233,7 +1234,7 @@
       "version": "0.0.8",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1242,7 +1243,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1251,7 +1252,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1260,7 +1261,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1269,7 +1270,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1278,7 +1279,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1287,7 +1288,7 @@
       "version": "2.4.3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1296,7 +1297,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1305,7 +1306,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1314,7 +1315,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1323,7 +1324,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1332,7 +1333,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1341,7 +1342,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1350,7 +1351,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1359,7 +1360,7 @@
       "version": "0.0.7",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1368,7 +1369,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 1
       }
     },
@@ -1377,7 +1378,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 9
       }
     },
@@ -1395,7 +1396,7 @@
       "version": "0.0.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1404,7 +1405,7 @@
       "version": "1.2.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1413,7 +1414,7 @@
       "version": "1.2.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1422,7 +1423,7 @@
       "version": "0.0.4",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 1
       }
     },
@@ -1440,7 +1441,7 @@
       "version": "0.0.24",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -1449,7 +1450,7 @@
       "version": "0.2-265-gad902ca",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
