@@ -167,42 +167,6 @@
           ]
         },
         {
-          "id": "CVE-2026-25210",
-          "title": "Hitachi Energy RTU500",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25210",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25210"
-          ]
-        },
-        {
-          "id": "CVE-2026-32776",
-          "title": "Hitachi Energy RTU500",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-32776",
-            "https://www.cve.org/CVERecord?id=CVE-2026-32776"
-          ]
-        },
-        {
-          "id": "CVE-2026-32777",
-          "title": "Hitachi Energy RTU500",
-          "severity": "medium",
-          "vendor": "Hitachi Energy",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-32777",
-            "https://www.cve.org/CVERecord?id=CVE-2026-32777"
-          ]
-        },
-        {
           "id": "CVE-2026-50219",
           "title": "libexpat before 2.8.2 lacks handler call depth tracking for calls to XML_GetBuffer, XML_Parse, XML_ParseBuffer, XML_Pars",
           "severity": "medium",
@@ -371,6 +335,42 @@
           ]
         },
         {
+          "id": "CVE-2026-25210",
+          "title": "Hitachi Energy RTU500 (Update A)",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25210",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25210"
+          ]
+        },
+        {
+          "id": "CVE-2026-32776",
+          "title": "Hitachi Energy RTU500 (Update A)",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32776",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32776"
+          ]
+        },
+        {
+          "id": "CVE-2026-32777",
+          "title": "Hitachi Energy RTU500 (Update A)",
+          "severity": "medium",
+          "vendor": "Hitachi Energy",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-32777",
+            "https://www.cve.org/CVERecord?id=CVE-2026-32777"
+          ]
+        },
+        {
           "id": "CVE-2026-41080",
           "title": "libexpat before 2.8.0 uses insufficient entropy, and thus hash flooding can occur via a crafted XML document.",
           "severity": "low",
@@ -395,8 +395,20 @@
           ]
         },
         {
+          "id": "CVE-2026-45186",
+          "title": "In libexpat before 2.8.1, the computational complexity of attribute name collision checks allows a denial of service via",
+          "severity": "low",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-45186",
+            "https://www.cve.org/CVERecord?id=CVE-2026-45186"
+          ]
+        },
+        {
           "id": "CVE-2026-24515",
-          "title": "Hitachi Energy RTU500",
+          "title": "Hitachi Energy RTU500 (Update A)",
           "severity": "low",
           "vendor": "Hitachi Energy",
           "exploited": false,
@@ -408,7 +420,7 @@
         },
         {
           "id": "CVE-2026-32778",
-          "title": "Hitachi Energy RTU500",
+          "title": "Hitachi Energy RTU500 (Update A)",
           "severity": "low",
           "vendor": "Hitachi Energy",
           "exploited": false,
@@ -416,18 +428,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-32778",
             "https://www.cve.org/CVERecord?id=CVE-2026-32778"
-          ]
-        },
-        {
-          "id": "CVE-2026-45186",
-          "title": "In libexpat before 2.8.1, the computational complexity of attribute name collision checks allows a denial of service via",
-          "severity": "low",
-          "vendor": null,
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-45186",
-            "https://www.cve.org/CVERecord?id=CVE-2026-45186"
           ]
         }
       ]

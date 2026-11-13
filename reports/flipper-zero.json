@@ -10,9 +10,9 @@
     "look": 1,
     "clear": 0,
     "unwatched": 7,
-    "vulnerabilities": 51,
+    "vulnerabilities": 52,
     "nvd_would_report": 31,
-    "missed_by_nvd_scanners": 20,
+    "missed_by_nvd_scanners": 21,
     "not_checked_against_nvd": 0
   },
   "components": 11,
@@ -83,18 +83,6 @@
           ]
         },
         {
-          "id": "CVE-2026-34873",
-          "title": "Client impersonation while resuming a TLS 1.3 session",
-          "severity": "high",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34873",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34873"
-          ]
-        },
-        {
           "id": "CVE-2026-50580",
           "title": "Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake",
           "severity": "high",
@@ -128,18 +116,6 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-use-after-free-pkcs7-free-reused-context/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50579"
-          ]
-        },
-        {
-          "id": "CVE-2026-25835",
-          "title": "PSA random generator cloning",
-          "severity": "high",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25835",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25835"
           ]
         },
         {
@@ -188,6 +164,30 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2026-34874",
             "https://www.cve.org/CVERecord?id=CVE-2026-34874"
+          ]
+        },
+        {
+          "id": "CVE-2026-25835",
+          "title": "PSA random generator cloning",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25835",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25835"
+          ]
+        },
+        {
+          "id": "CVE-2026-34873",
+          "title": "Client impersonation while resuming a TLS 1.3 session",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34873",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34873"
           ]
         },
         {
@@ -419,18 +419,6 @@
           ]
         },
         {
-          "id": "CVE-2026-25833",
-          "title": "Buffer underflow in x509_inet_pton_ipv6()",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25833",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25833"
-          ]
-        },
-        {
           "id": "CVE-2026-34871",
           "title": "Entropy on Linux can fall back to /dev/urandom",
           "severity": "low",
@@ -452,18 +440,6 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-zero-length-ecc-public-key-oob-read/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50583"
-          ]
-        },
-        {
-          "id": "CVE-2026-25834",
-          "title": "Signature Algorithm Injection",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-25834",
-            "https://www.cve.org/CVERecord?id=CVE-2026-25834"
           ]
         },
         {
@@ -524,6 +500,30 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-66442",
             "https://www.cve.org/CVERecord?id=CVE-2025-66442"
+          ]
+        },
+        {
+          "id": "CVE-2026-25834",
+          "title": "Signature Algorithm Injection",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25834",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25834"
+          ]
+        },
+        {
+          "id": "CVE-2026-25833",
+          "title": "Buffer underflow in x509_inet_pton_ipv6()",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-25833",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25833"
           ]
         }
       ]
@@ -645,6 +645,17 @@
             "https://github.com/nanopb/nanopb/security/advisories/GHSA-xwqq-qxmw-hj5r",
             "https://www.cve.org/CVERecord?id=CVE-2024-53984"
           ]
+        },
+        {
+          "id": "476315b42be2",
+          "title": "Previous fix for callbacks inside oneof (GHSA-p24j-vqcp-x988) is bypassable",
+          "severity": "high",
+          "vendor": "nanopb",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/nanopb/nanopb/security/advisories/GHSA-fmpg-qc28-5x4x"
+          ]
         }
       ]
     }
@@ -688,7 +699,7 @@
       "version": "1.12.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -697,7 +708,7 @@
       "version": "0.25",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -706,7 +717,7 @@
       "version": "7398ccc91652a33483245200cfa1a83b073bc206",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -715,7 +726,7 @@
       "version": "6ca2857519f996244f7b324dd227fdf0a075fffb",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },

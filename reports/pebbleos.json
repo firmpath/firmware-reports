@@ -10,9 +10,9 @@
     "look": 3,
     "clear": 1,
     "unwatched": 8,
-    "vulnerabilities": 2,
+    "vulnerabilities": 3,
     "nvd_would_report": 0,
-    "missed_by_nvd_scanners": 2,
+    "missed_by_nvd_scanners": 3,
     "not_checked_against_nvd": 0
   },
   "components": 13,
@@ -42,6 +42,17 @@
           "nvd_scanner": false,
           "links": [
             "https://github.com/nanopb/nanopb/security/advisories/GHSA-p24j-vqcp-x988"
+          ]
+        },
+        {
+          "id": "476315b42be2",
+          "title": "Previous fix for callbacks inside oneof (GHSA-p24j-vqcp-x988) is bypassable",
+          "severity": "high",
+          "vendor": "nanopb",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/nanopb/nanopb/security/advisories/GHSA-fmpg-qc28-5x4x"
           ]
         }
       ]
@@ -580,7 +591,7 @@
       "version": "5.0.0..",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -589,7 +600,7 @@
       "version": "99e2660ccd8c0c98e596612bb1c21700e28156b3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -598,7 +609,7 @@
       "version": "1.24.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -616,7 +627,7 @@
       "version": "fd47756358e16b4f791bf8a4de08acdcbee84db5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -625,7 +636,7 @@
       "version": "2cb62b35aaf461e730860cb7ecc31c51b9848d78",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
@@ -634,7 +645,7 @@
       "version": "1.8.0..",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-05T08:24:17.456Z",
+        "checked_at": "2026-11-12T09:47:12.825Z",
         "records": 0
       }
     },
