@@ -608,18 +608,6 @@
           ]
         },
         {
-          "id": "CVE-2026-109588",
-          "title": "Arm Cortex-R82 MPU Buffer Authorization Truncation",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-109588",
-            "https://www.cve.org/CVERecord?id=CVE-2026-109588"
-          ]
-        },
-        {
           "id": "CVE-2018-16526",
           "title": "Amazon Web Services (AWS) FreeRTOS through 1.3.1, FreeRTOS up to V10.0.1 (with FreeRTOS+TCP), and WITTENSTEIN WHIS Conne",
           "severity": "high",
@@ -629,18 +617,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2018-16526",
             "https://www.cve.org/CVERecord?id=CVE-2018-16526"
-          ]
-        },
-        {
-          "id": "CVE-2026-109587",
-          "title": "Arm Cortex-R82 MPU Region Limit Mask Inversion",
-          "severity": "high",
-          "vendor": "freertos",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-109587",
-            "https://www.cve.org/CVERecord?id=CVE-2026-109587"
           ]
         },
         {
@@ -713,6 +689,30 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2018-16525",
             "https://www.cve.org/CVERecord?id=CVE-2018-16525"
+          ]
+        },
+        {
+          "id": "CVE-2026-109587",
+          "title": "Arm Cortex-R82 MPU Region Limit Mask Inversion",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-109587",
+            "https://www.cve.org/CVERecord?id=CVE-2026-109587"
+          ]
+        },
+        {
+          "id": "CVE-2026-109588",
+          "title": "Arm Cortex-R82 MPU Buffer Authorization Truncation",
+          "severity": "high",
+          "vendor": "freertos",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-109588",
+            "https://www.cve.org/CVERecord?id=CVE-2026-109588"
           ]
         },
         {
