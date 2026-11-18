@@ -307,6 +307,17 @@
           ]
         },
         {
+          "id": "31c2d20c8c13",
+          "title": "LibTomCrypt: pem_ssh.c authorized_keys parser heap OOB write and abort on malformed input",
+          "severity": "critical",
+          "vendor": "libtomcrypt",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/libtom/libtomcrypt/security/advisories/GHSA-m98w-9559-gx2x"
+          ]
+        },
+        {
           "id": "CVE-2016-6129",
           "title": "The rsa_verify_hash_ex function in rsa_verify_hash.c in LibTomCrypt, as used in OP-TEE before 2.2.0, does not validate t",
           "severity": "high",
@@ -331,6 +342,28 @@
           ]
         },
         {
+          "id": "5d44618512bc",
+          "title": "unbounded PBES1/PBES2 `iterationCount` → CPU-exhaustion DoS",
+          "severity": "high",
+          "vendor": "libtomcrypt",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/libtom/libtomcrypt/security/advisories/GHSA-25rf-4hhw-jr7f"
+          ]
+        },
+        {
+          "id": "6acdf3eb4d14",
+          "title": "CCM decryption skips tag verification and returns success when the plaintext work buffer cannot be allocated",
+          "severity": "high",
+          "vendor": "libtomcrypt",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/libtom/libtomcrypt/security/advisories/GHSA-58xf-q7q2-h5fc"
+          ]
+        },
+        {
           "id": "CVE-2018-12437",
           "title": "LibTomCrypt through 1.18.1 allows a memory-cache side-channel attack on ECDSA signatures, aka the Return Of the Hidden N",
           "severity": "medium",
@@ -340,6 +373,17 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2018-12437",
             "https://www.cve.org/CVERecord?id=CVE-2018-12437"
+          ]
+        },
+        {
+          "id": "734bd31c61a5",
+          "title": "PEM parser: one-byte heap buffer overflow write in s_bufp_add",
+          "severity": "medium",
+          "vendor": "libtomcrypt",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://github.com/libtom/libtomcrypt/security/advisories/GHSA-p4h4-fr46-m22c"
           ]
         }
       ]
