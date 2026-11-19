@@ -20,8 +20,8 @@ Firmpath.
 | [ESPEasy](https://app.firmpath.dev/reports/espeasy) | 17 | **30** | 13 | [data](reports/espeasy.json) |
 | [MicroPython](https://app.firmpath.dev/reports/micropython) | 5 | **21** | 13 | [data](reports/micropython.json) |
 | [OpenDTU](https://app.firmpath.dev/reports/opendtu) | 56 | **69** | 13 | [data](reports/opendtu.json) |
+| [OpenShock](https://app.firmpath.dev/reports/openshock) | 56 | **69** | 13 | [data](reports/openshock.json) |
 | [Tasmota](https://app.firmpath.dev/reports/tasmota) | 17 | **30** | 13 | [data](reports/tasmota.json) |
-| [OpenShock](https://app.firmpath.dev/reports/openshock) | 79 | **91** | 12 | [data](reports/openshock.json) |
 | [PX4 Autopilot](https://app.firmpath.dev/reports/px4) | 2 | **12** | 8 | [data](reports/px4.json) |
 | [OpenThread Border Router](https://app.firmpath.dev/reports/ot-br-posix) | 18 | **27** | 3 | [data](reports/ot-br-posix.json) |
 | [PebbleOS](https://app.firmpath.dev/reports/pebbleos) | 0 | **3** | 3 | [data](reports/pebbleos.json) |
