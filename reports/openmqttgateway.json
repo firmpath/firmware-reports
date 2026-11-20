@@ -6,13 +6,13 @@
     "filename": "oss-1technophile__OpenMQTTGateway.cdx.json"
   },
   "summary": {
-    "fix": 7,
+    "fix": 8,
     "look": 11,
     "clear": 0,
-    "unwatched": 65,
-    "vulnerabilities": 29,
+    "unwatched": 64,
+    "vulnerabilities": 30,
     "nvd_would_report": 27,
-    "missed_by_nvd_scanners": 2,
+    "missed_by_nvd_scanners": 3,
     "not_checked_against_nvd": 0
   },
   "components": 83,
@@ -395,6 +395,25 @@
       ]
     },
     {
+      "name": "littlefs",
+      "version": "2.5.1",
+      "action": "No fixed version given. Read the advisory.",
+      "vulns": [
+        {
+          "id": "CVE-2026-129490",
+          "title": "littlefs through 2.11.3, when built with LFS_MIGRATE, contains a type confusion vulnerability in lfs_dir_traverse() that",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-129490",
+            "https://www.cve.org/CVERecord?id=CVE-2026-129490"
+          ]
+        }
+      ]
+    },
+    {
       "name": "micro-ecc",
       "version": "1.0",
       "action": "No fixed version given. Read the advisory.",
@@ -433,42 +452,6 @@
           ]
         },
         {
-          "id": "CVE-2024-45158",
-          "title": "Stack buffer overflow in ECDSA signature conversion functions",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
-            "https://www.cve.org/CVERecord?id=CVE-2024-45158"
-          ]
-        },
-        {
-          "id": "CVE-2025-47917",
-          "title": "Misleading memory management in mbedtls_x509_string_to_names()",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-47917",
-            "https://www.cve.org/CVERecord?id=CVE-2025-47917"
-          ]
-        },
-        {
-          "id": "CVE-2024-45157",
-          "title": "CTR_DRBG prioritized over HMAC_DRBG as the PSA DRBG",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-45157",
-            "https://www.cve.org/CVERecord?id=CVE-2024-45157"
-          ]
-        },
-        {
           "id": "CVE-2021-43615",
           "title": "Buffer overread in TLS stream 7.5 cipher suites",
           "severity": "critical",
@@ -478,18 +461,6 @@
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
             "https://www.cve.org/CVERecord?id=CVE-2021-43615"
-          ]
-        },
-        {
-          "id": "CVE-2024-49195",
-          "title": "Buffer underrun in pkwrite when writing an opaque key pair",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000568.md",
-            "https://www.cve.org/CVERecord?id=CVE-2024-49195"
           ]
         },
         {
@@ -505,66 +476,6 @@
           ]
         },
         {
-          "id": "CVE-2024-45159",
-          "title": "Limited authentication bypass in TLS 1.3 optional client authentication",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000530.md",
-            "https://www.cve.org/CVERecord?id=CVE-2024-45159"
-          ]
-        },
-        {
-          "id": "CVE-2025-54764",
-          "title": "Side channel in RSA key generation and operations",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
-            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
-          ]
-        },
-        {
-          "id": "CVE-2025-59438",
-          "title": "Padding oracle through timing of cipher error reporting",
-          "severity": "critical",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-59438",
-            "https://www.cve.org/CVERecord?id=CVE-2025-59438"
-          ]
-        },
-        {
-          "id": "CVE-2026-50580",
-          "title": "Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake",
-          "severity": "high",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecdhe-psk-client-buffer-overflow/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50580"
-          ]
-        },
-        {
-          "id": "CVE-2026-49300",
-          "title": "X.509 CA bit forgery via invalid basicConstraints extension",
-          "severity": "high",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-x509-ca-bit-forgery-invalid-basicconstraints/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-49300"
-          ]
-        },
-        {
           "id": "CVE-2024-28836",
           "title": "Vulnerability in devices operating as TLS 1.3 servers",
           "severity": "high",
@@ -574,30 +485,6 @@
           "links": [
             "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000514.md",
             "https://www.cve.org/CVERecord?id=CVE-2024-28836"
-          ]
-        },
-        {
-          "id": "CVE-2024-23775",
-          "title": "Vulnerability in Mbed TLS to process x.509 extensions",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-23775",
-            "https://www.cve.org/CVERecord?id=CVE-2024-23775"
-          ]
-        },
-        {
-          "id": "CVE-2024-23170",
-          "title": "Vulnerability in the implementation of RSA included in Mbed TLS",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-23170",
-            "https://www.cve.org/CVERecord?id=CVE-2024-23170"
           ]
         },
         {
@@ -625,30 +512,6 @@
           ]
         },
         {
-          "id": "CVE-2022-35409",
-          "title": "buffer-read overflow in certain DTLS Server configurations of Mbed TLS",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000425.md",
-            "https://www.cve.org/CVERecord?id=CVE-2022-35409"
-          ]
-        },
-        {
-          "id": "CVE-2024-28960",
-          "title": "Vulnerability affecting all VSE devices and TrustZone aware projects using PSA Crypto APIs with array arguments",
-          "severity": "high",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2024-28960",
-            "https://www.cve.org/CVERecord?id=CVE-2024-28960"
-          ]
-        },
-        {
           "id": "CVE-2021-43666",
           "title": "Denial of Service the mbedtls_pkcs12_derivation function in Mbed TLS <=3.0.0",
           "severity": "high",
@@ -673,6 +536,90 @@
           ]
         },
         {
+          "id": "CVE-2026-93844",
+          "title": "Use-after-free in TLS 1.2 clients in renegotiation with variable buffer length",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-vbl_buffer_resize/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93844"
+          ]
+        },
+        {
+          "id": "CVE-2026-115488",
+          "title": "TLS 1.2 renegotiation can disclose memory during output buffer resize",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-resize-heartbleed/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115488"
+          ]
+        },
+        {
+          "id": "CVE-2026-93776",
+          "title": "Client-authentication bypass through cross-SNI session resumption",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-sni-session-resumption-authentication-bypass/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93776"
+          ]
+        },
+        {
+          "id": "CVE-2026-115489",
+          "title": "Non-null-terminated output from mbedtls_x509_dn_gets()",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-mbedtls_x509_dn_gets-empty-sequence/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115489"
+          ]
+        },
+        {
+          "id": "CVE-2026-90475",
+          "title": "CRL append allocation failure can invalidate trusted revocation state",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-crl-append-allocation-failure/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-90475"
+          ]
+        },
+        {
+          "id": "CVE-2026-49300",
+          "title": "X.509 CA bit forgery via invalid basicConstraints extension",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-x509-ca-bit-forgery-invalid-basicconstraints/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-49300"
+          ]
+        },
+        {
+          "id": "CVE-2026-50580",
+          "title": "Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecdhe-psk-client-buffer-overflow/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50580"
+          ]
+        },
+        {
           "id": "CVE-2026-25835",
           "title": "PSA random generator cloning",
           "severity": "high",
@@ -685,75 +632,75 @@
           ]
         },
         {
+          "id": "CVE-2025-47917",
+          "title": "Misleading memory management in mbedtls_x509_string_to_names() leading to use-after-free or double-free",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-47917",
+            "https://www.cve.org/CVERecord?id=CVE-2025-47917"
+          ]
+        },
+        {
+          "id": "CVE-2025-27809",
+          "title": "TLS clients may unwittingly skip server authentication when mbedtls_ssl_set_hostname() is not called",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-27809",
+            "https://www.cve.org/CVERecord?id=CVE-2025-27809"
+          ]
+        },
+        {
+          "id": "CVE-2024-49195",
+          "title": "Buffer underrun in pkwrite when writing an opaque key pair",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2024-10-1/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-49195"
+          ]
+        },
+        {
+          "id": "CVE-2024-45158",
+          "title": "Stack buffer overflow in ECDSA signature conversion functions",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2024-08-2/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45158"
+          ]
+        },
+        {
+          "id": "CVE-2024-28960",
+          "title": "Insecure handling of shared memory in PSA Crypto APIs",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28960",
+            "https://www.cve.org/CVERecord?id=CVE-2024-28960"
+          ]
+        },
+        {
           "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
-          "severity": "medium",
-          "vendor": "silabs",
+          "title": "Buffer overflow in TLS handshake parsing with ECDH",
+          "severity": "high",
+          "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/400-499/A-00000492.md",
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2023-10-2/",
             "https://www.cve.org/CVERecord?id=CVE-2023-45199"
-          ]
-        },
-        {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
-          "id": "CVE-2025-27810",
-          "title": "Uninitialized stack memory used to compose ‘TLS finished’ message which may lead to authentication bypasses",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-27810",
-            "https://www.cve.org/CVERecord?id=CVE-2025-27810"
-          ]
-        },
-        {
-          "id": "CVE-2026-50587",
-          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
-          ]
-        },
-        {
-          "id": "CVE-2025-49600",
-          "title": "Unchecked return value in LMS verification allows signature bypass",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
-            "https://www.cve.org/CVERecord?id=CVE-2025-49600"
-          ]
-        },
-        {
-          "id": "CVE-2025-52496",
-          "title": "Race condition in AESNI support detection",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-52496",
-            "https://www.cve.org/CVERecord?id=CVE-2025-52496"
           ]
         },
         {
@@ -766,42 +713,6 @@
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2022-46392",
             "https://www.cve.org/CVERecord?id=CVE-2022-46392"
-          ]
-        },
-        {
-          "id": "CVE-2025-49087",
-          "title": "Timing side-channel in block cipher decryption with PKCS#7 padding",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
-            "https://www.cve.org/CVERecord?id=CVE-2025-49087"
-          ]
-        },
-        {
-          "id": "CVE-2026-35336",
-          "title": "Possible buffer overflow in mbedtls_ecdh_calc_secret()",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-possible-buffer-overflow-ecdh-calc-secret/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-35336"
-          ]
-        },
-        {
-          "id": "CVE-2026-34872",
-          "title": "FFDH: lack of contributory behaviour due to improper input validation",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34872",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34872"
           ]
         },
         {
@@ -829,51 +740,87 @@
           ]
         },
         {
-          "id": "CVE-2025-52497",
-          "title": "Heap buffer under-read when parsing PEM-encrypted material",
-          "severity": "medium",
-          "vendor": "silabs",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-52497",
-            "https://www.cve.org/CVERecord?id=CVE-2025-52497"
-          ]
-        },
-        {
-          "id": "CVE-2026-54435",
-          "title": "Side channel leak in ECC optimized modp",
+          "id": "CVE-2026-90470",
+          "title": "Subject Alternative Name type confusion in certificate verification",
           "severity": "medium",
           "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ecc-optimized-modp-side-channel/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-54435"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-wildcard-type-confusion/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-90470"
           ]
         },
         {
-          "id": "CVE-2025-27809",
-          "title": "Server hostname is not verified in a TLS handshake",
+          "id": "CVE-2026-93835",
+          "title": "Spectre-PHT side channel in ECDSA may allow partial private key leakage",
           "severity": "medium",
-          "vendor": "silabs",
+          "vendor": "mbedtls",
           "exploited": false,
-          "nvd_scanner": true,
+          "nvd_scanner": false,
           "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2025-27809",
-            "https://www.cve.org/CVERecord?id=CVE-2025-27809"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-spectre-ecdsa/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93835"
           ]
         },
         {
-          "id": "CVE-2025-49601",
-          "title": "Out-of-bounds read in mbedtls_lms_import_public_key()",
+          "id": "CVE-2026-93833",
+          "title": "Spectre-PHT side channel in the cipher module",
           "severity": "medium",
-          "vendor": "silabs",
+          "vendor": "mbedtls",
           "exploited": false,
-          "nvd_scanner": true,
+          "nvd_scanner": false,
           "links": [
-            "https://raw.githubusercontent.com/SiliconLabsSoftware/docs-security-advisories/main/Advisories/500-599/A-00000555.md",
-            "https://www.cve.org/CVERecord?id=CVE-2025-49601"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-spectre-cipher-ccm/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93833"
+          ]
+        },
+        {
+          "id": "CVE-2026-115493",
+          "title": "Spectre-PHT bypass of hardware AES and GCM",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-spectre-aes-gcm/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115493"
+          ]
+        },
+        {
+          "id": "CVE-2026-93845",
+          "title": "Secret-dependent branches in p256-m P-256 arithmetic",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-p256m-secret-dependent-borrow-branches/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93845"
+          ]
+        },
+        {
+          "id": "CVE-2026-116462",
+          "title": "Strict name matching in certificate revocation may cause revoked certificates to be accepted",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-crl-name-matching/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-116462"
+          ]
+        },
+        {
+          "id": "CVE-2026-115492",
+          "title": "AES timing side channel through flash reads to ROM table",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-aes-rom-tables/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115492"
           ]
         },
         {
@@ -889,15 +836,183 @@
           ]
         },
         {
+          "id": "CVE-2026-50587",
+          "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-rsa-pkcs1-v15-decryption-timing-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50587"
+          ]
+        },
+        {
+          "id": "CVE-2026-35336",
+          "title": "Possible buffer overflow in mbedtls_ecdh_calc_secret()",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-possible-buffer-overflow-ecdh-calc-secret/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-35336"
+          ]
+        },
+        {
+          "id": "CVE-2026-54435",
+          "title": "Side channel leak in ECC optimized modp",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ecc-optimized-modp-side-channel/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54435"
+          ]
+        },
+        {
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
+          ]
+        },
+        {
+          "id": "CVE-2025-54764",
+          "title": "Side channel in RSA key generation and operations (SSBleed, M-Step)",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-54764",
+            "https://www.cve.org/CVERecord?id=CVE-2025-54764"
+          ]
+        },
+        {
+          "id": "CVE-2025-59438",
+          "title": "Padding oracle through timing of cipher error reporting",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-59438",
+            "https://www.cve.org/CVERecord?id=CVE-2025-59438"
+          ]
+        },
+        {
           "id": "CVE-2025-48965",
           "title": "NULL pointer dereference after using mbedtls_asn1_store_named_data()",
           "severity": "medium",
-          "vendor": "silabs",
+          "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": true,
           "links": [
             "https://nvd.nist.gov/vuln/detail/CVE-2025-48965",
             "https://www.cve.org/CVERecord?id=CVE-2025-48965"
+          ]
+        },
+        {
+          "id": "CVE-2025-49087",
+          "title": "Timing side-channel in block cipher decryption with PKCS#7 padding",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2025-06-5/",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49087"
+          ]
+        },
+        {
+          "id": "CVE-2025-49601",
+          "title": "Out-of-bounds read in mbedtls_lms_import_public_key()",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2025-06-4/",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49601"
+          ]
+        },
+        {
+          "id": "CVE-2025-49600",
+          "title": "Unchecked return value in LMS verification allows signature bypass",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2025-06-3/",
+            "https://www.cve.org/CVERecord?id=CVE-2025-49600"
+          ]
+        },
+        {
+          "id": "CVE-2025-52497",
+          "title": "Heap buffer under-read when parsing PEM-encrypted material",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52497",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52497"
+          ]
+        },
+        {
+          "id": "CVE-2025-52496",
+          "title": "Race condition in AESNI support detection",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-52496",
+            "https://www.cve.org/CVERecord?id=CVE-2025-52496"
+          ]
+        },
+        {
+          "id": "CVE-2025-27810",
+          "title": "Potential authentication bypass in TLS handshake",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-27810",
+            "https://www.cve.org/CVERecord?id=CVE-2025-27810"
+          ]
+        },
+        {
+          "id": "CVE-2024-45159",
+          "title": "Limited authentication bypass in TLS 1.3 optional client authentication",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2024-08-3/",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45159"
+          ]
+        },
+        {
+          "id": "CVE-2024-23170",
+          "title": "Timing side channel in private key RSA operations",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-23170",
+            "https://www.cve.org/CVERecord?id=CVE-2024-23170"
           ]
         },
         {
@@ -913,51 +1028,75 @@
           ]
         },
         {
-          "id": "CVE-2026-54441",
-          "title": "Signature algorithm restrictions not enforced on certificate chain",
+          "id": "CVE-2022-35409",
+          "title": "Buffer overread in DTLS ClientHello parsing",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2022-07/",
+            "https://www.cve.org/CVERecord?id=CVE-2022-35409"
+          ]
+        },
+        {
+          "id": "CVE-2026-34872",
+          "title": "FFDH: lack of contributory behaviour due to improper input validation",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34872",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34872"
+          ]
+        },
+        {
+          "id": "CVE-2026-93777",
+          "title": "TLS 1.2 server accepts client CertificateVerify algorithms outside configured sig_algs",
           "severity": "low",
           "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-signature-algorithm-restrictions-certificate-chain/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-54441"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-tls12-server-accepts-disallowed-certificate-verify-algorithms/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93777"
           ]
         },
         {
-          "id": "CVE-2026-34871",
-          "title": "Entropy on Linux can fall back to /dev/urandom",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34871",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34871"
-          ]
-        },
-        {
-          "id": "CVE-2026-34877",
-          "title": "Risk of insufficient protection of serialized session or context data leading to potential memory safety issues",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": true,
-          "links": [
-            "https://nvd.nist.gov/vuln/detail/CVE-2026-34877",
-            "https://www.cve.org/CVERecord?id=CVE-2026-34877"
-          ]
-        },
-        {
-          "id": "CVE-2026-50581",
-          "title": "Extended master secret calculation failure ignored",
+          "id": "CVE-2026-93842",
+          "title": "Spectre-PHT side channel in PSA ECC operations",
           "severity": "low",
           "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-extended-master-secret-calculation-failure-ignored/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50581"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-spectre-psa-load/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93842"
+          ]
+        },
+        {
+          "id": "CVE-2026-50582",
+          "title": "Unbounded iteration count in PKCS5/PKCS12",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-pkcs5-pkcs12-iteration-count/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50582"
+          ]
+        },
+        {
+          "id": "CVE-2026-25832",
+          "title": "TLS 1.3 client accepts HelloRetryRequest selecting an unadvertised group",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls13-hrr-unadvertised-group/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25832"
           ]
         },
         {
@@ -973,8 +1112,80 @@
           ]
         },
         {
+          "id": "CVE-2026-54441",
+          "title": "Signature algorithm restrictions not enforced on certificate chain",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-signature-algorithm-restrictions-certificate-chain/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-54441"
+          ]
+        },
+        {
+          "id": "CVE-2026-50581",
+          "title": "Extended master secret calculation failure ignored",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-extended-master-secret-calculation-failure-ignored/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50581"
+          ]
+        },
+        {
+          "id": "CVE-2026-34877",
+          "title": "Risk of insufficient protection of serialized session or context data leading to potential memory safety issues",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34877",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34877"
+          ]
+        },
+        {
+          "id": "CVE-2026-34871",
+          "title": "Entropy on Linux can fall back to /dev/urandom",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-34871",
+            "https://www.cve.org/CVERecord?id=CVE-2026-34871"
+          ]
+        },
+        {
+          "id": "CVE-2024-45157",
+          "title": "CTR_DRBG prioritized over HMAC_DRBG as the PSA DRBG",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-45157",
+            "https://www.cve.org/CVERecord?id=CVE-2024-45157"
+          ]
+        },
+        {
+          "id": "CVE-2024-23775",
+          "title": "Buffer overflow in mbedtls_x509_set_extension()",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": true,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-23775",
+            "https://www.cve.org/CVERecord?id=CVE-2024-23775"
+          ]
+        },
+        {
           "id": "CVE-2025-66442",
-          "title": "Compiler-induced constant-time violations",
+          "title": "Compiler-induced constant-time violations in padding validation code when LLVM select-optimize is enabled",
           "severity": "low",
           "vendor": "mbedtls",
           "exploited": false,
@@ -1264,9 +1475,9 @@
         },
         {
           "id": "CVE-2023-45199",
-          "title": "Due to a buffer overflow in TLS handshake processing, a malicious peer may be able to gain remote code execution by sending overly long packets",
-          "severity": "medium",
-          "vendor": "silabs",
+          "title": "Buffer overflow in TLS handshake parsing with ECDH",
+          "severity": "high",
+          "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
@@ -1565,7 +1776,7 @@
       "version": "fe873c9",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1574,7 +1785,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1583,7 +1794,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1592,7 +1803,7 @@
       "version": "1.0.3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1601,7 +1812,7 @@
       "version": "1.1.4",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1610,7 +1821,7 @@
       "version": "968a684",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1619,7 +1830,7 @@
       "version": "6d1f14a",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1628,7 +1839,7 @@
       "version": "f4a1d27",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1637,7 +1848,7 @@
       "version": "6.18.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1655,7 +1866,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1664,7 +1875,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1673,7 +1884,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1682,8 +1893,8 @@
       "version": "2.4.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 937
+        "checked_at": "2026-11-20T08:04:10.512Z",
+        "records": 976
       }
     },
     {
@@ -1691,7 +1902,7 @@
       "version": "1.3.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1700,7 +1911,7 @@
       "version": "1.0.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1709,7 +1920,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1718,7 +1929,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1727,7 +1938,7 @@
       "version": "2.5.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1736,7 +1947,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1745,7 +1956,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1754,7 +1965,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1763,7 +1974,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1772,7 +1983,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1781,7 +1992,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1790,7 +2001,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1799,7 +2010,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1808,7 +2019,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1817,7 +2028,7 @@
       "version": "3.1.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1826,7 +2037,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1835,7 +2046,7 @@
       "version": "2.2.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1844,7 +2055,7 @@
       "version": "f96fd6a",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1853,7 +2064,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1862,7 +2073,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1871,7 +2082,7 @@
       "version": "b9dd7a1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1880,7 +2091,7 @@
       "version": "8.0.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1889,7 +2100,7 @@
       "version": "3.3.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 1
       }
     },
@@ -1898,8 +2109,8 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 738
+        "checked_at": "2026-11-20T08:04:10.512Z",
+        "records": 745
       }
     },
     {
@@ -1907,7 +2118,7 @@
       "version": "3.9.15",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1916,7 +2127,7 @@
       "version": "1.0.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1925,7 +2136,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1934,7 +2145,7 @@
       "version": "arduinov3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1943,17 +2154,8 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 9
-      }
-    },
-    {
-      "name": "littlefs",
-      "version": "2.5.1",
-      "nvd": {
-        "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 4
       }
     },
     {
@@ -1961,7 +2163,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1979,7 +2181,7 @@
       "version": "8eb980e",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1988,7 +2190,7 @@
       "version": "2.5.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1997,7 +2199,7 @@
       "version": "0.2.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -2006,7 +2208,7 @@
       "version": "GPIO-fix",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 8
       }
     },
@@ -2015,7 +2217,7 @@
       "version": "1.1.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -2024,7 +2226,7 @@
       "version": "98537e9",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -2033,7 +2235,7 @@
       "version": "2e915ea",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },

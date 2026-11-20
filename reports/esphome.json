@@ -6,13 +6,13 @@
     "filename": "oss-esphome__esphome.cdx.json"
   },
   "summary": {
-    "fix": 4,
+    "fix": 5,
     "look": 10,
     "clear": 7,
-    "unwatched": 78,
-    "vulnerabilities": 32,
+    "unwatched": 77,
+    "vulnerabilities": 56,
     "nvd_would_report": 17,
-    "missed_by_nvd_scanners": 15,
+    "missed_by_nvd_scanners": 39,
     "not_checked_against_nvd": 0
   },
   "components": 99,
@@ -23,18 +23,6 @@
       "action": "Upgrade to 3.6.7 or later",
       "vulns": [
         {
-          "id": "CVE-2026-50580",
-          "title": "Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake",
-          "severity": "high",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecdhe-psk-client-buffer-overflow/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50580"
-          ]
-        },
-        {
           "id": "CVE-2026-50579",
           "title": "Use-after-free in mbedtls_pkcs7_free() when reusing a PKCS7 context",
           "severity": "high",
@@ -44,6 +32,18 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-use-after-free-pkcs7-free-reused-context/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50579"
+          ]
+        },
+        {
+          "id": "CVE-2026-50580",
+          "title": "Remote buffer overflow in TLS 1.2 ECDHE-PSK client handshake",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecdhe-psk-client-buffer-overflow/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50580"
           ]
         },
         {
@@ -59,18 +59,6 @@
           ]
         },
         {
-          "id": "CVE-2026-50584",
-          "title": "ChaCha20 counter overflow can reuse keystream",
-          "severity": "medium",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
-          ]
-        },
-        {
           "id": "CVE-2026-50587",
           "title": "Timing side-channel in RSA PKCS#1 v1.5 decryption",
           "severity": "medium",
@@ -83,15 +71,15 @@
           ]
         },
         {
-          "id": "CVE-2026-50640",
-          "title": "Ignored TLS 1.3 resumption secret derivation error",
-          "severity": "low",
+          "id": "CVE-2026-50584",
+          "title": "ChaCha20 counter overflow can reuse keystream",
+          "severity": "medium",
           "vendor": "mbedtls",
           "exploited": false,
           "nvd_scanner": false,
           "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ignored-tls13-resumption-secret-derivation-error/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50640"
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-chacha20-counter-overflow-keystream-reuse/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50584"
           ]
         },
         {
@@ -119,6 +107,210 @@
           ]
         },
         {
+          "id": "CVE-2026-50640",
+          "title": "Ignored TLS 1.3 resumption secret derivation error",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ignored-tls13-resumption-secret-derivation-error/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50640"
+          ]
+        },
+        {
+          "id": "CVE-2026-93844",
+          "title": "Use-after-free in TLS 1.2 clients in renegotiation with variable buffer length",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-vbl_buffer_resize/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93844"
+          ]
+        },
+        {
+          "id": "CVE-2026-93831",
+          "title": "Client impersonation using a TLS 1.3 ticket in TLS 1.2 session resumption",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-tls12-resumption-with-tls13-ticket/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93831"
+          ]
+        },
+        {
+          "id": "CVE-2026-116375",
+          "title": "TLS 1.3 HRR can bypass SNI-based client authentication",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-tls-1-3-hrr-can-bypass-sni/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-116375"
+          ]
+        },
+        {
+          "id": "CVE-2026-115490",
+          "title": "TLS client completes a TLS 1.3 handshake without secret keying material",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-tls-version-confusion/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115490"
+          ]
+        },
+        {
+          "id": "CVE-2026-115488",
+          "title": "TLS 1.2 renegotiation can disclose memory during output buffer resize",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-resize-heartbleed/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115488"
+          ]
+        },
+        {
+          "id": "CVE-2026-93776",
+          "title": "Client-authentication bypass through cross-SNI session resumption",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-sni-session-resumption-authentication-bypass/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93776"
+          ]
+        },
+        {
+          "id": "CVE-2026-115489",
+          "title": "Non-null-terminated output from mbedtls_x509_dn_gets()",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-mbedtls_x509_dn_gets-empty-sequence/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115489"
+          ]
+        },
+        {
+          "id": "CVE-2026-90469",
+          "title": "ECJPAKE serialization can write beyond undersized output buffers",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-ecjpake-buffer-overflow/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-90469"
+          ]
+        },
+        {
+          "id": "CVE-2026-90475",
+          "title": "CRL append allocation failure can invalidate trusted revocation state",
+          "severity": "high",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-crl-append-allocation-failure/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-90475"
+          ]
+        },
+        {
+          "id": "CVE-2026-90470",
+          "title": "Subject Alternative Name type confusion in certificate verification",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-wildcard-type-confusion/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-90470"
+          ]
+        },
+        {
+          "id": "CVE-2026-93835",
+          "title": "Spectre-PHT side channel in ECDSA may allow partial private key leakage",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-spectre-ecdsa/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93835"
+          ]
+        },
+        {
+          "id": "CVE-2026-93833",
+          "title": "Spectre-PHT side channel in the cipher module",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-spectre-cipher-ccm/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93833"
+          ]
+        },
+        {
+          "id": "CVE-2026-115493",
+          "title": "Spectre-PHT bypass of hardware AES and GCM",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-spectre-aes-gcm/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115493"
+          ]
+        },
+        {
+          "id": "CVE-2026-93845",
+          "title": "Secret-dependent branches in p256-m P-256 arithmetic",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-p256m-secret-dependent-borrow-branches/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93845"
+          ]
+        },
+        {
+          "id": "CVE-2026-116462",
+          "title": "Strict name matching in certificate revocation may cause revoked certificates to be accepted",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-crl-name-matching/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-116462"
+          ]
+        },
+        {
+          "id": "CVE-2026-115492",
+          "title": "AES timing side channel through flash reads to ROM table",
+          "severity": "medium",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-aes-rom-tables/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115492"
+          ]
+        },
+        {
           "id": "CVE-2026-73096",
           "title": "TLS 1.3 early data integrity failure due to buffered plaintext across key change",
           "severity": "medium",
@@ -140,6 +332,90 @@
           "links": [
             "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-ssl-session-reset-incomplete-context-reset/",
             "https://www.cve.org/CVERecord?id=CVE-2026-50585"
+          ]
+        },
+        {
+          "id": "CVE-2026-93843",
+          "title": "TLS 1.3 transform setup resource leak",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-tls13-transform-resource-leak/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93843"
+          ]
+        },
+        {
+          "id": "CVE-2026-93777",
+          "title": "TLS 1.2 server accepts client CertificateVerify algorithms outside configured sig_algs",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-tls12-server-accepts-disallowed-certificate-verify-algorithms/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93777"
+          ]
+        },
+        {
+          "id": "CVE-2026-115491",
+          "title": "TLS 1.3 session ticket rejection resource leak",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-tls13-session-ticket-memory-leak/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-115491"
+          ]
+        },
+        {
+          "id": "CVE-2026-93842",
+          "title": "Spectre-PHT side channel in PSA ECC operations",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-spectre-psa-load/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-93842"
+          ]
+        },
+        {
+          "id": "CVE-2026-50582",
+          "title": "Unbounded iteration count in PKCS5/PKCS12",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-11-pkcs5-pkcs12-iteration-count/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50582"
+          ]
+        },
+        {
+          "id": "CVE-2026-25832",
+          "title": "TLS 1.3 client accepts HelloRetryRequest selecting an unadvertised group",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls13-hrr-unadvertised-group/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-25832"
+          ]
+        },
+        {
+          "id": "CVE-2026-50588",
+          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
+          "severity": "low",
+          "vendor": "mbedtls",
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
+            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
           ]
         },
         {
@@ -167,20 +443,8 @@
           ]
         },
         {
-          "id": "CVE-2026-50588",
-          "title": "Out-of-bounds read in TLS 1.2 EC J-PAKE ServerKeyExchange parsing",
-          "severity": "low",
-          "vendor": "mbedtls",
-          "exploited": false,
-          "nvd_scanner": false,
-          "links": [
-            "https://mbed-tls.readthedocs.io/en/latest/security-advisories/mbedtls-security-advisory-2026-07-tls12-ecjpake-serverkeyexchange-oob-read/",
-            "https://www.cve.org/CVERecord?id=CVE-2026-50588"
-          ]
-        },
-        {
           "id": "CVE-2025-66442",
-          "title": "Compiler-induced constant-time violations",
+          "title": "Compiler-induced constant-time violations in padding validation code when LLVM select-optimize is enabled",
           "severity": "low",
           "vendor": "mbedtls",
           "exploited": false,
@@ -425,6 +689,37 @@
           "links": [
             "https://github.com/ESP32Async/ESPAsyncWebServer/security/advisories/GHSA-8m8p-vhxc-jmjw",
             "https://www.cve.org/CVERecord?id=CVE-2026-62966"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "littlefs",
+      "version": "2.11.1",
+      "action": "No fixed version given. Read the advisory.",
+      "vulns": [
+        {
+          "id": "CVE-2026-129490",
+          "title": "littlefs through 2.11.3, when built with LFS_MIGRATE, contains a type confusion vulnerability in lfs_dir_traverse() that",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-129490",
+            "https://www.cve.org/CVERecord?id=CVE-2026-129490"
+          ]
+        },
+        {
+          "id": "CVE-2025-71472",
+          "title": "littlefs 2.8.0 through 2.11.3 contains a divide-by-zero vulnerability in lfs_mount_() that allows attackers to crash pro",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-71472",
+            "https://www.cve.org/CVERecord?id=CVE-2025-71472"
           ]
         }
       ]
@@ -937,7 +1232,7 @@
       "version": "3.7.7",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -946,7 +1241,7 @@
       "version": "3.2.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -955,7 +1250,7 @@
       "version": "1.0.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -964,7 +1259,7 @@
       "version": "6.0.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -973,7 +1268,7 @@
       "version": "7.4.3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -982,7 +1277,7 @@
       "version": "2.0.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -991,7 +1286,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1000,7 +1295,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1009,7 +1304,7 @@
       "version": "v2.5.2-2-geeecc49ce8af",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1018,7 +1313,7 @@
       "version": "1.1.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1027,7 +1322,7 @@
       "version": "1.1.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1036,7 +1331,7 @@
       "version": "1.9.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1045,7 +1340,7 @@
       "version": "1.1.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1054,7 +1349,7 @@
       "version": "3.2.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1063,7 +1358,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1072,7 +1367,7 @@
       "version": "1.8.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1081,7 +1376,7 @@
       "version": "2.12.12",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 1
       }
     },
@@ -1090,7 +1385,7 @@
       "version": "0.3.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1099,7 +1394,7 @@
       "version": "1.2.3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1108,7 +1403,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1117,7 +1412,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1126,7 +1421,7 @@
       "version": "1.6.3",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1135,7 +1430,7 @@
       "version": "0.4.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1144,7 +1439,7 @@
       "version": "2.0.4",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1153,7 +1448,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1162,7 +1457,7 @@
       "version": "2.1.7",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1171,7 +1466,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1180,7 +1475,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1189,7 +1484,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1198,7 +1493,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1207,7 +1502,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1216,7 +1511,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1225,7 +1520,7 @@
       "version": "3.1.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1234,7 +1529,7 @@
       "version": "2.2.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1243,7 +1538,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1252,7 +1547,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1261,7 +1556,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1270,7 +1565,7 @@
       "version": "8.0.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1279,8 +1574,8 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 738
+        "checked_at": "2026-11-20T08:04:10.512Z",
+        "records": 745
       }
     },
     {
@@ -1288,7 +1583,7 @@
       "version": "3.10.3..3.10.4",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1297,7 +1592,7 @@
       "version": "0.9.31",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1306,7 +1601,7 @@
       "version": "1.0.42",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1315,7 +1610,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 1
       }
     },
@@ -1324,8 +1619,8 @@
       "version": "1.2.7",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 4433
+        "checked_at": "2026-11-20T08:04:10.512Z",
+        "records": 4440
       }
     },
     {
@@ -1333,7 +1628,7 @@
       "version": "1.0.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1342,7 +1637,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 2
       }
     },
@@ -1351,8 +1646,8 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 255
+        "checked_at": "2026-11-20T08:04:10.512Z",
+        "records": 257
       }
     },
     {
@@ -1360,7 +1655,7 @@
       "version": "1.0.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1369,7 +1664,7 @@
       "version": "2.0.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1378,17 +1673,8 @@
       "version": "1.0.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
-      }
-    },
-    {
-      "name": "littlefs",
-      "version": "2.11.1",
-      "nvd": {
-        "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 4
       }
     },
     {
@@ -1405,7 +1691,7 @@
       "version": "1.4.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1414,7 +1700,7 @@
       "version": "0.2.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1423,7 +1709,7 @@
       "version": "0.4.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1432,7 +1718,7 @@
       "version": "0.2.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1441,7 +1727,7 @@
       "version": "1.1.9..",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1450,7 +1736,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1459,7 +1745,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 143
       }
     },
@@ -1477,7 +1763,7 @@
       "version": "2.8.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1486,7 +1772,7 @@
       "version": "0.1.30",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1495,7 +1781,7 @@
       "version": "2.3.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1504,7 +1790,7 @@
       "version": "1.1.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1513,7 +1799,7 @@
       "version": "3.5",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1522,7 +1808,7 @@
       "version": "1.7.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
