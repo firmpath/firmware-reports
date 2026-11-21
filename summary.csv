@@ -3,9 +3,9 @@ flipper-zero,Flipper Zero,https://github.com/flipperdevices/flipperzero-firmware
 meshcore,MeshCore,https://github.com/meshcore-dev/MeshCore,59,101,42,0,8,7,82
 fluidnc,FluidNC,https://github.com/bdring/FluidNC,33,73,40,0,4,5,35
 openbeken,OpenBeken,https://github.com/openshwprojects/OpenBK7231T_App,32,72,40,0,4,4,47
+slimevr,SlimeVR Tracker,https://github.com/SlimeVR/SlimeVR-Tracker-ESP,64,104,40,0,8,7,46
 wled,WLED,https://github.com/wled/WLED,27,67,40,0,4,8,45
 esphome,ESPHome,https://github.com/esphome/esphome,17,56,39,0,5,10,99
-slimevr,SlimeVR Tracker,https://github.com/SlimeVR/SlimeVR-Tracker-ESP,64,103,39,0,7,7,46
 espeasy,ESPEasy,https://github.com/letscontrolit/ESPEasy,17,53,36,0,4,4,33
 openevse,OpenEVSE,https://github.com/OpenEVSE/openevse_esp32_firmware,35,71,36,0,6,8,52
 micropython,MicroPython,https://github.com/micropython/micropython,5,43,35,3,3,4,39

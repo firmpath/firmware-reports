@@ -6,13 +6,13 @@
     "filename": "oss-SlimeVR__SlimeVR-Tracker-ESP.cdx.json"
   },
   "summary": {
-    "fix": 7,
+    "fix": 8,
     "look": 7,
     "clear": 3,
-    "unwatched": 29,
-    "vulnerabilities": 103,
+    "unwatched": 28,
+    "vulnerabilities": 104,
     "nvd_would_report": 64,
-    "missed_by_nvd_scanners": 39,
+    "missed_by_nvd_scanners": 40,
     "not_checked_against_nvd": 0
   },
   "components": 46,
@@ -1300,6 +1300,25 @@
           ]
         }
       ]
+    },
+    {
+      "name": "littlefs",
+      "version": "2.5.1",
+      "action": "No fixed version given. Read the advisory.",
+      "vulns": [
+        {
+          "id": "CVE-2026-129490",
+          "title": "littlefs through 2.11.3, when built with LFS_MIGRATE, contains a type confusion vulnerability in lfs_dir_traverse() that",
+          "severity": "medium",
+          "vendor": null,
+          "exploited": false,
+          "nvd_scanner": false,
+          "links": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2026-129490",
+            "https://www.cve.org/CVERecord?id=CVE-2026-129490"
+          ]
+        }
+      ]
     }
   ],
   "look": [
@@ -1622,7 +1641,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1640,7 +1659,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1649,7 +1668,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1658,7 +1677,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1667,7 +1686,7 @@
       "version": "v2.5.2-2-geeecc49ce8af",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1676,7 +1695,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1685,7 +1704,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1694,7 +1713,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1703,7 +1722,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1712,7 +1731,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1721,7 +1740,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1730,7 +1749,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1739,7 +1758,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1748,7 +1767,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1757,7 +1776,7 @@
       "version": "3.1.2",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1766,7 +1785,7 @@
       "version": "2.2.0",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1775,7 +1794,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1784,7 +1803,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1793,7 +1812,7 @@
       "version": "8.0.1",
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },
@@ -1802,7 +1821,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 1
       }
     },
@@ -1811,8 +1830,8 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 738
+        "checked_at": "2026-11-20T08:04:10.512Z",
+        "records": 745
       }
     },
     {
@@ -1820,17 +1839,8 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 9
-      }
-    },
-    {
-      "name": "littlefs",
-      "version": "2.5.1",
-      "nvd": {
-        "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
-        "records": 4
       }
     },
     {
@@ -1847,7 +1857,7 @@
       "version": null,
       "nvd": {
         "by": "name",
-        "checked_at": "2026-11-12T09:47:12.825Z",
+        "checked_at": "2026-11-20T08:04:10.512Z",
         "records": 0
       }
     },

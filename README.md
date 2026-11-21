@@ -13,9 +13,9 @@ Firmpath.
 | [MeshCore](https://app.firmpath.dev/reports/meshcore) | 59 | **101** | 42 | [data](reports/meshcore.json) |
 | [FluidNC](https://app.firmpath.dev/reports/fluidnc) | 33 | **73** | 40 | [data](reports/fluidnc.json) |
 | [OpenBeken](https://app.firmpath.dev/reports/openbeken) | 32 | **72** | 40 | [data](reports/openbeken.json) |
+| [SlimeVR Tracker](https://app.firmpath.dev/reports/slimevr) | 64 | **104** | 40 | [data](reports/slimevr.json) |
 | [WLED](https://app.firmpath.dev/reports/wled) | 27 | **67** | 40 | [data](reports/wled.json) |
 | [ESPHome](https://app.firmpath.dev/reports/esphome) | 17 | **56** | 39 | [data](reports/esphome.json) |
-| [SlimeVR Tracker](https://app.firmpath.dev/reports/slimevr) | 64 | **103** | 39 | [data](reports/slimevr.json) |
 | [ESPEasy](https://app.firmpath.dev/reports/espeasy) | 17 | **53** | 36 | [data](reports/espeasy.json) |
 | [OpenEVSE](https://app.firmpath.dev/reports/openevse) | 35 | **71** | 36 | [data](reports/openevse.json) |
 | [MicroPython](https://app.firmpath.dev/reports/micropython) | 5 | **43** | 35 | [data](reports/micropython.json) |
